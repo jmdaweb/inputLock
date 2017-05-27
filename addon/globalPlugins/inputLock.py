@@ -1,4 +1,4 @@
-#Enhanced Aria addon for NVDA
+#Input Lock addon for NVDA
 #This file is covered by the GNU General Public License.
 #See the file COPYING.txt for more details.
 #Copyright (C) 2017 Jose Manuel Delicado <jmdaweb@hotmail.com>
