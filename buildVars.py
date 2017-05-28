@@ -16,7 +16,7 @@ addon_info = {
 	"addon_description" : _(""" With this addon, you will be able to lock and unlock your keyboard and touch screen with a single gesture or key press.
 This gesture can be changed from Input Gestures dialog."""),
 	# version
-	"addon_version" : "1.0-dev",
+	"addon_version" : "1.1-dev",
 	# Author(s)
 	"addon_author" : "Jose Manuel Delicado <jmdaweb@hotmail.com>",
 # URL for the add-on documentation support

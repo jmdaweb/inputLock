@@ -1,5 +1,5 @@
 # Bloqueo de entrada
-Versión 1.0
+Versión 1.1
 
 ## Introducción
 
@@ -25,6 +25,10 @@ Bloqueo de entrada tiene las siguientes limitaciones:
 Este complemento ha sido desarrollado por José Manuel Delicado. Si quieres contactar conmigo, envía un e-mail a jmdaweb@hotmail.com, o abre una incidencia en GitHub en https://github.com/jmdaweb/inputLock
 
 ## Registro de cambios
+
+### Versión 1.1
+
+* Si otro complemento tiene una función de captura previamente agregada a inputManager, esta se restaura al desbloquear la entrada.
 
 ### Versión 1.0
 

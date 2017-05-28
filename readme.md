@@ -1,5 +1,5 @@
 # Input Lock
-Version 1.0
+Version 1.1
 
 ## Introduction
 
@@ -25,6 +25,10 @@ Input Lock has the following limitations:
 This addon has been developed by Jose Manuel Delicado. If you want to contact me, send an e-mail to jmdaweb@hotmail.com, or open an issue on GitHub at https://github.com/jmdaweb/enhancedAria
 
 ## Changelog
+
+### Version 1.1
+
+* If another addon has previously added a capture function to inputManager, it is restored when the input is unlocked.
 
 ### Version 1.0
 
