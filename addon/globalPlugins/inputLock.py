@@ -14,6 +14,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 	def __init__(self):
 		super(GlobalPlugin, self).__init__()
 		self.locked=False
+		self.prevCaptureFunc=None
 
 	def capture(self, gesture):
 		if gesture.displayName==self.gesture.displayName:
@@ -27,11 +28,12 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		if self.locked:
 			# TRANSLATORS: message spoken when the input is locked
 			ui.message(_("input locked"))
+			self.prevCaptureFunc=inputCore.manager._captureFunc
 			inputCore.manager._captureFunc=self.capture
 		else:
 			# TRANSLATORS: message spoken when the input is unlocked
 			ui.message(_("input unlocked"))
-			inputCore.manager._captureFunc=None
+			inputCore.manager._captureFunc=self.prevCaptureFunc
 
 	# TRANSLATORS: gesture description for Input gestures dialog
 	script_inputLock.__doc__=_("Toggle input lock")
