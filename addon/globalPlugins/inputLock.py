@@ -7,6 +7,9 @@ import addonHandler
 addonHandler.initTranslation()
 import ui
 import inputCore
+import mouseHandler
+import winInputHook
+import winUser
 
 class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 	# TRANSLATORS: category name shown in the Input gestures dialog.
@@ -15,6 +18,12 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		super(GlobalPlugin, self).__init__()
 		self.locked=False
 		self.prevCaptureFunc=None
+		self.mouseCallbackFunc=None
+		self.cursorPos=None
+		self.gesture=None
+
+	def mouseCapture(self, msg, x, y, injected):
+		winUser.setCursorPos(self.cursorPos[0], self.cursorPos[1])
 
 	def capture(self, gesture):
 		if gesture.displayName==self.gesture.displayName:
@@ -30,11 +39,16 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 			ui.message(_("input locked"))
 			self.prevCaptureFunc=inputCore.manager._captureFunc
 			inputCore.manager._captureFunc=self.capture
+			self.mouseCallbackFunc=winInputHook.mouseCallback
+			winInputHook.setCallbacks(mouse=self.mouseCapture)
+			self.cursorPos=winUser.getCursorPos()
 		else:
 			# TRANSLATORS: message spoken when the input is unlocked
 			ui.message(_("input unlocked"))
 			inputCore.manager._captureFunc=self.prevCaptureFunc
-
+			winInputHook.setCallbacks(mouse=self.mouseCallbackFunc)
+			self.cursorPos=None
+			self.gesture=None
 	# TRANSLATORS: gesture description for Input gestures dialog
 	script_inputLock.__doc__=_("Toggle input lock")
 

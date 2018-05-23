@@ -13,14 +13,14 @@ addon_info = {
 	"addon_summary" : _("Input lock"),
 	# Add-on description
 	# Translators: Long description to be shown for this add-on on installation and add-on information
-	"addon_description" : _(""" With this addon, you will be able to lock and unlock your keyboard and touch screen with a single gesture or key press.
+	"addon_description" : _(""" With this addon, you will be able to lock and unlock your input devices with a single gesture or key press.
 This gesture can be changed from Input Gestures dialog."""),
 	# version
 	"addon_version" : "1.1-dev",
 	# Author(s)
-	"addon_author" : "Jose Manuel Delicado <jmdaweb@hotmail.com>",
+	"addon_author" : "Jose Manuel Delicado <jm.delicado@nvda.es>",
 # URL for the add-on documentation support
-	"addon_url" : None,
+	"addon_url" : "https://github.com/jmdaweb/inputLock",
 	"addon_docFileName" : "readme.html",
 }
 
