@@ -3,7 +3,7 @@ Version 1.2
 
 ## Introduction
 
-Do you have kids or pets at home? Do you have a cat and It likes very much climbing your table and walking over your keyboard? Then Input Lock is for you! You will be able to leave your computer alone and turned on without risk.
+Do you have kids or pets at home? Do you have a cat and It likes very much climbing your table and walking over your keyboard? Do you accidentally move the mouse to random parts in the screen while using your laptop? Then Input Lock is for you! You will be able to leave your computer alone and turned on without risk.
 
 Once installed, you will be able to lock your keyboard, touch screen, if your laptop has one, mouse and Braille display.
 
@@ -12,6 +12,8 @@ Once installed, you will be able to lock your keyboard, touch screen, if your la
 This addon adds an extra gesture to NVDA. By default it's NVDA+k, but it can (and should) be changed from Input gestures dialog. Read the NVDA User Guide for more information.
 
 When you press that gesture, NVDA will say "Input locked". Your input devices will be blocked until you press the same gesture again. In that moment, NVDA will say "Input unlocked" and everything will work as usual.
+
+If you press NVDA+shift+m, your mouse will be locked. Press this command again to unlock it. Of course, you can customize it from Input Gestures dialog. While mouse is locked, you can use NVDA gestures to move it, and click with left and right buttons, but You can't move the mouse itself.
 
 ## Limitations
 
@@ -25,10 +27,14 @@ This addon has been developed by Jose Manuel Delicado. If you want to contact me
 
 ## Changelog
 
+### Version 1.2
+
+* Now the mouse can also be locked
+* New command to lock and unlock only the mouse
+
 ### Version 1.1
 
 * If another addon has previously added a capture function to inputManager, it is restored when the input is unlocked.
-* Support for locking mouse
 
 ### Version 1.0
 

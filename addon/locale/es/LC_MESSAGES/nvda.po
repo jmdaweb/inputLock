@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: inputLock 1.1\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
-"POT-Creation-Date: 2018-05-23 16:27+0200\n"
-"PO-Revision-Date: 2018-05-23 16:28+0200\n"
+"POT-Creation-Date: 2018-05-24 11:55+0200\n"
+"PO-Revision-Date: 2018-05-24 11:56+0200\n"
 "Last-Translator: José Manuel Delicado Alcolea <josemanuel.delicado@urjc."
 "es>\n"
 "Language-Team: José Manuel Delicado <jmdaweb@hotmail.com>\n"
@@ -21,24 +21,39 @@ msgstr ""
 "X-Poedit-SourceCharset: ISO-8859-1\n"
 
 #. TRANSLATORS: category name shown in the Input gestures dialog.
-#: addon\globalPlugins\inputLock.py:16
+#: addon\globalPlugins\inputLock.py:18
 msgid "Input"
 msgstr "Entrada"
 
 #. TRANSLATORS: message spoken when the input is locked
-#: addon\globalPlugins\inputLock.py:39
-msgid "input locked"
+#: addon\globalPlugins\inputLock.py:57
+msgid "Input locked"
 msgstr "Entrada bloqueada"
 
 #. TRANSLATORS: message spoken when the input is unlocked
-#: addon\globalPlugins\inputLock.py:47
-msgid "input unlocked"
+#: addon\globalPlugins\inputLock.py:64
+msgid "Input unlocked"
 msgstr "Entrada desbloqueada"
 
 #. TRANSLATORS: gesture description for Input gestures dialog
-#: addon\globalPlugins\inputLock.py:53
+#: addon\globalPlugins\inputLock.py:71
 msgid "Toggle input lock"
 msgstr "Alternar bloqueo de entrada"
+
+#. TRANSLATORS: message spoken when the mouse is locked
+#: addon\globalPlugins\inputLock.py:77
+msgid "Mouse locked"
+msgstr "Ratón bloqueado"
+
+#. TRANSLATORS: message spoken when the mouse is unlocked
+#: addon\globalPlugins\inputLock.py:81
+msgid "Mouse unlocked"
+msgstr "Ratón desbloqueado"
+
+#. TRANSLATORS: gesture description for Input gestures dialog
+#: addon\globalPlugins\inputLock.py:84
+msgid "Toggle mouse lock"
+msgstr "Alternar bloqueo de ratón"
 
 #. Add-on description
 #. TRANSLATORS: Summary for this add-on to be shown on installation and add-on informaiton.
