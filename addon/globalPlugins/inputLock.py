@@ -11,9 +11,43 @@ import inputCore
 import mouseHandler
 import winInputHook
 import winUser
+import config
+import gui
+from gui import settingsDialogs
+try:
+	from gui import NVDASettingsDialog
+	from gui.settingsDialogs import SettingsPanel
+except:
+	SettingsPanel=object # give the panel class something it can inherit from
+import wx
+
+#TRANSLATORS: Settings dialog and/or panel title
+addonSettingsTitle=_("Input lock settings")
+
+confspec={
+	"blockMouseAtStartup":"boolean(default=true)",
+	"blockClicks":"boolean(default=true)"
+}
+config.conf.spec['inputlock']=confspec
 
 allowedMouseActions=[mouseHandler.WM_LBUTTONDOWN, mouseHandler.WM_LBUTTONUP, mouseHandler.WM_RBUTTONDOWN, mouseHandler.WM_RBUTTONUP]
 mouseCallbackFunc=None
+
+# Common functions for dialog and panel classes to create and retrieve settings
+def createSettings(obj, sizer):
+	#TRANSLATORS: block mouse at startup checkbox
+	obj.blockmouseenabled=wx.CheckBox(obj, wx.NewId(), label=_("Block mouse when NVDA is started"))
+	obj.blockmouseenabled.SetValue(config.conf['inputlock']['blockMouseAtStartup'])
+	sizer.Add(obj.blockmouseenabled,border=10,flag=wx.BOTTOM)
+	#TRANSLATORS: block also mouse clicks checkbox
+	obj.blockclicksenabled=wx.CheckBox(obj, wx.NewId(), label=_("Block clicks when mouse is locked"))
+	obj.blockclicksenabled.SetValue(config.conf['inputlock']['blockClicks'])
+	sizer.Add(obj.blockclicksenabled,border=10,flag=wx.BOTTOM)
+
+def storeSettings(obj):
+	config.conf['inputlock']['blockMouseAtStartup']=obj.blockmouseenabled.GetValue()
+	config.conf['inputlock']['blockclicks']=obj.blockclicksenabled.GetValue()
+
 class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 	scriptCategory = globalCommands.SCRCAT_INPUT
 	def __init__(self):
@@ -23,6 +57,28 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		self.cursorPos=None
 		self.gesture=None
 		self.mouseLocked=False
+		self.blockClicks=config.conf['inputlock']['blockClicks']
+		if config.conf['inputlock']['blockMouseAtStartup']:
+			self.script_mouseLock(None)
+		if hasattr(settingsDialogs, 'SettingsPanel'):
+			NVDASettingsDialog.categoryClasses.append(inputLockPanel)
+		else:
+			self.prefsMenu = gui.mainFrame.sysTrayIcon.menu.GetMenuItems()[0].GetSubMenu()
+			#TRANSLATORS: The configuration option in NVDA Preferences menu
+			self.inputLockSettingsItem = self.prefsMenu.Append(wx.ID_ANY, _("Input lock settings..."), _("Change input lock settings"))
+			gui.mainFrame.sysTrayIcon.Bind(wx.EVT_MENU, self.onInputLockMenu, self.inputLockSettingsItem)
+
+	def terminate(self):
+		try:
+			if hasattr(settingsDialogs, 'SettingsPanel'):
+				NVDASettingsDialog.categoryClasses.remove(inputLockPanel)
+			else:
+				self.prefsMenu.RemoveItem(self.inputLockSettingsItem)
+		except:
+			pass
+
+	def onInputLockMenu(self, evt):
+		gui.mainFrame._popupSettingsDialog(inputLockSettings)
 
 	def mouseCapture(self, msg, x, y, injected):
 		if msg in allowedMouseActions and not self.locked:
@@ -87,3 +143,25 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		"kb:NVDA+k": "inputLock",
 		"kb:NVDA+shift+m": "mouseLock"
 	}
+
+class inputLockSettings(settingsDialogs.SettingsDialog):
+	title=addonSettingsTitle
+
+	def makeSettings(self, sizer):
+		createSettings(self, sizer)
+
+	def postInit(self):
+		self.blockmouseenabled.SetFocus()
+
+	def onOk(self, evt):
+		storeSettings(self)
+		super(inputLockSettings, self).onOk(evt)
+
+class inputLockPanel(SettingsPanel):
+	title=addonSettingsTitle
+
+	def makeSettings(self, sizer):
+		createSettings(self, sizer)
+
+	def onSave(self):
+		storeSettings(self)
