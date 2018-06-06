@@ -68,6 +68,9 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 			gui.mainFrame.sysTrayIcon.Bind(wx.EVT_MENU, self.onInputLockMenu, self.inputLockSettingsItem)
 
 	def terminate(self):
+		if self.mouseLocked:
+			# We assume that this plugin won't terminate if all input is locked, but in case of mouse, we must release it
+			self.script_mouseLock(None)
 		try:
 			if hasattr(settingsDialogs, 'SettingsPanel'):
 				NVDASettingsDialog.categoryClasses.remove(inputLockPanel)
