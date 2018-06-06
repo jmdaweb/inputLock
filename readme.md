@@ -13,7 +13,9 @@ This addon adds an extra gesture to NVDA. By default it's NVDA+k, but it can (an
 
 When you press that gesture, NVDA will say "Input locked". Your input devices will be blocked until you press the same gesture again. In that moment, NVDA will say "Input unlocked" and everything will work as usual.
 
-If you press NVDA+shift+m, your mouse will be locked. Press this command again to unlock it. Of course, you can customize it from Input Gestures dialog. While mouse is locked, you can use NVDA gestures to move it, and click with left and right buttons, but You can't move the mouse itself.
+If you press NVDA+shift+m, your mouse will be locked. Press this command again to unlock it. Of course, you can customize it from Input Gestures dialog. While mouse is locked, you can use NVDA gestures to move it, and click with left and right buttons, but You can't move the mouse itself. Mouse clicks can also be disabled from Input lock category in NVDA settings dialog (NVDA 2018.2 and later) or from add-on settings dialog for older versions, available under preferences menu. In addition, from these settings you can control wether mouse locks when NVDA is started or not.
+
+Note: when mouse clicks are blocked, you can't use any NVDA gestures to work with the mouse.
 
 ## Limitations
 

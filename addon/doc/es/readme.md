@@ -7,13 +7,15 @@ Versión 1.3
 
 Una vez instalado, podrás bloquear el teclado, la pantalla táctil, si tu portátil tiene una, el ratón y la pantalla Braille.
 
-## Modo de uso
+## Instrucciones de uso
 
 Este complemento añade una orden extra a NVDA. Por defecto es NVDA+k, pero puede (y debería) cambiarse desde el diálogo Gestos de entrada. Lee la guía de usuario de NVDA para más información.
 
 Cuando pulses esa orden, NVDA dirá "Entrada bloqueada". Tus dispositivos de entrada se bloquearán hasta que pulses la orden otra vez. En ese momento NVDA dirá "Entrada desbloqueada" y todo volverá a funcionar como siempre.
 
-Si pulsas NVDA+shift+m, se bloqueará tu ratón. Pulsa otra vez esta orden para desbloquearlo. Por supuesto, puedes personalizarla desde el diálogo Gestos de entrada. Mientras el ratón está bloqueado, puedes usar gestos de NVDA para moverlo, y hacer clic con los botones izquierdo y derecho, pero no puedes mover el ratón en sí.
+Si pulsas NVDA+shift+m, se bloqueará tu ratón. Pulsa otra vez esta orden para desbloquearlo. Por supuesto, puedes personalizarla desde el diálogo Gestos de entrada. Mientras el ratón está bloqueado, puedes usar gestos de NVDA para moverlo, y hacer clic con los botones izquierdo y derecho, pero no puedes mover el ratón en sí. Los clics del ratón también se pueden desactivar desde la categoría Ajustes de bloqueo de entrada en el diálogo de opciones de NVDA (NVDA 2018.2 y posteriores) o desde el diálogo de ajustes del complemento para versiones anteriores, disponible en el menú preferencias. Además, desde estos ajustes puedes controlar si el ratón se bloquea cuando se inicia NVDA o no.
+
+Nota: cuando se bloquean los clics del ratón, no puedes usar ningún gesto de NVDA para trabajar con el ratón.
 
 ## Limitaciones
 
