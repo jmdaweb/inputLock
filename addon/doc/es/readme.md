@@ -27,6 +27,13 @@ Este complemento ha sido desarrollado por José Manuel Delicado. Si quieres cont
 
 ## Registro de cambios
 
+### Versión 1.3
+
+* Se ha añadido un panel de configuración en el diálogo de opciones. También se han añadido un diálogo y un elemento de menú para las versiones antiguas de NVDA.
+* Se ha añadido un ajuste para bloquear el ratón cuando se inicia NVDA.
+* Se ha añadido un ajuste para bloquear también los clics del ratón cuando el ratón está bloqueado.
+* Pequeños fallos solucionados, algunas optimizaciones de código y menos cadenas duplicadas para los traductores
+
 ### Versión 1.2
 
 * Ahora también se puede bloquear el ratón

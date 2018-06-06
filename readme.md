@@ -27,6 +27,13 @@ This addon has been developed by Jose Manuel Delicado. If you want to contact me
 
 ## Changelog
 
+### Version 1.3
+
+* Added a configuration panel in settings dialog. For old NVDA versions, a menu item and a dialog have been added too.
+* Added a setting to lock the mouse when NVDA is started.
+* Added a setting to block also mouse clicks while mouse is locked.
+* Small bugs fixed, some code optimizations and less duplicated strings for translators
+
 ### Version 1.2
 
 * Now the mouse can also be locked
