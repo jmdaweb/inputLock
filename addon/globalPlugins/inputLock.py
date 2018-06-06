@@ -46,7 +46,7 @@ def createSettings(obj, sizer):
 
 def storeSettings(obj):
 	config.conf['inputlock']['blockMouseAtStartup']=obj.blockmouseenabled.GetValue()
-	config.conf['inputlock']['blockclicks']=obj.blockclicksenabled.GetValue()
+	config.conf['inputlock']['blockClicks']=obj.blockclicksenabled.GetValue()
 
 class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 	scriptCategory = globalCommands.SCRCAT_INPUT
