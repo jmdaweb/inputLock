@@ -25,8 +25,8 @@ import wx
 addonSettingsTitle=_("Input lock settings")
 
 confspec={
-	"blockMouseAtStartup":"boolean(default=true)",
-	"blockClicks":"boolean(default=true)"
+	"blockMouseAtStartup":"boolean(default=false)",
+	"blockClicks":"boolean(default=false)"
 }
 config.conf.spec['inputlock']=confspec
 
@@ -57,7 +57,6 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		self.cursorPos=None
 		self.gesture=None
 		self.mouseLocked=False
-		self.blockClicks=config.conf['inputlock']['blockClicks']
 		if config.conf['inputlock']['blockMouseAtStartup']:
 			self.script_mouseLock(None)
 		if hasattr(settingsDialogs, 'SettingsPanel'):
@@ -81,7 +80,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		gui.mainFrame._popupSettingsDialog(inputLockSettings)
 
 	def mouseCapture(self, msg, x, y, injected):
-		if msg in allowedMouseActions and not self.locked:
+		if msg in allowedMouseActions and not self.locked and not config.conf['inputlock']['blockClicks']:
 			return mouseCallbackFunc(msg, x, y, injected)
 		else:
 			if self.mouseLocked and not self.locked:
@@ -101,9 +100,10 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		self.cursorPos=winUser.getCursorPos()
 
 	def unlockMouse(self):
+		global mouseCallbackFunc
 		winInputHook.setCallbacks(mouse=mouseCallbackFunc)
 		self.cursorPos=None
-		self.mouseCallbackFunc=None
+		mouseCallbackFunc=None
 
 	def script_inputLock(self, gesture):
 		self.locked=not self.locked
