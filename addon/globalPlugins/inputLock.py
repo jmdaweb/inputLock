@@ -3,6 +3,7 @@
 #See the file COPYING.txt for more details.
 #Copyright (C) 2018 Jose Manuel Delicado <jmdaweb@hotmail.com>
 import globalPluginHandler
+import globalCommands
 import addonHandler
 addonHandler.initTranslation()
 import ui
@@ -14,8 +15,7 @@ import winUser
 allowedMouseActions=[mouseHandler.WM_LBUTTONDOWN, mouseHandler.WM_LBUTTONUP, mouseHandler.WM_RBUTTONDOWN, mouseHandler.WM_RBUTTONUP]
 mouseCallbackFunc=None
 class GlobalPlugin(globalPluginHandler.GlobalPlugin):
-	# TRANSLATORS: category name shown in the Input gestures dialog.
-	scriptCategory = _("Input")
+	scriptCategory = globalCommands.SCRCAT_INPUT
 	def __init__(self):
 		super(GlobalPlugin, self).__init__()
 		self.locked=False
