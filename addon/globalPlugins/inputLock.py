@@ -13,7 +13,7 @@ import winInputHook
 import winUser
 import config
 import gui
-from gui import settingsDialogs
+from gui import settingsDialogs, guiHelper
 try:
 	from gui import NVDASettingsDialog
 	from gui.settingsDialogs import SettingsPanel
@@ -35,14 +35,13 @@ mouseCallbackFunc=None
 
 # Common functions for dialog and panel classes to create and retrieve settings
 def createSettings(obj, sizer):
+	helper=guiHelper.BoxSizerHelper(obj, sizer=sizer)
 	#TRANSLATORS: block mouse at startup checkbox
-	obj.blockmouseenabled=wx.CheckBox(obj, wx.NewId(), label=_("Block mouse when NVDA is started"))
+	obj.blockmouseenabled=helper.addItem(wx.CheckBox(obj, wx.NewId(), label=_("Block mouse when NVDA is started")))
 	obj.blockmouseenabled.SetValue(config.conf['inputlock']['blockMouseAtStartup'])
-	sizer.Add(obj.blockmouseenabled,border=10,flag=wx.BOTTOM)
 	#TRANSLATORS: block also mouse clicks checkbox
-	obj.blockclicksenabled=wx.CheckBox(obj, wx.NewId(), label=_("Block clicks when mouse is locked"))
+	obj.blockclicksenabled=helper.addItem(wx.CheckBox(obj, wx.NewId(), label=_("Block clicks when mouse is locked")))
 	obj.blockclicksenabled.SetValue(config.conf['inputlock']['blockClicks'])
-	sizer.Add(obj.blockclicksenabled,border=10,flag=wx.BOTTOM)
 
 def storeSettings(obj):
 	config.conf['inputlock']['blockMouseAtStartup']=obj.blockmouseenabled.GetValue()
