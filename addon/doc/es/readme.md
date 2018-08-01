@@ -1,5 +1,5 @@
 # Bloqueo de entrada
-Versión 1.3
+Versión 1.4
 
 ## Introducción
 
@@ -9,11 +9,11 @@ Una vez instalado, podrás bloquear el teclado, la pantalla táctil, si tu port�
 
 ## Instrucciones de uso
 
-Este complemento añade una orden extra a NVDA. Por defecto es NVDA+k, pero puede (y debería) cambiarse desde el diálogo Gestos de entrada. Lee la guía de usuario de NVDA para más información.
+Este complemento añade dos órdenes extra a NVDA. Por defecto vienen sin asignar, así que tendrás que configurarlas desde el diálogo Gestos de entrada. Lee la guía de usuario de NVDA para más información.
 
-Cuando pulses esa orden, NVDA dirá "Entrada bloqueada". Tus dispositivos de entrada se bloquearán hasta que pulses la orden otra vez. En ese momento NVDA dirá "Entrada desbloqueada" y todo volverá a funcionar como siempre.
+Cuando pulses la orden de alternar bloqueo de entrada, NVDA dirá "Entrada bloqueada". Tus dispositivos de entrada se bloquearán hasta que pulses la orden otra vez. En ese momento NVDA dirá "Entrada desbloqueada" y todo volverá a funcionar como siempre.
 
-Si pulsas NVDA+shift+m, se bloqueará tu ratón. Pulsa otra vez esta orden para desbloquearlo. Por supuesto, puedes personalizarla desde el diálogo Gestos de entrada. Mientras el ratón está bloqueado, puedes usar gestos de NVDA para moverlo, y hacer clic con los botones izquierdo y derecho, pero no puedes mover el ratón en sí. Los clics del ratón también se pueden desactivar desde la categoría Ajustes de bloqueo de entrada en el diálogo de opciones de NVDA (NVDA 2018.2 y posteriores) o desde el diálogo de ajustes del complemento para versiones anteriores, disponible en el menú preferencias. Además, desde estos ajustes puedes controlar si el ratón se bloquea cuando se inicia NVDA o no.
+Si pulsas la orden para alternar el bloqueo del ratón, se bloqueará tu ratón. Pulsa otra vez esta orden para desbloquearlo. Mientras el ratón está bloqueado, puedes usar gestos de NVDA para moverlo, y hacer clic con los botones izquierdo y derecho, pero no puedes mover el ratón en sí. Los clics del ratón también se pueden desactivar desde la categoría Ajustes de bloqueo de entrada en el diálogo de opciones de NVDA (NVDA 2018.2 y posteriores) o desde el diálogo de ajustes del complemento para versiones anteriores, disponible en el menú preferencias. Además, desde estos ajustes puedes controlar si el ratón se bloquea cuando se inicia NVDA o no.
 
 Nota: cuando se bloquean los clics del ratón, no puedes usar ningún gesto de NVDA para trabajar con el ratón.
 
@@ -28,6 +28,10 @@ Bloqueo de entrada tiene las siguientes limitaciones:
 Este complemento ha sido desarrollado por José Manuel Delicado. Si quieres contactar conmigo, envía un e-mail a jm.delicado@nvda.es, o abre una incidencia en GitHub en https://github.com/jmdaweb/inputLock
 
 ## Registro de cambios
+
+### Versión 1.4
+
+* Los atajos del complemento están sin asignar por defecto.
 
 ### Versión 1.3
 

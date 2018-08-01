@@ -1,5 +1,5 @@
 # Input Lock
-Version 1.3
+Version 1.4
 
 ## Introduction
 
@@ -9,11 +9,11 @@ Once installed, you will be able to lock your keyboard, touch screen, if your la
 
 ## Usage
 
-This addon adds an extra gesture to NVDA. By default it's NVDA+k, but it can (and should) be changed from Input gestures dialog. Read the NVDA User Guide for more information.
+This addon adds two extra gestures to NVDA. By default they are unassigned, so you will have to configure them from Input gestures dialog. Read the NVDA User Guide for more information.
 
-When you press that gesture, NVDA will say "Input locked". Your input devices will be blocked until you press the same gesture again. In that moment, NVDA will say "Input unlocked" and everything will work as usual.
+When you press the toggle input lock gesture, NVDA will say "Input locked". Your input devices will be blocked until you press the same gesture again. In that moment, NVDA will say "Input unlocked" and everything will work as usual.
 
-If you press NVDA+shift+m, your mouse will be locked. Press this command again to unlock it. Of course, you can customize it from Input Gestures dialog. While mouse is locked, you can use NVDA gestures to move it, and click with left and right buttons, but You can't move the mouse itself. Mouse clicks can also be disabled from Input lock category in NVDA settings dialog (NVDA 2018.2 and later) or from add-on settings dialog for older versions, available under preferences menu. In addition, from these settings you can control wether mouse locks when NVDA is started or not.
+If you press the toggle mouse block gesture, your mouse will be locked. Press this command again to unlock it. While mouse is locked, you can use NVDA gestures to move it, and click with left and right buttons, but You can't move the mouse itself. Mouse clicks can also be disabled from Input lock category in NVDA settings dialog (NVDA 2018.2 and later) or from add-on settings dialog for older versions, available under preferences menu. In addition, from these settings you can control wether mouse locks when NVDA is started or not.
 
 Note: when mouse clicks are blocked, you can't use any NVDA gestures to work with the mouse.
 
@@ -28,6 +28,10 @@ Input Lock has the following limitations:
 This addon has been developed by Jose Manuel Delicado. If you want to contact me, send an e-mail to jm.delicado@nvda.es, or open an issue on GitHub at https://github.com/jmdaweb/inputLock
 
 ## Changelog
+
+### Version 1.4
+
+* The addon gestures are unassigned by default.
 
 ### Version 1.3
 

@@ -141,11 +141,6 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 	# TRANSLATORS: gesture description for Input gestures dialog
 	script_mouseLock.__doc__=_("Toggle mouse lock")
 
-	__gestures={
-		"kb:NVDA+k": "inputLock",
-		"kb:NVDA+shift+m": "mouseLock"
-	}
-
 class inputLockSettings(settingsDialogs.SettingsDialog):
 	title=addonSettingsTitle
 
