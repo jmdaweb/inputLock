@@ -61,7 +61,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		if hasattr(settingsDialogs, 'SettingsPanel'):
 			NVDASettingsDialog.categoryClasses.append(inputLockPanel)
 		else:
-			self.prefsMenu = gui.mainFrame.sysTrayIcon.menu.GetMenuItems()[0].GetSubMenu()
+			self.prefsMenu = gui.mainFrame.sysTrayIcon.preferencesMenu
 			#TRANSLATORS: The configuration option in NVDA Preferences menu
 			self.inputLockSettingsItem = self.prefsMenu.Append(wx.ID_ANY, _("Input lock settings..."), _("Change input lock settings"))
 			gui.mainFrame.sysTrayIcon.Bind(wx.EVT_MENU, self.onInputLockMenu, self.inputLockSettingsItem)
