@@ -37,10 +37,10 @@ mouseCallbackFunc=None
 def createSettings(obj, sizer):
 	helper=guiHelper.BoxSizerHelper(obj, sizer=sizer)
 	#TRANSLATORS: block mouse at startup checkbox
-	obj.blockmouseenabled=helper.addItem(wx.CheckBox(obj, wx.NewId(), label=_("Block mouse when NVDA is started")))
+	obj.blockmouseenabled=helper.addItem(wx.CheckBox(obj, wx.ID_ANY, label=_("Block mouse when NVDA is started")))
 	obj.blockmouseenabled.SetValue(config.conf['inputlock']['blockMouseAtStartup'])
 	#TRANSLATORS: block also mouse clicks checkbox
-	obj.blockclicksenabled=helper.addItem(wx.CheckBox(obj, wx.NewId(), label=_("Block clicks when mouse is locked")))
+	obj.blockclicksenabled=helper.addItem(wx.CheckBox(obj, wx.ID_ANY, label=_("Block clicks when mouse is locked")))
 	obj.blockclicksenabled.SetValue(config.conf['inputlock']['blockClicks'])
 
 def storeSettings(obj):
