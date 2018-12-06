@@ -1,0 +1,78 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the inputLock package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: inputLock\n"
+"Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
+"POT-Creation-Date: 2018-11-30 05:43+1000\n"
+"PO-Revision-Date: 2018-11-30 09:16+0200\n"
+"Last-Translator: Jani Kinnunen <jani.kinnunen@wippies.fi>\n"
+"Language-Team: Jani Kinnunen <jani.kinnunen@wippies.fi>\n"
+"Language: fi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.6.11\n"
+
+#. TRANSLATORS: Settings dialog and/or panel title
+msgid "Input lock settings"
+msgstr "Syöttölukon asetukset"
+
+#. TRANSLATORS: block mouse at startup checkbox
+msgid "Block mouse when NVDA is started"
+msgstr "Estä hiiri NVDA:n käynnistyessä"
+
+#. TRANSLATORS: block also mouse clicks checkbox
+msgid "Block clicks when mouse is locked"
+msgstr "Estä napsautukset hiiren ollessa lukittuna"
+
+#. TRANSLATORS: The configuration option in NVDA Preferences menu
+msgid "Input lock settings..."
+msgstr "Syöttölukko..."
+
+msgid "Change input lock settings"
+msgstr "Muuta Syöttölukon asetuksia"
+
+#. TRANSLATORS: message spoken when the input is locked
+msgid "Input locked"
+msgstr "Syöttö lukittu"
+
+#. TRANSLATORS: message spoken when the input is unlocked
+msgid "Input unlocked"
+msgstr "Syötön lukitus avattu"
+
+#. TRANSLATORS: gesture description for Input gestures dialog
+msgid "Toggle input lock"
+msgstr "Ota syötönlukitus käyttöön tai poista se käytöstä"
+
+#. TRANSLATORS: message spoken when the mouse is locked
+msgid "Mouse locked"
+msgstr "Hiiri lukittu"
+
+#. TRANSLATORS: message spoken when the mouse is unlocked
+msgid "Mouse unlocked"
+msgstr "Hiiren lukitus avattu"
+
+#. TRANSLATORS: gesture description for Input gestures dialog
+msgid "Toggle mouse lock"
+msgstr "Ota hiiren lukitus käyttöön tai poista se käytöstä"
+
+#. Add-on description
+#. TRANSLATORS: Summary for this add-on to be shown on installation and add-on informaiton.
+msgid "Input lock"
+msgstr "Syöttölukko"
+
+#. Add-on description
+#. Translators: Long description to be shown for this add-on on installation and add-on information
+msgid ""
+" With this addon, you will be able to lock and unlock your input devices "
+"with a single gesture or key press.\n"
+"This gesture can be changed from Input Gestures dialog."
+msgstr ""
+"Tämän lisäosan avulla voidaan lukita syöttölaitteet tai avata niiden lukitus "
+"yhdellä näppäinkomennolla.\n"
+"Tätä komentoa on mahdollista muuttaa Syöttökomennot-valintaikkunasta."

@@ -1,4 +1,4 @@
-# Syötönlukitus #
+# Syöttölukko #
 
 * Tekijä: Jose Manuel Delicado
 * Lataa [vakaa versio][1]
@@ -8,8 +8,8 @@
 Onko kotonasi lapsia tai lemmikkieläimiä? Onko sinulla kissa, joka pitää
 pöydällesi kiipeilystä ja näppäimistölläsi kävelystä? Tuletko vahingossa
 siirtäneeksi hiirtä näytöllä satunnaisiin paikkoihin kannettavaa
-käyttäessäsi? Ratkaisu näihin kaikkiin on Syötönlukitus. Voit huoletta
-jättää tietokoneesi käyntiin vartioimattomana.
+käyttäessäsi? Ratkaisu näihin kaikkiin on Syöttölukko. Voit huoletta jättää
+tietokoneesi käyntiin vartioimattomana.
 
 Kun tämä lisäosa on asennettuna, voit lukita näppäimistön, kosketusnäytön
 (mikäli kannettavassasi sellainen on), hiiren sekä pistenäytön.
@@ -40,7 +40,7 @@ toimi.
 
 ## Rajoitukset
 
-Syötönlukituksessa on seuraavia rajoituksia:
+Syöttölukossa on seuraavia rajoituksia:
 
 * Ctrl+Alt+Del-pikanäppäintä on mahdollista käyttää, vaikka näppäimistö on
   lukittu.

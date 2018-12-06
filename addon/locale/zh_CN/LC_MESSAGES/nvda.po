@@ -1,0 +1,76 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the inputLock package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: inputLock 1.4\n"
+"Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
+"POT-Creation-Date: 2018-11-30 05:43+1000\n"
+"PO-Revision-Date: 2018-11-30 06:30+0800\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: dingpengyu <dingpengyu06@gmail.com>\n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.2\n"
+
+#. TRANSLATORS: Settings dialog and/or panel title
+msgid "Input lock settings"
+msgstr "输入锁设置"
+
+#. TRANSLATORS: block mouse at startup checkbox
+msgid "Block mouse when NVDA is started"
+msgstr "启动NVDA时锁定鼠标"
+
+#. TRANSLATORS: block also mouse clicks checkbox
+msgid "Block clicks when mouse is locked"
+msgstr "锁定鼠标时阻止点击"
+
+#. TRANSLATORS: The configuration option in NVDA Preferences menu
+msgid "Input lock settings..."
+msgstr "输入锁设置......"
+
+msgid "Change input lock settings"
+msgstr "修改输入锁设置"
+
+#. TRANSLATORS: message spoken when the input is locked
+msgid "Input locked"
+msgstr "输入锁定"
+
+#. TRANSLATORS: message spoken when the input is unlocked
+msgid "Input unlocked"
+msgstr "输入解锁"
+
+#. TRANSLATORS: gesture description for Input gestures dialog
+msgid "Toggle input lock"
+msgstr "切换输入锁"
+
+#. TRANSLATORS: message spoken when the mouse is locked
+msgid "Mouse locked"
+msgstr "鼠标锁定"
+
+#. TRANSLATORS: message spoken when the mouse is unlocked
+msgid "Mouse unlocked"
+msgstr "鼠标解锁"
+
+#. TRANSLATORS: gesture description for Input gestures dialog
+msgid "Toggle mouse lock"
+msgstr "切换鼠标锁"
+
+#. Add-on description
+#. TRANSLATORS: Summary for this add-on to be shown on installation and add-on informaiton.
+msgid "Input lock"
+msgstr "输入锁"
+
+#. Add-on description
+#. Translators: Long description to be shown for this add-on on installation and add-on information
+msgid ""
+" With this addon, you will be able to lock and unlock your input devices "
+"with a single gesture or key press.\n"
+"This gesture can be changed from Input Gestures dialog."
+msgstr ""
+"使用此插件，您只需一个手势或按键即可锁定和解锁输入设备。可以从“输入手"
+"势”对话框更改此手势。"

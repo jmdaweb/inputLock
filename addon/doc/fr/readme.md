@@ -23,13 +23,13 @@ défaut, ils ne sont pas attribués, vous devrez donc les configurer à partir
 de la boîte de dialogue Gestes de commandes. Lisez le Guide de l'utilisateur
 de NVDA pour plus d'informations.
 
-Lorsque vous appuyez sur basculer le geste input lock, NVDA dira "Entrée
-verrouillée". Vos périphériques d'entrée seront bloqués jusqu'à ce que vous
-appuyiez à nouveau sur le même geste. À ce moment, NVDA dira "Entrée
-déverrouillée" et tout fonctionnera comme d'habitude.
+Lorsque vous appuyez sur le geste Basculer le verrouillage d'entrée, NVDA
+dira "Entrée verrouillée". Vos périphériques d'entrée seront bloqués jusqu'à
+ce que vous appuyiez à nouveau sur le même geste. À ce moment, NVDA dira
+"Entrée  déverrouillée" et tout fonctionnera comme d'habitude.
 
-Si vous appuyez sur basculer le geste de la souris, votre souris sera
-verrouillée. Appuyez à nouveau sur cette commande pour la
+Si vous appuyez sur le geste Basculer le verrouillage de la souris, votre
+souris sera verrouillée. Appuyez à nouveau sur cette commande pour la
 déverrouiller. Lorsque la souris est verrouillée, vous pouvez utiliser les
 gestes de NVDA pour la déplacer et cliquer avec les boutons gauche et droit,
 mais vous ne pouvez pas déplacer la souris elle-même. Les clics de souris
