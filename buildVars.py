@@ -22,6 +22,12 @@ This gesture can be changed from Input Gestures dialog."""),
 # URL for the add-on documentation support
 	"addon_url" : "https://github.com/jmdaweb/inputLock",
 	"addon_docFileName" : "readme.html",
+	# Minimum NVDA version supported (e.g. "2018.3")
+	"addon_minimumNVDAVersion" : "2017.3",
+	# Last NVDA version supported/tested (e.g. "2018.4", ideally more recent than minimum version)
+	"addon_lastTestedNVDAVersion" : "2019.1",
+	# Add-on update channel (default is stable or None)
+	"addon_updateChannel" : "stable",
 }
 
 
@@ -35,4 +41,4 @@ pythonSources = ["addon/globalPlugins/*", "addon/*.py"]
 # Files that contain strings for translation. Usually your python sources
 i18nSources = pythonSources + ["buildVars.py"]
 
-excludedFiles=glob("addon/doc/*/*.md")+glob("addon/locale/*/LC_MESSAGES/*.po")+["doc\\en\\readme.md"]
+excludedFiles=[i[6:] for i in glob("addon/doc/*/*.md")+glob("addon/locale/*/LC_MESSAGES/*.po")]+["doc\\en\\readme.md"]
