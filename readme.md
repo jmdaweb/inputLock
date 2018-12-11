@@ -1,6 +1,6 @@
-# Input Lock
-
-Version 1.5
+* Author: Jose Manuel Delicado
+* NVDA compatibility: 2017.3 to 2019.1
+* Download [stable version][1]
 
 ## Introduction
 
@@ -23,10 +23,6 @@ Note: when mouse clicks are blocked, you can't use any NVDA gestures to work wit
 Input Lock has the following limitations:
 
 * The shortcut control+alt+del can be used even when the keyboard is locked.
-
-## Contact info
-
-This addon has been developed by Jose Manuel Delicado. If you want to contact me, send an e-mail to jm.delicado@nvda.es, or open an issue on GitHub at https://github.com/jmdaweb/inputLock
 
 ## Changelog
 
@@ -59,3 +55,4 @@ This addon has been developed by Jose Manuel Delicado. If you want to contact me
 
 * Initial release
 
+[1]: https://addons.nvda-project.org/files/get.php?file=inputlock
