@@ -41,4 +41,4 @@ pythonSources = ["addon/globalPlugins/*", "addon/*.py"]
 # Files that contain strings for translation. Usually your python sources
 i18nSources = pythonSources + ["buildVars.py"]
 
-excludedFiles=[i[6:] for i in glob("addon/doc/*/*.md")+glob("addon/locale/*/LC_MESSAGES/*.po")]+["doc\\en\\readme.md"]
+excludedFiles=[i[6:] for i in glob("addon/doc/*/*.md")+glob("addon/locale/*/LC_MESSAGES/*.po")]+[os.path.join("doc", "en", "readme.md")]
