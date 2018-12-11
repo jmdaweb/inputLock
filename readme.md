@@ -1,5 +1,6 @@
 # Input Lock
-Version 1.4
+
+Version 1.5
 
 ## Introduction
 
@@ -28,6 +29,11 @@ Input Lock has the following limitations:
 This addon has been developed by Jose Manuel Delicado. If you want to contact me, send an e-mail to jm.delicado@nvda.es, or open an issue on GitHub at https://github.com/jmdaweb/inputLock
 
 ## Changelog
+
+### Version 1.5
+
+* Added compatibility with recent NVDA releases.
+* New translations.
 
 ### Version 1.4
 
