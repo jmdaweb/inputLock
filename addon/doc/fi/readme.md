@@ -1,6 +1,7 @@
 # Syöttölukko #
 
 * Tekijä: Jose Manuel Delicado
+* NVDA compatibility: 2017.3 to 2019.1
 * Lataa [vakaa versio][1]
 
 ## Johdanto
@@ -46,6 +47,11 @@ Syöttölukossa on seuraavia rajoituksia:
   lukittu.
 
 ## Muutosloki
+
+### Version 1.5
+
+* Added compatibility with recent NVDA releases.
+* New translations.
 
 ### Versio 1.4
 

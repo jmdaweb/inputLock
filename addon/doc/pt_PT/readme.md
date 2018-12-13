@@ -1,6 +1,7 @@
 # Bloqueio de entrada #
 
 * Autor: José Manuel Delicado
+* Compatibilidade com NVDA: 2017.3 a 2019.1
 * Baixar [versão estável][1]
 
 ## Introdução
@@ -47,6 +48,11 @@ Este extra tem as seguintes limitações:
   esteja bloqueado.
 
 ## Mudanças:
+
+### Versão 1.5
+
+* Acrescentada compatibilidade com as versões recentes do NVDA
+* Novas traduções:
 
 ### Versão 1.4
 

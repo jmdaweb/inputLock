@@ -1,6 +1,7 @@
 # Eingabesperre #
 
 * Autor: Jose Manuel Delicado
+* NVDA compatibility: 2017.3 to 2019.1
 * [Stabile Version][1] herunterladen
 
 ## Einführung
@@ -51,6 +52,11 @@ Die Eingabesperre hat folgende Einschränkungen:
   verwendet werden.
 
 ## Änderungen
+
+### Version 1.5
+
+* Added compatibility with recent NVDA releases.
+* New translations.
 
 ### Version 1.4
 

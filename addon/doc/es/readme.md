@@ -1,6 +1,7 @@
 # Input Lock #
 
 * Autor: José Manuel Delicado
+* Compatibilidad con NVDA: de 2017.3 a 2019.1
 * Descargar [versión estable][1]
 
 ## Introducción
@@ -45,6 +46,11 @@ Bloqueo de entrada tiene las siguientes limitaciones:
 * El atajo ctrl+alt+supr se puede usar incluso con el teclado bloqueado.
 
 ## Registro de cambios
+
+### Versión 1.5
+
+* Añadida compatibilidad con versiones recientes de NVDA.
+* Nuevas traducciones.
 
 ### Versión 1.4
 

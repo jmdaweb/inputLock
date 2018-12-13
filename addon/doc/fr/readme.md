@@ -1,6 +1,7 @@
 # Input Lock #
 
 * Auteur : Jose Manuel Delicado
+* Compatibilité NVDA: 2017.3 à 2019.1
 * Télécharger [version stable][1]
 
 ## Introduction
@@ -51,6 +52,11 @@ Input Lock présente les limitations suivantes :
   lorsque le clavier est verrouillé.
 
 ## Journal des Changements
+
+### Version 1.5
+
+* Ajout de la compatibilité avec les dernières versions de NVDA.
+* Nouvelles traductions.
 
 ### Version 1.4
 

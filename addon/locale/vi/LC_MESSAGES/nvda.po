@@ -1,0 +1,77 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the inputLock package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: inputLock 1.4\n"
+"Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
+"POT-Creation-Date: 2018-11-30 05:43+1000\n"
+"PO-Revision-Date: 2018-12-13 15:25+0700\n"
+"Language: vi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: Dang Manh Cuong <dangmanhcuong@gmail.com>\n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.2\n"
+
+#. TRANSLATORS: Settings dialog and/or panel title
+msgid "Input lock settings"
+msgstr "Cài đặt khóa đầu vào"
+
+#. TRANSLATORS: block mouse at startup checkbox
+msgid "Block mouse when NVDA is started"
+msgstr "Khóa chuột khi khởi động NVDA"
+
+#. TRANSLATORS: block also mouse clicks checkbox
+msgid "Block clicks when mouse is locked"
+msgstr "Khóa click khi chuột bị khóa"
+
+#. TRANSLATORS: The configuration option in NVDA Preferences menu
+msgid "Input lock settings..."
+msgstr "Cài đặt khóa đầu vào..."
+
+msgid "Change input lock settings"
+msgstr "Thay đổi cài đặt khóa đầu vào"
+
+#. TRANSLATORS: message spoken when the input is locked
+msgid "Input locked"
+msgstr "Đã khóa đầu vào"
+
+#. TRANSLATORS: message spoken when the input is unlocked
+msgid "Input unlocked"
+msgstr "Đã mở khóa đầu vào"
+
+#. TRANSLATORS: gesture description for Input gestures dialog
+msgid "Toggle input lock"
+msgstr "Bật / tắt khóa đầu vào"
+
+#. TRANSLATORS: message spoken when the mouse is locked
+msgid "Mouse locked"
+msgstr "Đã khóa chuột"
+
+#. TRANSLATORS: message spoken when the mouse is unlocked
+msgid "Mouse unlocked"
+msgstr "Đã mở khóa chuột"
+
+#. TRANSLATORS: gesture description for Input gestures dialog
+msgid "Toggle mouse lock"
+msgstr "Bật / tắt khóa chuột"
+
+#. Add-on description
+#. TRANSLATORS: Summary for this add-on to be shown on installation and add-on informaiton.
+msgid "Input lock"
+msgstr "Khóa đầu vào"
+
+#. Add-on description
+#. Translators: Long description to be shown for this add-on on installation and add-on information
+msgid ""
+" With this addon, you will be able to lock and unlock your input devices "
+"with a single gesture or key press.\n"
+"This gesture can be changed from Input Gestures dialog."
+msgstr ""
+"Với add-on này, bạn có thể khóa hay mở khóa các thiết bị đầu vào bằng "
+"một thao tác hay phím tắt đơn giản.\n"
+"Có thể thay đổi thao tác từ hộp thoại quản lý các cử chỉ."

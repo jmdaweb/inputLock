@@ -1,6 +1,7 @@
 # Input Lock #
 
 * Autor: Jose Manuel Delicado
+* Compatibilidade con NVDA: da 2017.3 á 2019.1
 * Descargar [versión estable][1]
 
 ## Introdución
@@ -45,6 +46,11 @@ Input Lock ten as seguintes limitacións:
   bloqueado.
 
 ## Rexistro de trocos
+
+### Versión 1.5
+
+* Engadida compatibilidade con versións recentes de NVDA.
+* Novas traducións.
 
 ### Versión 1.4
 

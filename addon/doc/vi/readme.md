@@ -1,6 +1,7 @@
 # Input Lock #
 
 * Tác giả: Jose Manuel Delicado
+* NVDA tương thích: 2017.3 đến 2019.1
 * Tải về [phiên bản chính thức][1]
 
 ## Giới thiệu
@@ -43,6 +44,11 @@ Input Lock có các giới hạn sau đây:
 * Phím tắt control+alt+del có thể dùng ngay cả khi khóa bàn phím.
 
 ## Bản ghi các thay đổi
+
+### Phiên bản 1.5
+
+* Thêm tương thích cho các bản phát hành gần đây của NVDA.
+* Các bản phiên dịch mới
 
 ### Phiên bản 1.4
 

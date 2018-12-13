@@ -1,0 +1,74 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the inputLock package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: inputLock 1.4\n"
+"Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
+"POT-Creation-Date: 2018-11-30 05:43+1000\n"
+"PO-Revision-Date: 2018-12-07 02:09+0200\n"
+"Last-Translator: shmuel naaman <shmuel_naaman@yahoo.com>\n"
+"Language-Team: Shmuel Naaman <nvda.israel@gmail.com>\n"
+"Language: he\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.10\n"
+
+#. TRANSLATORS: Settings dialog and/or panel title
+msgid "Input lock settings"
+msgstr "הגדרות נעילת קלטהגדרות נעילת קלט"
+
+#. TRANSLATORS: block mouse at startup checkbox
+msgid "Block mouse when NVDA is started"
+msgstr "נעל תנועת העכבר כשnvda  נפתחת"
+
+#. TRANSLATORS: block also mouse clicks checkbox
+msgid "Block clicks when mouse is locked"
+msgstr "נעל לחיצות על מקשי העכבר כשהעכבר ננעל."
+
+#. TRANSLATORS: The configuration option in NVDA Preferences menu
+msgid "Input lock settings..."
+msgstr "הגדרות נעילת קלט...."
+
+msgid "Change input lock settings"
+msgstr "שנה הגדרות נעילת קלט"
+
+#. TRANSLATORS: message spoken when the input is locked
+msgid "Input locked"
+msgstr "קלט העכבר ננעל."
+
+#. TRANSLATORS: message spoken when the input is unlocked
+msgid "Input unlocked"
+msgstr "נעילת קלט העכבר בוטלה"
+
+#. TRANSLATORS: gesture description for Input gestures dialog
+msgid "Toggle input lock"
+msgstr "החלפה בין מצבי נעילת קלט עכבר"
+
+#. TRANSLATORS: message spoken when the mouse is locked
+msgid "Mouse locked"
+msgstr "העכבר ננעל"
+
+#. TRANSLATORS: message spoken when the mouse is unlocked
+msgid "Mouse unlocked"
+msgstr "נעילת העכבר בוטלה"
+
+#. TRANSLATORS: gesture description for Input gestures dialog
+msgid "Toggle mouse lock"
+msgstr "החלפה בין מצבי נעילת עכבר"
+
+#. Add-on description
+#. TRANSLATORS: Summary for this add-on to be shown on installation and add-on informaiton.
+msgid "Input lock"
+msgstr "נעילת קלט"
+
+#. Add-on description
+#. Translators: Long description to be shown for this add-on on installation and add-on information
+msgid ""
+" With this addon, you will be able to lock and unlock your input devices "
+"with a single gesture or key press.\n"
+"This gesture can be changed from Input Gestures dialog."
+msgstr "בעזרת תוסף זה תוכלו לנעול ולבטל נעילת עכבר בזמן העבודה עם NVDA"

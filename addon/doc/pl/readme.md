@@ -1,6 +1,7 @@
 # Input Lock #
 
 * Autor: Jose Manuel Delicado
+* NVDA compatibility: 2017.3 to 2019.1
 * Pobierz [wersja stabilna][1]
 
 ## Opis
@@ -45,6 +46,11 @@ Ograniczenia Input Lock są następujące:
 * Skrót control+alt+del działa nawet przy zablokowanej klawiaturze.
 
 ## Lista zmian
+
+### Version 1.5
+
+* Added compatibility with recent NVDA releases.
+* New translations.
 
 ### Wersja 1.4
 
