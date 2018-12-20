@@ -1,7 +1,7 @@
 # Input Lock #
 
 * Autor: José Manuel Delicado
-* NVDA compatibility: 2017.3 to 2019.1
+* Compatibilitate NVDA: 2017.3 - 2019.1
 * Descărcați [versiunea stabilă][1]
 
 ## Introducere
@@ -49,10 +49,10 @@ Input Lock are următoarele limite:
 
 ## Jurnal de modificări
 
-### Version 1.5
+### Versiunea 1.5
 
-* Added compatibility with recent NVDA releases.
-* New translations.
+* S-a adăugat compatibilitatea cu versiunile recente de NVDA.
+* Traduceri noi.
 
 ### Versiunea 1.4
 

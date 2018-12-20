@@ -1,4 +1,4 @@
-# Input Lock #
+# Khóa đầu vào #
 
 * Tác giả: Jose Manuel Delicado
 * NVDA tương thích: 2017.3 đến 2019.1
