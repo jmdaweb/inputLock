@@ -5,65 +5,65 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: inputLock 1.4\n"
+"Project-Id-Version: inputLock 1.5\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
-"POT-Creation-Date: 2018-11-30 05:43+1000\n"
-"PO-Revision-Date: 2019-01-14 12:35+0100\n"
-"Language: da\n"
+"POT-Creation-Date: 2018-12-14 09:10+1000\n"
+"PO-Revision-Date: 2019-01-15 12:31+0100\n"
+"Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Last-Translator: Nicolai Svendsen <chojiro1990@gmail.com>\n"
-"Language-Team: Dansk NVDA <dansk@nvda.dk>\n"
-"X-Generator: Poedit 2.2\n"
+"Last-Translator: Simone Dal Maso <simone.dalmaso@gmail.com>\n"
+"Language-Team: \n"
+"X-Generator: Poedit 1.8.7\n"
 
 #. TRANSLATORS: Settings dialog and/or panel title
 msgid "Input lock settings"
-msgstr "indstillinger for Inputlås"
+msgstr "Impostazioni Input Lock"
 
 #. TRANSLATORS: block mouse at startup checkbox
 msgid "Block mouse when NVDA is started"
-msgstr "Bloker musen, når NVDA er startet"
+msgstr "Blocca il Mouse all'avvio di NVDA"
 
 #. TRANSLATORS: block also mouse clicks checkbox
 msgid "Block clicks when mouse is locked"
-msgstr "Bloker klik, når musen er låst"
+msgstr "Blocca i click quando il Mouse è bloccato"
 
 #. TRANSLATORS: The configuration option in NVDA Preferences menu
 msgid "Input lock settings..."
-msgstr "Indstillinger for Inputlås..."
+msgstr "Impostazioni Input Lock"
 
 msgid "Change input lock settings"
-msgstr "Skift indstillinger for Inputlås"
+msgstr "Modifica impostazioni di Input lock"
 
 #. TRANSLATORS: message spoken when the input is locked
 msgid "Input locked"
-msgstr "Input låst"
+msgstr "Dispositivo di immissione bloccato"
 
 #. TRANSLATORS: message spoken when the input is unlocked
 msgid "Input unlocked"
-msgstr "Input låst op"
+msgstr "Dispositivo di immissione sbloccato"
 
 #. TRANSLATORS: gesture description for Input gestures dialog
 msgid "Toggle input lock"
-msgstr "Skift tilstand for inputlås"
+msgstr "Attiva/disattiva Input Lock"
 
 #. TRANSLATORS: message spoken when the mouse is locked
 msgid "Mouse locked"
-msgstr "Mus låst"
+msgstr "Mouse bloccato"
 
 #. TRANSLATORS: message spoken when the mouse is unlocked
 msgid "Mouse unlocked"
-msgstr "Mus låst op"
+msgstr "Mouse sbloccato"
 
 #. TRANSLATORS: gesture description for Input gestures dialog
 msgid "Toggle mouse lock"
-msgstr "Skift muselås"
+msgstr "Attiva/disattiva blocco mouse"
 
 #. Add-on description
 #. TRANSLATORS: Summary for this add-on to be shown on installation and add-on informaiton.
 msgid "Input lock"
-msgstr "Inputlås"
+msgstr "Input lock"
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on installation and add-on information
@@ -72,6 +72,8 @@ msgid ""
 "with a single gesture or key press.\n"
 "This gesture can be changed from Input Gestures dialog."
 msgstr ""
-"Med denne tilføjelse vil du kunne låse og låse op for dine inputenheder "
-"med en enkelt bevægelse eller tastetryk. Den tilhørende kommando kan "
-"ændres fra dialogboksen \"Inputbevægelser\"."
+"Tramite questo componente aggiuntivo, sarà possibile bloccare o "
+"sbloccare il proprio dispositivo di input con un gesto o una "
+"combinazione di tasti.\n"
+"Tale gesto può essere configurato nelle finestra tasti e gesti di "
+"immissione."
