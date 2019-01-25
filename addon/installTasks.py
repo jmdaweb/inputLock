@@ -4,7 +4,11 @@
 #Copyright (C) 2018 Jose Manuel Delicado <jm.delicado@nvda.es>
 
 import config
+import addonHandler
 def onUninstall():
+	for addon in addonHandler.getAvailableAddons():
+		if addon.name=="inputLock":
+			return
 	for k, v in list(config.conf._profileCache.items()):
 		try:
 			del config.conf._profileCache[k]['inputlock']
