@@ -9,3 +9,4 @@
 *.obj
 .sconsign.dblite
 addon/doc/style.css
+addon/doc/en/readme.md
