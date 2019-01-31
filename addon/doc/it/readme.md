@@ -48,6 +48,12 @@ Input Lock ha le seguenti limitazioni:
 
 ## Changelog
 
+### Version 1.6
+
+* Now, settings are removed only when the add-on is
+  uninstalled. Configuration is nolonger reset when upgrading.
+* New and updated translations.
+
 ### Version 1.5
 
 * Aggiunta la compatibilità con le recenti versioni di NVDA. 

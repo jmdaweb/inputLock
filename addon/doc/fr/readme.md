@@ -53,6 +53,13 @@ Input Lock présente les limitations suivantes :
 
 ## Journal des Changements
 
+### Version 1.6
+
+* Désormais, les paramètres ne sont supprimés que lorsque le module
+  complémentaire est désinstallé. La configuration n'est plus réinitialisée
+  lors de la mise à niveau.
+* Nouvelles traductions et mises à jour.
+
 ### Version 1.5
 
 * Ajout de la compatibilité avec les dernières versions de NVDA.

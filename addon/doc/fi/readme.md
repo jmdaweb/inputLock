@@ -48,6 +48,12 @@ Syöttölukossa on seuraavia rajoituksia:
 
 ## Muutosloki
 
+### Versio 1.6
+
+* Asetukset poistetaan nyt vain, kun lisäosa poistetaan. Asetusten
+  oletusarvoja ei palauteta päivitettäessä.
+* Uusia ja päivitettyjä käännöksiä.
+
 ### Versio 1.5
 
 * Lisätty yhteensopivuus viimeisimpien NVDA-versioiden kanssa.

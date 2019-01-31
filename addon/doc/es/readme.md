@@ -47,6 +47,12 @@ Bloqueo de entrada tiene las siguientes limitaciones:
 
 ## Registro de cambios
 
+### Versión 1.6
+
+* Ahora, los ajustes se eliminan sólo al desinstalar el complemento. La
+  configuración ya no se restablece al actualizar.
+* Nuevas traducciones y traducciones actualizadas.
+
 ### Versión 1.5
 
 * Añadida compatibilidad con versiones recientes de NVDA.
