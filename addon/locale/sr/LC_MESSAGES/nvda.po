@@ -1,0 +1,77 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the inputLock package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: inputLock 1.4\n"
+"Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
+"POT-Creation-Date: 2018-11-30 05:43+1000\n"
+"PO-Revision-Date: 2019-01-25 21:50+0100\n"
+"Last-Translator: Nikola Jović <wwenikola123@gmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: sr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.10\n"
+
+#. TRANSLATORS: Settings dialog and/or panel title
+msgid "Input lock settings"
+msgstr "Podešavanja zaključavanja unosa"
+
+#. TRANSLATORS: block mouse at startup checkbox
+msgid "Block mouse when NVDA is started"
+msgstr "Zaključaj miš kada se NVDA pokrene"
+
+#. TRANSLATORS: block also mouse clicks checkbox
+msgid "Block clicks when mouse is locked"
+msgstr "Blokiraj klikove kada je miš zaključan"
+
+#. TRANSLATORS: The configuration option in NVDA Preferences menu
+msgid "Input lock settings..."
+msgstr "Podešavanja zaključavanja unosa..."
+
+msgid "Change input lock settings"
+msgstr "Promenite podešavanja zaključavanja unosa"
+
+#. TRANSLATORS: message spoken when the input is locked
+msgid "Input locked"
+msgstr "Unos zaključan"
+
+#. TRANSLATORS: message spoken when the input is unlocked
+msgid "Input unlocked"
+msgstr "Unos otključan"
+
+#. TRANSLATORS: gesture description for Input gestures dialog
+msgid "Toggle input lock"
+msgstr "Uključuje i isključuje zaključavanje unosa"
+
+#. TRANSLATORS: message spoken when the mouse is locked
+msgid "Mouse locked"
+msgstr "Miš zaključan"
+
+#. TRANSLATORS: message spoken when the mouse is unlocked
+msgid "Mouse unlocked"
+msgstr "Miš otključan"
+
+#. TRANSLATORS: gesture description for Input gestures dialog
+msgid "Toggle mouse lock"
+msgstr "Uključuje i isključuje zaključavanje miša"
+
+#. Add-on description
+#. TRANSLATORS: Summary for this add-on to be shown on installation and add-on informaiton.
+msgid "Input lock"
+msgstr "Zaključavanje unosa"
+
+#. Add-on description
+#. Translators: Long description to be shown for this add-on on installation and add-on information
+msgid ""
+" With this addon, you will be able to lock and unlock your input devices "
+"with a single gesture or key press.\n"
+"This gesture can be changed from Input Gestures dialog."
+msgstr ""
+" Sa ovim dodatkom, moćićete da zaključate i otključate vaše uređaje za unos "
+"jednim pokretom na ekranu ili jednom prečicom.\n"
+"Može se promeniti iz dijaloga \"ulane komande\"."

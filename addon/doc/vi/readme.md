@@ -45,6 +45,12 @@ Input Lock có các giới hạn sau đây:
 
 ## Bản ghi các thay đổi
 
+### Version 1.6
+
+* Now, settings are removed only when the add-on is
+  uninstalled. Configuration is nolonger reset when upgrading.
+* New and updated translations.
+
 ### Phiên bản 1.5
 
 * Thêm tương thích cho các bản phát hành gần đây của NVDA.

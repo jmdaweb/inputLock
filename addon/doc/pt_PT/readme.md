@@ -49,6 +49,12 @@ Este extra tem as seguintes limitações:
 
 ## Mudanças:
 
+### Versão 1.6
+
+* Agora, as configurações são removidas somente quando o extra é
+  desinstalado. A configuração não é mais redefinida durante a actualização.
+* Foram adicionadas Novas traduções e outras sofreram actualizações:
+
 ### Versão 1.5
 
 * Acrescentada compatibilidade com as versões recentes do NVDA

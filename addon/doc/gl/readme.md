@@ -47,6 +47,12 @@ Input Lock ten as seguintes limitacións:
 
 ## Rexistro de trocos
 
+### Versión 1.6
+
+* Agora a configuración só se borra ao desinstalar o complemento, non ao
+  actualizalo.
+* Traducións novas e actualizadas.
+
 ### Versión 1.5
 
 * Engadida compatibilidade con versións recentes de NVDA.

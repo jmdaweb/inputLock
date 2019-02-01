@@ -49,6 +49,12 @@ Input Lock are următoarele limite:
 
 ## Jurnal de modificări
 
+### Version 1.6
+
+* Now, settings are removed only when the add-on is
+  uninstalled. Configuration is nolonger reset when upgrading.
+* New and updated translations.
+
 ### Versiunea 1.5
 
 * S-a adăugat compatibilitatea cu versiunile recente de NVDA.

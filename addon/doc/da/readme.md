@@ -46,6 +46,12 @@ Inputlås har følgende begrænsninger:
 
 ## Ændringslog
 
+### Version 1.6
+
+* Now, settings are removed only when the add-on is
+  uninstalled. Configuration is nolonger reset when upgrading.
+* New and updated translations.
+
 ### Version 1.5
 
 * Added compatibility with recent NVDA releases.
