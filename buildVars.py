@@ -27,7 +27,7 @@ This gesture can be changed from Input Gestures dialog."""),
 	# Last NVDA version supported/tested (e.g. "2018.4", ideally more recent than minimum version)
 	"addon_lastTestedNVDAVersion" : "2019.1.0",
 	# Add-on update channel (default is stable or None)
-	"addon_updateChannel" : "stable",
+	"addon_updateChannel" : None,
 }
 
 
