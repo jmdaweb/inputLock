@@ -49,6 +49,11 @@ Este extra tem as seguintes limitações:
 
 ## Mudanças:
 
+### Version 1.7
+
+* Updated compatibility flags for recent NVDA versions.
+* Updated translations.
+
 ### Versão 1.6
 
 * Agora, as configurações são removidas somente quando o extra é

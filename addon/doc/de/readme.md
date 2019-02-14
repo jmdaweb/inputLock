@@ -53,6 +53,11 @@ Die Eingabesperre hat folgende Einschränkungen:
 
 ## Änderungen
 
+### Version 1.7
+
+* Updated compatibility flags for recent NVDA versions.
+* Updated translations.
+
 ### Version 1.6
 
 * Now, settings are removed only when the add-on is

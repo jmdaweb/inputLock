@@ -1,7 +1,7 @@
 # Inputlås #
 
 * Forfatter: Jose Manuel Delicado
-* NVDA compatibility: 2017.3 to 2019.1
+* NVDA-kompatibilitet: 2017.3 til 2019.1
 * Download [stabil version][1]
 
 ## Introduktion
@@ -46,16 +46,21 @@ Inputlås har følgende begrænsninger:
 
 ## Ændringslog
 
+### Version 1.7
+
+* Opdaterede kompatibilitetsflag til nyere NVDA-versioner.
+* Opdaterede oversættelser.
+
 ### Version 1.6
 
-* Now, settings are removed only when the add-on is
-  uninstalled. Configuration is nolonger reset when upgrading.
-* New and updated translations.
+* Nu bliver indstillingerne kun fjernet, når tilføjelsen er
+  afinstalleret. Konfigurationen nulstilles ikke længere ved opgradering.
+* Nye og opdaterede oversættelser.
 
 ### Version 1.5
 
-* Added compatibility with recent NVDA releases.
-* New translations.
+* Tilføjede kompatibilitet for seneste NVDA-versioner.
+* Nye oversættelser.
 
 ### Version 1.4
 

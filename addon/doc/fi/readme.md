@@ -48,6 +48,11 @@ Syöttölukossa on seuraavia rajoituksia:
 
 ## Muutosloki
 
+### Versio 1.7
+
+* Yhteensopivuusliput päivitetty uusimmille NVDA-versioille.
+* Käännöksiä päivitetty.
+
 ### Versio 1.6
 
 * Asetukset poistetaan nyt vain, kun lisäosa poistetaan. Asetusten
