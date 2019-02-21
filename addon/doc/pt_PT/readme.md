@@ -49,10 +49,10 @@ Este extra tem as seguintes limitações:
 
 ## Mudanças:
 
-### Version 1.7
+### Versão 1.7
 
-* Updated compatibility flags for recent NVDA versions.
-* Updated translations.
+* Adicionadas etiquetas de compatibilidade com as versões recentes do NVDA
+* Actualização de traduções
 
 ### Versão 1.6
 

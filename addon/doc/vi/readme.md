@@ -45,21 +45,21 @@ Input Lock có các giới hạn sau đây:
 
 ## Bản ghi các thay đổi
 
-### Version 1.7
+### Phiên bản 1.7
 
-* Updated compatibility flags for recent NVDA versions.
-* Updated translations.
+* Thêm tương thích cho các bản phát hành gần đây của NVDA.
+* Cập nhật các bản phiên dịch.
 
-### Version 1.6
+### Phiên bản 1.6
 
-* Now, settings are removed only when the add-on is
-  uninstalled. Configuration is nolonger reset when upgrading.
-* New and updated translations.
+* Giờ đây, các thiết lập chỉ bị xóa bỏ khi gỡ cài đặt add-on. Cấu hình không
+  còn bị khôi phục khi cài đặt cập nhật.
+* Thêm mới và cập nhật các bản phiên dịch.
 
 ### Phiên bản 1.5
 
 * Thêm tương thích cho các bản phát hành gần đây của NVDA.
-* Các bản phiên dịch mới
+* Các bản phiên dịch mới.
 
 ### Phiên bản 1.4
 
