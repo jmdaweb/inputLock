@@ -6,23 +6,23 @@
 
 ## Introduction
 
-Avez-vous des enfants ou des animaux domestiques à la maison? Avez-vous un
-chat et il aime beaucoup grimper votre table et marcher sur votre clavier?
-Déplacez-vous accidentellement la souris sur des parties aléatoires de
-l'écran lorsque vous utilisez votre ordinateur portable? Ensuite, Input Lock
-est pour vous! Vous pourrez laisser votre ordinateur seul et allumé sans
+Avez-vous des enfants ou des animaux domestiques à la maison ? Avez-vous un
+chat qui aime beaucoup grimper sur votre table et marcher sur votre clavier
+? Déplacez-vous accidentellement la souris sur des parties aléatoires de
+l'écran lorsque vous utilisez votre ordinateur portable ? Si oui, Input Lock
+est pour vous ! Vous pourrez laisser votre ordinateur seul et allumé sans
 risque.
 
-Une fois installé, vous pourrez verrouiller votre clavier, votre écran
+Une fois installée, vous pourrez verrouiller votre clavier, votre écran
 tactile, si votre ordinateur portable en a un, un écran souris et un
 afficheur braille.
 
 ## Utilisation
 
-Ce module complémentaire ajoute deux gestes supplémentaires à NVDA. Par
-défaut, ils ne sont pas attribués, vous devrez donc les configurer à partir
-de la boîte de dialogue Gestes de commandes. Lisez le Guide de l'utilisateur
-de NVDA pour plus d'informations.
+Cette extension ajoute deux gestes supplémentaires à NVDA. Par défaut, ils
+ne sont pas attribués, vous devrez donc les configurer à partir de la boîte
+de dialogue Gestes de commandes. Lisez le Guide de l'utilisateur de NVDA
+pour plus d'informations.
 
 Lorsque vous appuyez sur le geste Basculer le verrouillage d'entrée, NVDA
 dira "Entrée verrouillée". Vos périphériques d'entrée seront bloqués jusqu'à
@@ -61,9 +61,9 @@ Input Lock présente les limitations suivantes :
 
 ### Version 1.6
 
-* Désormais, les paramètres ne sont supprimés que lorsque le module
-  complémentaire est désinstallé. La configuration n'est plus réinitialisée
-  lors de la mise à niveau.
+* Désormais, les paramètres ne sont supprimés que lorsque l'extension est
+  désinstallée. La configuration n'est plus réinitialisée lors de la mise à
+  niveau.
 * Nouvelles traductions et mises à jour.
 
 ### Version 1.5
@@ -93,8 +93,8 @@ Input Lock présente les limitations suivantes :
 
 ### Version 1.1
 
-* Si un autre module complémentaire a déjà ajouté une fonction de capture à
-  inputManager, il est restauré lorsque l'entrée est déverrouillée.
+* Si une autre extension a déjà ajouté une fonction de capture à
+  inputManager, elle est restauré lorsque l'entrée est déverrouillée.
 
 ### Version 1.0
 
