@@ -47,10 +47,10 @@ Input Lock ten as seguintes limitacións:
 
 ## Rexistro de trocos
 
-### Version 1.7
+### Versión 1.7
 
-* Updated compatibility flags for recent NVDA versions.
-* Updated translations.
+* Actualizadas as marcas de compatibilidade para versións recentes de NVDA.
+* Traducións actualizadas.
 
 ### Versión 1.6
 

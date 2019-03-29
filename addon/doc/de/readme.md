@@ -60,8 +60,9 @@ Die Eingabesperre hat folgende Einschränkungen:
 
 ### Version 1.6
 
-* Now, settings are removed only when the add-on is
-  uninstalled. Configuration is nolonger reset when upgrading.
+* Jetzt werden die Einstellungen nur noch entfernt, wenn die Erweiterung
+  deinstalliert wird. Die Konfiguration wird beim Aktualisieren nicht mehr
+  zurückgesetzt.
 * New and updated translations.
 
 ### Version 1.5
@@ -87,7 +88,7 @@ Die Eingabesperre hat folgende Einschränkungen:
 
 ### Version 1.2
 
-* Nun kann die Maus auch gesperrt werden.
+* Nun kann die Maus auch gesperrt werden
 * Neue Tastenkombination, um die Maus zu sperren oder zu entsperren
 
 ### Version 1.1
