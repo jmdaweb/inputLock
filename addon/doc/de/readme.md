@@ -55,15 +55,15 @@ Die Eingabesperre hat folgende Einschränkungen:
 
 ### Version 1.7
 
-* Updated compatibility flags for recent NVDA versions.
-* Updated translations.
+* Es wurde die Kompatibilität mit den neuesten NVDA-Versionen hinzugefügt.
+* Aktualisierte Übersetzungen.
 
 ### Version 1.6
 
 * Jetzt werden die Einstellungen nur noch entfernt, wenn die Erweiterung
   deinstalliert wird. Die Konfiguration wird beim Aktualisieren nicht mehr
   zurückgesetzt.
-* New and updated translations.
+* Neue und aktualisierte Übersetzungen.
 
 ### Version 1.5
 
