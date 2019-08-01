@@ -47,6 +47,11 @@ Input Lock ten as seguintes limitacións:
 
 ## Rexistro de trocos
 
+### Versión 1.8
+
+* Actualizadas as marcas de compatibilidade para versións recentes de NVDA.
+* Traducións actualizadas.
+
 ### Versión 1.7
 
 * Actualizadas as marcas de compatibilidade para versións recentes de NVDA.

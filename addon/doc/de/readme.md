@@ -2,7 +2,7 @@
 
 * Autor: Jose Manuel Delicado
 * NVDA-Kompatibilität: 2017.3 bis 2019.1
-* [Stabile Version][1] herunterladen
+* [Stabile Version herunterladen][1]
 
 ## Einführung
 
@@ -53,9 +53,14 @@ Die Eingabesperre hat folgende Einschränkungen:
 
 ## Änderungen
 
+### Version 1.8
+
+* Es wurde die Kompatibilität mit den neuesten NVDA-Versionen aktualisiert.
+* Aktualisierte Übersetzungen.
+
 ### Version 1.7
 
-* Es wurde die Kompatibilität mit den neuesten NVDA-Versionen hinzugefügt.
+* Es wurde die Kompatibilität mit den neuesten NVDA-Versionen aktualisiert.
 * Aktualisierte Übersetzungen.
 
 ### Version 1.6

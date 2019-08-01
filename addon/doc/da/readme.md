@@ -46,6 +46,11 @@ Inputlås har følgende begrænsninger:
 
 ## Ændringslog
 
+### Version 1.8
+
+* Opdaterede kompatibilitetsflag til nyere NVDA-versioner.
+* Opdaterede oversættelser.
+
 ### Version 1.7
 
 * Opdaterede kompatibilitetsflag til nyere NVDA-versioner.

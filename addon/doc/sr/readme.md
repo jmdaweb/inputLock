@@ -46,6 +46,11 @@ Zaključavanje unosa ima sledeća ograničenja:
 
 ## Promene
 
+### Version 1.8
+
+* Ažurirani parametri kompatibilnosti za najnovije NVDA verzije.
+* Ažurirani prevodi.
+
 ### Verzija 1.7
 
 * Ažurirani parametri kompatibilnosti za najnovije NVDA verzije.

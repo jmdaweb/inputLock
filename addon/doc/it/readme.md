@@ -48,6 +48,11 @@ Input Lock ha le seguenti limitazioni:
 
 ## Changelog
 
+### Version 1.8
+
+* Updated compatibility flags for recent NVDA versions.
+* Updated translations.
+
 ### Version 1.7
 
 * Updated compatibility flags for recent NVDA versions.
