@@ -45,7 +45,7 @@ Input Lock có các giới hạn sau đây:
 
 ## Bản ghi các thay đổi
 
-### Version 1.8
+### Phiên bản 1.8
 
 * Thêm tương thích cho các bản phát hành gần đây của NVDA.
 * Cập nhật các bản phiên dịch.
