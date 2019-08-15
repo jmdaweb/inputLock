@@ -49,21 +49,21 @@ Input Lock are următoarele limite:
 
 ## Jurnal de modificări
 
-### Version 1.8
+### Versiunea 1.8
 
-* Updated compatibility flags for recent NVDA versions.
-* Updated translations.
+* S-a adăugat compatibilitatea cu versiunile recente de NVDA.
+* Traduceri actualizate.
 
-### Version 1.7
+### Versiunea 1.7
 
-* Updated compatibility flags for recent NVDA versions.
-* Updated translations.
+* S-a adăugat compatibilitatea cu versiunile recente de NVDA.
+* Traduceri actualizate.
 
-### Version 1.6
+### Versiunea 1.6
 
-* Now, settings are removed only when the add-on is
-  uninstalled. Configuration is nolonger reset when upgrading.
-* New and updated translations.
+* Acum, setările sunt șterse la dezinstalarea suplimentului. Configurația nu
+  mai este resetată la actualizare.
+* Traduceri noi și actualizate.
 
 ### Versiunea 1.5
 
