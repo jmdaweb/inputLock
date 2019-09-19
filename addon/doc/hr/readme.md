@@ -1,98 +1,98 @@
 # Input Lock #
 
-* Author: Jose Manuel Delicado
-* NVDA kompatibilno: 2017.3 to 2019.1
+* Autor: Jose Manuel Delicado
+* NVDA kompatibilno: 2017.3 do 2019.1
 * Preuzmi [stabilnu inačicu][1]
 
 ## Uvod
 
-Da li imate djecu ili kućne ljubimce doma? Da li imate mačku koja veoma voli
-penjanje po vašem stolu i hodanje preko vaše tipkovnice? Da li  you
-accidentally move the mouse to random parts in the screen while using your
-laptop? Then Input Lock is for you! You will be able to leave your computer
-alone and turned on without risk.
+Da li imate djecu ili kućne ljubimce doma? Da li imate mačku koja se veoma
+voli penjati po vašem stolu i hodati preko vaše tipkovnice? Da li slučajno
+premjestite miš  u dio ekrana za vrijeme korištenja vašeg laptopa? Stoga je
+Input Lock za vas!  Bit će vam omogućeno samo napustiti vaše rač1nalo  i
+uključiti ga bez rizika.
 
-Once installed, you will be able to lock your keyboard, touch screen, if
-your laptop has one, mouse and Braille display.
+Jednim instaliranjem, Bit će vam omogućen pregled tipkovnice, dodir ekrana,
+ako vaš laptop ima jedinicu, miša i Braille display.
 
-## Usage
+## Korištenje
 
-This addon adds two extra gestures to NVDA. By default they are unassigned,
-so you will have to configure them from Input gestures dialog. Read the NVDA
-User Guide for more information.
+Ovaj dodatak dodaje dvije geste u NVDA. Po difoltu one nisu dodane, pa će te
+ih morati konfigurirati   iz Input dijaloga s gestama. Čitaj NVDA Korisni
+vodić za više informacija.
 
-When you press the toggle input lock gesture, NVDA will say "Input
-locked". Your input devices will be blocked until you press the same gesture
-again. In that moment, NVDA will say "Input unlocked" and everything will
-work as usual.
+Kada pritisnete preklopnu input lock gestu, NVDA će reći "Input locked". Vaš
+ulazni uređaj bit će blokiran dok ne pritisnete neku gestu ponovo. U tom
+trenutku, NVDA će reći "Input unlocked" i sve će raditi kao obično.
 
-If you press the toggle mouse block gesture, your mouse will be
-locked. Press this command again to unlock it. While mouse is locked, you
-can use NVDA gestures to move it, and click with left and right buttons, but
-You can't move the mouse itself. Mouse clicks can also be disabled from
-Input lock category in NVDA settings dialog (NVDA 2018.2 and later) or from
-add-on settings dialog for older versions, available under preferences
-menu. In addition, from these settings you can control wether mouse locks
-when NVDA is started or not.
+Ako pritisnete prekidač miša blokiranu gestu, vaš miš bit će
+uključen. Pritiskom ove kompande ponovo, on će biti isključen. Dok je miš
+uključen, vi možete koristiti NVDA geste u pokretu, i klikati sa lijevom i
+desnom tipkom, ali ga ne možete  pomaknuti. Klikanje miža također može biti
+onemogućeno  iz Input lock kategorije u NVDA dijlogu postavki (NVDA 2018.2 i
+kasnije) ili iz dijloga postavki dodataka za starije inačice, dostupne ispod
+izbornika postavki. Nadalje, iz ovih postvki možete uključiti vremensku
+kontrolu miša kad je NVDA započeo ili završio.
 
-Note: when mouse clicks are blocked, you can't use any NVDA gestures to work
-with the mouse.
+Bilješka: kada su klikovi miša uključeni, ne možete koristiti bilo koju NVDA
+gestu za rad sa mišem.
 
-## Limitations
+## Ograničenja
 
-Input Lock has the following limitations:
+Input Lock ima sljedeća ograničenja:
 
-* The shortcut control+alt+del can be used even when the keyboard is locked.
+* Prečac control+alt+del može biti korišten čak i kad je tipkovnica
+  uključena.
 
 ## Changelog
 
-### Version 1.7
+### Inačica 1.7
 
-* Updated compatibility flags for recent NVDA versions.
-* Updated translations.
+* Ažurirane kompatibilne zastve za nedavne NVDA inačice.
+* Ažurirani prijevodi.
 
-### Version 1.7
+### Inačica 1.7
 
-* Updated compatibility flags for recent NVDA versions.
-* Updated translations.
+* Ažurirane kompatibilne zastve za nedavne NVDA inačice.
+* Ažurirani prijevodi.
 
-### Version 1.6
+### Inačica 1.6
 
-* Now, settings are removed only when the add-on is
-  uninstalled. Configuration is nolonger reset when upgrading.
-* New and updated translations.
+* Sada, su postavke uklonjene samo ako je dodatak
+  deinstaliran. Konfiguracija se neće resetirati prilikom nadogradnje.
+* Novi i ažurirani prijevodi.
 
-### Version 1.5
+### Inačica 1.5
 
-* Added compatibility with recent NVDA releases.
-* New translations.
+* Dodana kompatibilnost sa nedavnim NVDA izdanja.
+* Novi prijevodi.
 
-### Version 1.4
+### Inačica 1.4
 
-* The addon gestures are unassigned by default.
+* Dodane geste su  dodane po difoltu.
 
-### Version 1.3
+### Inačica 1.3
 
-* Added a configuration panel in settings dialog. For old NVDA versions, a
-  menu item and a dialog have been added too.
-* Added a setting to lock the mouse when NVDA is started.
-* Added a setting to block also mouse clicks while mouse is locked.
-* Small bugs fixed, some code optimizations and less duplicated strings for
-  translators
+* Dodan konfiguracijski  panel u dijalog postavki. Za stare NVDA inačice,
+  stavka izbornika i dijalog su dodani previše.
+* Dodano u postavke uključivanje miša kad je NVDA pokrenut.
+* Dodano u postavke  također blokiranje klikanje mišem dok je miš uključen.
+* Popravak malih grešaka, neki code optimizcija i manji dupli nizovi za
+  prijevode
 
-### Version 1.2
+### Inačica 1.2
 
-* Now the mouse can also be locked
-* New command to lock and unlock only the mouse
+* Sada miš također može biti
+* Nove komande za uključivanje i isključivanje samo miša
 
-### Version 1.1
+### Inačica 1.1
 
-* If another addon has previously added a capture function to inputManager,
-  it is restored when the input is unlocked.
+* Ako sljedeći dodatak ima predhodno dodane funkcije za snimanje   u
+  inputManager, to je obnovljeno kada je input isključen.
 
-### Version 1.0
+### Inačica 1.0
 
-* Initial release
+* Prvo izdanje
 
 [[!tag dev stable]]
 
