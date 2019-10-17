@@ -5,17 +5,19 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: inputLock 1.4\n"
+"Project-Id-Version: InputLock\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2018-11-30 05:43+1000\n"
-"PO-Revision-Date: 2019-02-02 15:34+0100\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: ru\n"
+"PO-Revision-Date: 2019-10-12 19:38+0800\n"
+"Last-Translator: Kvark <kvark128@yandex.ru>\n"
+"Language-Team: \n"
+"Language: ru_RU\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.6.10\n"
+"X-Generator: Poedit 1.6.11\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #. TRANSLATORS: Settings dialog and/or panel title
 msgid "Input lock settings"
@@ -23,18 +25,18 @@ msgstr "Настройки блокировки ввода"
 
 #. TRANSLATORS: block mouse at startup checkbox
 msgid "Block mouse when NVDA is started"
-msgstr "Блокировать ввод, когда NVDA запущено"
+msgstr "Блокировать мышь при запуске NVDA"
 
 #. TRANSLATORS: block also mouse clicks checkbox
 msgid "Block clicks when mouse is locked"
-msgstr "Блокировать щелки, когда мышь заблокирована"
+msgstr "Запретить нажатие кнопок на заблокированной мыши"
 
 #. TRANSLATORS: The configuration option in NVDA Preferences menu
 msgid "Input lock settings..."
-msgstr "Настройки блокировки ввода"
+msgstr "Настройки блокировки ввода..."
 
 msgid "Change input lock settings"
-msgstr "Изменить настройки блокировки ввода"
+msgstr "Изменение настроек блокировки ввода"
 
 #. TRANSLATORS: message spoken when the input is locked
 msgid "Input locked"
@@ -72,6 +74,6 @@ msgid ""
 "with a single gesture or key press.\n"
 "This gesture can be changed from Input Gestures dialog."
 msgstr ""
-" С помощью этого дополнения, вы сможете заблокировать любое вводное "
-"устройство пользуясь только одным жестом или сочетанием клавиш.\n"
-"Этот жест может быть изменён в настройках \"жесты ввода\"."
+" С помощью этого дополнения, вы сможете блокировать любое устройство ввода, "
+"используя только один жест или комбинацию клавиш.\n"
+"Этот жест может быть изменён в диалоге «Жесты ввода»."
