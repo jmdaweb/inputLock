@@ -1,52 +1,55 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the inputLock package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Hrvatska lokalizacija za NVDA.
+# Copyright (C) 2006-2019 NVDA contributors <https://www.nvda-project.org>
+# This file is distributed under the same license as the virtualRevision package.
+# Zvonimir Stanečić <zvonimirek222@yandex.com>, 2018.
+# Milo Ivir <mail@milotype.de>, 2019.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: inputLock 1.4\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2018-11-30 05:43+1000\n"
-"PO-Revision-Date: 2018-11-29 21:40+0100\n"
-"Last-Translator: Zvonimir <zvonimirek222@yandex.com>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2019-11-17 21:18+0100\n"
+"Last-Translator: Milo Ivir <mail@milotype.de>\n"
 "Language: hr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.6.10\n"
+"X-Generator: Poedit 2.2.4\n"
+"Language-Team: \n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
 
 #. TRANSLATORS: Settings dialog and/or panel title
 msgid "Input lock settings"
-msgstr "Postavke zaključavanja ulaznih uređaja"
+msgstr "Postavke za Zaključaj ulazne uređaje"
 
 #. TRANSLATORS: block mouse at startup checkbox
 msgid "Block mouse when NVDA is started"
-msgstr "Kada je NVDA pokrenut, blokiraj miš"
+msgstr "Kad se NVDA pokrene, blokiraj miša"
 
 #. TRANSLATORS: block also mouse clicks checkbox
 msgid "Block clicks when mouse is locked"
-msgstr "Kada je miš zaključan, blokiraj klikove"
+msgstr "Kad je miš zaključan, blokiraj klikove"
 
 #. TRANSLATORS: The configuration option in NVDA Preferences menu
 msgid "Input lock settings..."
-msgstr "Postavke zaključavanja ulaznih uređaja..."
+msgstr "Postavke za Zaključaj ulazne uređaje …"
 
 msgid "Change input lock settings"
-msgstr "Mijenjanje postavki zaključavanja ulaznih uređaja"
+msgstr "Promijeni postavke za Zaključaj ulazne uređaje"
 
 #. TRANSLATORS: message spoken when the input is locked
 msgid "Input locked"
-msgstr "Tipkovnica zaključana"
+msgstr "Ulazni uređaji zaključani"
 
 #. TRANSLATORS: message spoken when the input is unlocked
 msgid "Input unlocked"
-msgstr "Tipkovnica otključana"
+msgstr "Ulazni uređaji otključani"
 
 #. TRANSLATORS: gesture description for Input gestures dialog
 msgid "Toggle input lock"
-msgstr "Uključuje ili isključuje zaključavanje ulaznih uređaja"
+msgstr "Zaključaj ulazne uređaje"
 
 #. TRANSLATORS: message spoken when the mouse is locked
 msgid "Mouse locked"
@@ -58,12 +61,12 @@ msgstr "Miš otključan"
 
 #. TRANSLATORS: gesture description for Input gestures dialog
 msgid "Toggle mouse lock"
-msgstr "Uključuje i isključuje zaključavanje miša"
+msgstr "Zaključaj miša"
 
 #. Add-on description
 #. TRANSLATORS: Summary for this add-on to be shown on installation and add-on informaiton.
 msgid "Input lock"
-msgstr "Input lock"
+msgstr "Zaključaj ulazne uređaje"
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on installation and add-on information
@@ -72,6 +75,6 @@ msgid ""
 "with a single gesture or key press.\n"
 "This gesture can be changed from Input Gestures dialog."
 msgstr ""
-" Sa ovim dodatkom možete zaključati ulazne uređaje jednom tipkovničkim "
+" S ovim dodatkom je moguće zaključati ulazne uređaje jednim tipkovničkim "
 "prečacem ili gestom.\n"
-"Ova gesta može biti promijenjena iz dijaloškog okvira ulazne geste."
+"Ova gesta se može promijeniti u dijaloškom okviru za Ulazne geste."

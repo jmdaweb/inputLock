@@ -1,96 +1,97 @@
-# Input Lock #
+# Zaključaj ulazne uređaje (Input Lock) #
 
 * Autor: Jose Manuel Delicado
 * NVDA kompatibilno: 2017.3 do 2019.1
-* Preuzmi [stabilnu inačicu][1]
+* Preuzmi [stabilnu verziju][1]
 
 ## Uvod
 
-Da li imate djecu ili kućne ljubimce doma? Da li imate mačku koja se veoma
-voli penjati po vašem stolu i hodati preko vaše tipkovnice? Da li slučajno
-premjestite miš  u dio ekrana za vrijeme korištenja vašeg laptopa? Stoga je
-Input Lock za vas!  Bit će vam omogućeno samo napustiti vaše rač1nalo  i
-uključiti ga bez rizika.
+Imaš djecu ili kućne ljubimce? Imaš mačku koja se voli popesti na stol i
+hodati preko tvoje tipkovnice? Premještaš li slučajno miša po ekranu dok
+koristiš laptop? „Zaključaj ulazne uređaje” rješava te probleme! Moći ćeš
+ostaviti uključeno računalo bez rizika.
 
-Jednim instaliranjem, Bit će vam omogućen pregled tipkovnice, dodir ekrana,
-ako vaš laptop ima jedinicu, miša i Braille display.
+Nakon instaliranja je moguće zaključati tipkovnicu, dodirni ekran (ukoliko
+ga laptop ima), miša i brajični redak.
 
-## Korištenje
+## Primjena
 
-Ovaj dodatak dodaje dvije geste u NVDA. Po difoltu one nisu dodane, pa će te
-ih morati konfigurirati   iz Input dijaloga s gestama. Čitaj NVDA Korisni
-vodić za više informacija.
+Ovaj dodatak dodaje dvije geste NVDA čitaču. Standardno one nisu dodijeljene
+te se moraju konfigurirati u dijaloškom okviru Ulazne geste. Korisnički
+vodič za NVDA sadrži daljnje informacije.
 
-Kada pritisnete preklopnu input lock gestu, NVDA će reći "Input locked". Vaš
-ulazni uređaj bit će blokiran dok ne pritisnete neku gestu ponovo. U tom
-trenutku, NVDA će reći "Input unlocked" i sve će raditi kao obično.
+Kad se pritisne gesta za zaključavanje ulaznog uređaja, NVDA će reći „Ulazni
+uređaji zaključani”. Ulazni uređaji će biti blokirani, sve dok se ista gesta
+ne pritisne ponovo. U tom trenutku, NVDA će reći „Ulazni uređaji otključani”
+i sve će raditi kao obično.
 
-Ako pritisnete prekidač miša blokiranu gestu, vaš miš bit će
-uključen. Pritiskom ove kompande ponovo, on će biti isključen. Dok je miš
-uključen, vi možete koristiti NVDA geste u pokretu, i klikati sa lijevom i
-desnom tipkom, ali ga ne možete  pomaknuti. Klikanje miža također može biti
-onemogućeno  iz Input lock kategorije u NVDA dijlogu postavki (NVDA 2018.2 i
-kasnije) ili iz dijloga postavki dodataka za starije inačice, dostupne ispod
-izbornika postavki. Nadalje, iz ovih postvki možete uključiti vremensku
-kontrolu miša kad je NVDA započeo ili završio.
+Ako se pritisne gesta za blokiranje miša, miš će se zaključati. Ponovnim
+pritiskom ove naredbe će se miš otključati. Dok je miš zaključan, miš se
+može pokretati pomoću NVDA gesta i klikati s lijevom i desnom tipkom, ali
+nije moguće pomaknuti samog miša. Klikanje miša se također može deaktivirati
+u kategoriji „Zaključaj ulazne uređaje” u dijaloškom okviru NVDA postavki
+(NVDA 2018.2 i noviji) ili u dijaloškom okviru postavki dodatka za starije
+verzije, dostupne putem izbornika postavki. Nadalje, u ovim postavkama je
+moguće odrediti, hoće li miš biti zaključan kad se pokrene NVDA ili ne.
 
-Bilješka: kada su klikovi miša uključeni, ne možete koristiti bilo koju NVDA
-gestu za rad sa mišem.
+Napomena: kad je klikanje miša uključeno, nije moguće koristiti bilo koju
+NVDA gestu za rad s mišem.
 
 ## Ograničenja
 
-Input Lock ima sljedeća ograničenja:
+„Zaključaj ulazne uređaje” ima sljedeća ograničenja:
 
-* Prečac control+alt+del može biti korišten čak i kad je tipkovnica
+* Prečac control+alt+del je moguće koristiti čak i kad je tipkovnica
   uključena.
 
-## Changelog
+## Promjene
 
-### Inačica 1.7
+### Verzija 1.7
 
-* Ažurirane kompatibilne zastve za nedavne NVDA inačice.
+* Ažurirani problemi kompatibilnosti za nedavne NVDA verzije.
 * Ažurirani prijevodi.
 
-### Inačica 1.7
+### Verzija 1.7
 
-* Ažurirane kompatibilne zastve za nedavne NVDA inačice.
+* Ažurirani problemi kompatibilnosti za nedavne NVDA verzije.
 * Ažurirani prijevodi.
 
-### Inačica 1.6
+### Verzija 1.6
 
-* Sada, su postavke uklonjene samo ako je dodatak
-  deinstaliran. Konfiguracija se neće resetirati prilikom nadogradnje.
+* Sada se uklanjanju postavke samo ako se dodatak deinstalira. Konfiguracija
+  se neće resetirati prilikom nadogradnje.
 * Novi i ažurirani prijevodi.
 
-### Inačica 1.5
+### Verzija 1.5
 
-* Dodana kompatibilnost sa nedavnim NVDA izdanja.
+* Dodana kompatibilnost s nedavnim NVDA izdanjima.
 * Novi prijevodi.
 
-### Inačica 1.4
+### Verzija 1.4
 
-* Dodane geste su  dodane po difoltu.
+* Geste dodatka standardno nisu dodijeljenje.
 
-### Inačica 1.3
+### Verzija 1.3
 
-* Dodan konfiguracijski  panel u dijalog postavki. Za stare NVDA inačice,
-  stavka izbornika i dijalog su dodani previše.
-* Dodano u postavke uključivanje miša kad je NVDA pokrenut.
-* Dodano u postavke  također blokiranje klikanje mišem dok je miš uključen.
-* Popravak malih grešaka, neki code optimizcija i manji dupli nizovi za
-  prijevode
+* Dodana je konfiguracijska ploča u dijaloškom okviru za postavke. Za stare
+  NVDA verzije, stavka izbornika i dijalošli okvir su također dodani.
+* Dodana je postavka za zaključavanje miša kad se NVDA pokrene.
+* Dodana je postavka i za zaključavanje klikanja mišem dok je miš uključen.
+* Popravak manjih grešaka, neka optimizacija koda i manje duplih znakovnih
+  nizova za prijevode
 
-### Inačica 1.2
+### Verzija 1.2
 
-* Sada miš također može biti
-* Nove komande za uključivanje i isključivanje samo miša
+* Sada je moguće zaključati i miša
+* Nove naredbe za zaključavanje i otključavanje samo miša
 
-### Inačica 1.1
+### Verzija 1.1
 
-* Ako sljedeći dodatak ima predhodno dodane funkcije za snimanje   u
-  inputManager, to je obnovljeno kada je input isključen.
+* Ako je jedan drugi dodatak prethodno dodao funkciju za snimanje u
+  upravljaču ulaznih uređaja, bit će obnovljen, kad se ulazni uređaji
+  otključaju.
 
-### Inačica 1.0
+### Verzija 1.0
 
 * Prvo izdanje
 
