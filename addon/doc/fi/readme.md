@@ -1,7 +1,7 @@
 # Syöttölukko #
 
 * Tekijä: Jose Manuel Delicado
-* NVDA-yhteensopivuus: 2017.3-2019.1
+* Yhteensopivuus: NVDA 2017.3-2019.1
 * Lataa [vakaa versio][1]
 
 ## Johdanto
@@ -47,6 +47,11 @@ Syöttölukossa on seuraavia rajoituksia:
   lukittu.
 
 ## Muutosloki
+
+### Versio 1.8
+
+* Yhteensopivuusliput päivitetty uusimmille NVDA-versioille.
+* Käännöksiä päivitetty.
 
 ### Versio 1.7
 

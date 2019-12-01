@@ -49,6 +49,11 @@ Este extra tem as seguintes limitações:
 
 ## Mudanças:
 
+### Version 1.8
+
+* Adicionadas etiquetas de compatibilidade com as versões recentes do NVDA
+* Actualização de traduções
+
 ### Versão 1.7
 
 * Adicionadas etiquetas de compatibilidade com as versões recentes do NVDA
