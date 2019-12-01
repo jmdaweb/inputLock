@@ -16,7 +16,7 @@ addon_info = {
 	"addon_description" : _(""" With this addon, you will be able to lock and unlock your input devices with a single gesture or key press.
 This gesture can be changed from Input Gestures dialog."""),
 	# version
-	"addon_version" : "1.7",
+	"addon_version" : "1.8",
 	# Author(s)
 	"addon_author" : "Jose Manuel Delicado <jm.delicado@nvda.es>",
 # URL for the add-on documentation support
@@ -25,7 +25,7 @@ This gesture can be changed from Input Gestures dialog."""),
 	# Minimum NVDA version supported (e.g. "2018.3")
 	"addon_minimumNVDAVersion" : "2017.3.0",
 	# Last NVDA version supported/tested (e.g. "2018.4", ideally more recent than minimum version)
-	"addon_lastTestedNVDAVersion" : "2019.1.0",
+	"addon_lastTestedNVDAVersion" : "2019.3.0",
 	# Add-on update channel (default is stable or None)
 	"addon_updateChannel" : None,
 }
