@@ -41,7 +41,7 @@ NVDA gestu za rad s mišem.
 
 „Zaključaj ulazne uređaje” ima sljedeća ograničenja:
 
-* Prečac control+alt+del je moguće koristiti čak i kad je tipkovnica
+* Prečac kontrol+alt+del je moguće koristiti čak i kad je tipkovnica
   uključena.
 
 ## Promjene
