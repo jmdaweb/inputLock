@@ -1,7 +1,7 @@
 # Input Lock #
 
 * Автор: Jose Manuel Delicado
-* NVDA compatibility: 2017.3 to 2019.1
+* Сумісність з NVDA: від 2017.3 до 2019.1
 * Завантажити [стабільну версію][1]
 
 ## Вступ
@@ -48,26 +48,26 @@ Input Lock має такі обмеження:
 
 ## Журнал змін
 
-### Version 1.8
+### Версія 1.8
 
-* Updated compatibility flags for recent NVDA versions.
-* Updated translations.
+* Оновлено прапори сумісності для останніх версій NVDA.
+* Оновлено переклади.
 
-### Version 1.7
+### Версія 1.7
 
-* Updated compatibility flags for recent NVDA versions.
-* Updated translations.
+* Оновлено прапори сумісності для останніх версій NVDA.
+* Оновлено переклади.
 
-### Version 1.6
+### Версія 1.6
 
-* Now, settings are removed only when the add-on is
-  uninstalled. Configuration is nolonger reset when upgrading.
-* New and updated translations.
+* Тепер налаштування видаляються разом з видаленням додатка. Конфігурація
+  більше не скидається при оновленні.
+* Нові й оновлені переклади.
 
-### Version 1.5
+### Версія 1.5
 
-* Added compatibility with recent NVDA releases.
-* New translations.
+* Додано сумісність з останніми версіями NVDA.
+* Нові переклади.
 
 ### Версія 1.4
 
@@ -85,7 +85,7 @@ Input Lock має такі обмеження:
 
 ### Версія 1.2
 
-* Тепер мишку також можна блокувати.
+* Тепер мишку також можна блокувати
 * Нова команда, призначена лише для блокування мишки
 
 ### Версія 1.1
