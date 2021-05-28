@@ -1,7 +1,7 @@
 # Input Lock #
 
 * Autor: José Manuel Delicado
-* Compatibilidad con NVDA: de 2017.3 a 2019.1
+* Compatibilidad con NVDA: de 2017.3 a 2021.1
 * Descargar [versión estable][1]
 
 ## Introducción
@@ -39,13 +39,26 @@ controlar si el ratón se bloquea cuando se inicia NVDA o no.
 Nota: cuando se bloquean los clics del ratón, no puedes usar ningún gesto de
 NVDA para trabajar con el ratón.
 
-## Limitaciones
+## Limitaciones y problemas conocidos
 
-Bloqueo de entrada tiene las siguientes limitaciones:
+Bloqueo de entrada tiene los siguientes problemas conocidos:
 
-* El atajo ctrl+alt+supr se puede usar incluso con el teclado bloqueado.
+* Los atajos ctrl+alt+supr y windows+l se pueden usar incluso con el teclado
+  bloqueado.
+* NVDA desbloquea el teclado y otros métodos de entrada cuando el ordenador
+  se despierta del modo suspensión o se restaura la sesión desde la pantalla
+  de bloqueo de Windows.
+* En algunos portátiles, el touchpad todavía acepta entrada del usuario
+  después de bloquear el ratón.
 
 ## Registro de cambios
+
+### Versión 1.9
+
+* Se han actualizado los indicadores de compatibilidad con versiones
+  recientes de NVDA.
+* Traducciones actualizadas.
+* Actualizada la documentación.
 
 ### Versión 1.8
 

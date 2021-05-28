@@ -1,7 +1,7 @@
 # Bloqueio de Entrada (Input Lock) #
 
 * Autor: José Manuel Delicado
-* Compatibilidade com NVDA: 2017.3 a 2019.1
+* NVDA compatibility: 2017.3 to 2021.1
 * Baixe a [versão estável][1]
 
 ## Introdução
@@ -40,14 +40,26 @@ os bloqueios do mouse quando o NVDA é iniciado ou não.
 Nota: quando os cliques do mouse estão bloqueados, não pode usar nenhum
 comando do NVDA para trabalhar com o mouse.
 
-## Limitações
+## Limitations and known problems
 
-Bloqueio de Entrada tem as seguintes limitações:
+Input Lock has the following known problems:
 
-* A tecla de atalho control+alt+del pode ser usada mesmo que o teclado
-  esteja bloqueado.
+* The shortcuts control+alt+del and windows+l can be used even when the
+  keyboard is locked.
+* NVDA unlocks the keyboard and other input methods when the computer wakes
+  up from standby mode or the session is restored from the Windows lock
+  screen.
+* On some laptops, the touchpad still accepts user input after mouse is
+  blocked.
 
 ## Registro de mudanças (Changelog)
+
+### Version 1.9
+
+* Adicionado sinalizadores (flags) de compatibilidade com as versões
+  recentes do NVDA.
+* Traduções atualizadas.
+* Updated documentation.
 
 ### Versão 1.8
 

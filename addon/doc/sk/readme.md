@@ -1,7 +1,7 @@
 # Blokovanie vstupu #
 
 * Autor: Jose Manuel Delicado
-* Funguje s NVDA 2017.3 do 2019.1
+* NVDA compatibility: 2017.3 to 2021.1
 * Stiahnuť [stabilnú verziu][1]
 
 ## Úvod
@@ -31,13 +31,25 @@ aktivovať °°automatické zamknutie myši po štarte NVDA.
 Upozorňujeme, že ak povolíte zamknutie myši vrátane klikania, niektoré
 funkcie NVDA nebudú fungovať.
 
-## Obmedzenia
+## Limitations and known problems
 
-Doplnok má tieto obmedzenia:
+Input Lock has the following known problems:
 
-* Skratka ctrl+alt+del funguje aj v prípade, ak zamknete vstup z klávesnice.
+* The shortcuts control+alt+del and windows+l can be used even when the
+  keyboard is locked.
+* NVDA unlocks the keyboard and other input methods when the computer wakes
+  up from standby mode or the session is restored from the Windows lock
+  screen.
+* On some laptops, the touchpad still accepts user input after mouse is
+  blocked.
 
 ## Zmeny
+
+### Version 1.9
+
+* Upravené požiadavky kompatibility pre aktuálne verzie NVDA.
+* Aktualizované preklady.
+* Updated documentation.
 
 ### Verzia 1.8
 

@@ -1,7 +1,7 @@
 # قفل ورودی‌ها (Input Lock) #
 
 * نویسنده: Jose Manuel Delicado
-* NVDA compatibility: 2017.3 to 2019.1
+* NVDA compatibility: 2017.3 to 2021.1
 * دانلود [نسخه‌ی پایدار][1]
 
 ## مقدمه
@@ -39,14 +39,25 @@ Input locked. دستگاه‌های ورودی قفل میشوند تا زمان
 توجه: هنگامی که کلیک‌های موس قفل باشد، نمیتوانید از فرمان‌های NVDA برای کار
 با موس استفاده کنید.
 
-## محدودیت‌ها
+## Limitations and known problems
 
-محدودیت‌های Input Lock عبارتند از:
+Input Lock has the following known problems:
 
-* کلید میانبر Ctrl+Alt+Del حتی هنگامی که صفحه‌کلید قفل باشد، قابل استفاده
-  است.
+* The shortcuts control+alt+del and windows+l can be used even when the
+  keyboard is locked.
+* NVDA unlocks the keyboard and other input methods when the computer wakes
+  up from standby mode or the session is restored from the Windows lock
+  screen.
+* On some laptops, the touchpad still accepts user input after mouse is
+  blocked.
 
 ## فهرست تغییرات
+
+### Version 1.9
+
+* Updated compatibility flags for recent NVDA versions.
+* Updated translations.
+* Updated documentation.
 
 ### Version 1.8
 

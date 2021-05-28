@@ -1,7 +1,7 @@
 # Syöttölukko #
 
 * Tekijä: Jose Manuel Delicado
-* Yhteensopivuus: NVDA 2017.3-2019.1
+* NVDA compatibility: 2017.3 to 2021.1
 * Lataa [vakaa versio][1]
 
 ## Johdanto
@@ -39,14 +39,25 @@ NVDA:n käynnistyessä vai ei.
 Huom: Kun hiiren napsautukset on estetty, mitkään NVDA:n hiirikomennot eivät
 toimi.
 
-## Rajoitukset
+## Limitations and known problems
 
-Syöttölukossa on seuraavia rajoituksia:
+Input Lock has the following known problems:
 
-* Ctrl+Alt+Del-pikanäppäintä on mahdollista käyttää, vaikka näppäimistö on
-  lukittu.
+* The shortcuts control+alt+del and windows+l can be used even when the
+  keyboard is locked.
+* NVDA unlocks the keyboard and other input methods when the computer wakes
+  up from standby mode or the session is restored from the Windows lock
+  screen.
+* On some laptops, the touchpad still accepts user input after mouse is
+  blocked.
 
 ## Muutosloki
+
+### Version 1.9
+
+* Yhteensopivuusliput päivitetty uusimmille NVDA-versioille.
+* Käännöksiä päivitetty.
+* Updated documentation.
 
 ### Versio 1.8
 
