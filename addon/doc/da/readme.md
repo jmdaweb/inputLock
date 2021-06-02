@@ -1,7 +1,7 @@
 # Inputlås #
 
 * Forfatter: Jose Manuel Delicado
-* NVDA-kompatibilitet: 2017.3 til 2019.1
+* NVDA compatibility: 2017.3 to 2021.1
 * Download [stabil version][1]
 
 ## Introduktion
@@ -38,13 +38,25 @@ kontrollere, hvorvidt musen automatisk låser når NVDA startes eller ej.
 Bemærk: Når museklik er blokeret, kan du ikke bruge NVDA-bevægelser til at
 arbejde med musen.
 
-## Begrænsninger
+## Limitations and known problems
 
-Inputlås har følgende begrænsninger:
+Input Lock has the following known problems:
 
-* Tastaturkommandoen Ctrl+alt+del kan bruges, selv når tastaturet er låst.
+* The shortcuts control+alt+del and windows+l can be used even when the
+  keyboard is locked.
+* NVDA unlocks the keyboard and other input methods when the computer wakes
+  up from standby mode or the session is restored from the Windows lock
+  screen.
+* On some laptops, the touchpad still accepts user input after mouse is
+  blocked.
 
 ## Ændringslog
+
+### Version 1.9
+
+* Opdaterede kompatibilitetsflag til nyere NVDA-versioner.
+* Opdaterede oversættelser.
+* Updated documentation.
 
 ### Version 1.8
 

@@ -1,7 +1,7 @@
 # Khóa đầu vào #
 
 * Tác giả: Jose Manuel Delicado
-* NVDA tương thích: 2017.3 đến 2019.1
+* NVDA compatibility: 2017.3 to 2021.1
 * Tải về [phiên bản chính thức][1]
 
 ## Giới thiệu
@@ -37,13 +37,25 @@ thiết lập này, bạn có thể chỉnh để khóa chuột khi khởi độ
 Lưu ý: khi khóa nhấp chuột, bạn không thể dùng thao tác nào của NVDA với
 chuột.
 
-## Các giới hạn
+## Limitations and known problems
 
-Input Lock có các giới hạn sau đây:
+Input Lock has the following known problems:
 
-* Phím tắt control+alt+del có thể dùng ngay cả khi khóa bàn phím.
+* The shortcuts control+alt+del and windows+l can be used even when the
+  keyboard is locked.
+* NVDA unlocks the keyboard and other input methods when the computer wakes
+  up from standby mode or the session is restored from the Windows lock
+  screen.
+* On some laptops, the touchpad still accepts user input after mouse is
+  blocked.
 
 ## Bản ghi các thay đổi
+
+### Version 1.9
+
+* Thêm tương thích cho các bản phát hành gần đây của NVDA.
+* Cập nhật các bản phiên dịch.
+* Updated documentation.
 
 ### Phiên bản 1.8
 

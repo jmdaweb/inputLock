@@ -1,7 +1,7 @@
 # Zaključaj ulazne uređaje (Input Lock) #
 
 * Autor: Jose Manuel Delicado
-* NVDA kompatibilno: 2017.3 do 2019.1
+* NVDA compatibility: 2017.3 to 2021.1
 * Preuzmi [stabilnu verziju][1]
 
 ## Uvod
@@ -37,14 +37,25 @@ moguće odrediti, hoće li miš biti zaključan kad se pokrene NVDA ili ne.
 Napomena: kad je klikanje miša uključeno, nije moguće koristiti bilo koju
 NVDA gestu za rad s mišem.
 
-## Ograničenja
+## Limitations and known problems
 
-„Zaključaj ulazne uređaje” ima sljedeća ograničenja:
+Input Lock has the following known problems:
 
-* Prečac kontrol+alt+del je moguće koristiti čak i kad je tipkovnica
-  uključena.
+* The shortcuts control+alt+del and windows+l can be used even when the
+  keyboard is locked.
+* NVDA unlocks the keyboard and other input methods when the computer wakes
+  up from standby mode or the session is restored from the Windows lock
+  screen.
+* On some laptops, the touchpad still accepts user input after mouse is
+  blocked.
 
 ## Promjene
+
+### Version 1.9
+
+* Ažurirani problemi kompatibilnosti za nedavne NVDA verzije.
+* Ažurirani prijevodi.
+* Updated documentation.
 
 ### Verzija 1.7
 

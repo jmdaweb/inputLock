@@ -1,7 +1,7 @@
 # Input Lock #
 
 * Autore: Jose Manuel Delicado
-* Compatibilità con NVDA: dalla versione 2017.3 alla 2019.1
+* NVDA compatibility: 2017.3 to 2021.1
 * Scarica la [versione stabile][1]
 
 ## Introduzione
@@ -38,14 +38,25 @@ impostare la disattivazione del mouse all'avvio di NVDA.
 Nota: quando i clic del mouse sono bloccati, non sarà possibile usare alcun
 comando per lavorare con il mouse con NVDA.
 
-## Limitazioni
+## Limitations and known problems
 
-Input Lock ha le seguenti limitazioni:
+Input Lock has the following known problems:
 
-* Il comando ctrl+alt+canc può essere utilizzato anche se la tastiera è
-  bloccata.
+* The shortcuts control+alt+del and windows+l can be used even when the
+  keyboard is locked.
+* NVDA unlocks the keyboard and other input methods when the computer wakes
+  up from standby mode or the session is restored from the Windows lock
+  screen.
+* On some laptops, the touchpad still accepts user input after mouse is
+  blocked.
 
 ## Novità
+
+### Version 1.9
+
+* Aggiunti i flag di compatibilità per le versioni nuove di NVDA.
+* Traduzioni aggiornate.
+* Updated documentation.
 
 ### Novità nella versione 1.8
 

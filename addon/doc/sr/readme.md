@@ -1,7 +1,7 @@
 # Zaključavanje unosa #
 
 * Autor: Jose Manuel Delicado
-* NVDA kompatibilnost: 2017.3 do 2019.1
+* NVDA compatibility: 2017.3 to 2021.1
 * Preuzmi [stabilnu verziju][1]
 
 ## Uvod
@@ -38,13 +38,25 @@ miš zaključavati kada se NVDA pokrene.
 Napomena: Kada su klikovi miša zaključani, ne možete koristiti nijednu NVDA
 komandu za rad sa mišem.
 
-## Ograničenja
+## Limitations and known problems
 
-Zaključavanje unosa ima sledeća ograničenja:
+Input Lock has the following known problems:
 
-* Prečica ctrl alt delete se može koristiti čak i kada je unos zaključan.
+* The shortcuts control+alt+del and windows+l can be used even when the
+  keyboard is locked.
+* NVDA unlocks the keyboard and other input methods when the computer wakes
+  up from standby mode or the session is restored from the Windows lock
+  screen.
+* On some laptops, the touchpad still accepts user input after mouse is
+  blocked.
 
 ## Promene
+
+### Version 1.9
+
+* Ažurirani parametri kompatibilnosti za najnovije NVDA verzije.
+* Ažurirani prevodi.
+* Updated documentation.
 
 ### Version 1.8
 

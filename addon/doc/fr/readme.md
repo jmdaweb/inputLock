@@ -1,7 +1,7 @@
 # Input Lock #
 
 * Auteur : Jose Manuel Delicado
-* Compatibilité NVDA: 2017.3 à 2019.1
+* NVDA compatibility: 2017.3 to 2021.1
 * Télécharger [version stable][1]
 
 ## Introduction
@@ -44,14 +44,26 @@ la souris se verrouille au démarrage ou non de NVDA.
 Remarque : lorsque les clics de souris sont bloqués, vous ne pouvez utiliser
 aucun geste de NVDA pour travailler avec la souris.
 
-## Limitations
+## Limitations and known problems
 
-Input Lock présente les limitations suivantes :
+Input Lock has the following known problems:
 
-* Le raccourci clavier contrôle+alt+effacement peut être utilisé même
-  lorsque le clavier est verrouillé.
+* The shortcuts control+alt+del and windows+l can be used even when the
+  keyboard is locked.
+* NVDA unlocks the keyboard and other input methods when the computer wakes
+  up from standby mode or the session is restored from the Windows lock
+  screen.
+* On some laptops, the touchpad still accepts user input after mouse is
+  blocked.
 
 ## Journal des Changements
+
+### Version 1.9
+
+* Les indicateurs de compatibilité ont été mis à jour avec les versions
+  récentes de NVDA.
+* Traductions mises à jour.
+* Updated documentation.
 
 ### Version 1.8
 

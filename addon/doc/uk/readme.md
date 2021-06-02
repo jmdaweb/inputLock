@@ -1,7 +1,7 @@
 # Input Lock #
 
 * Автор: Jose Manuel Delicado
-* Сумісність з NVDA: від 2017.3 до 2019.1
+* NVDA compatibility: 2017.3 to 2021.1
 * Завантажити [стабільну версію][1]
 
 ## Вступ
@@ -39,14 +39,25 @@ Lock для вас! Ви зможете залишити свій комп'ют�
 Примітка: коли клацання мишки заблоковані, ви не можете використовувати
 будь-які жести NVDA для роботи з мишею.
 
-## Обмеження
+## Limitations and known problems
 
-Input Lock має такі обмеження:
+Input Lock has the following known problems:
 
-* Комбінацію control+alt+del можна використовувати навіть при заблокованій
-  клавіатурі.
+* The shortcuts control+alt+del and windows+l can be used even when the
+  keyboard is locked.
+* NVDA unlocks the keyboard and other input methods when the computer wakes
+  up from standby mode or the session is restored from the Windows lock
+  screen.
+* On some laptops, the touchpad still accepts user input after mouse is
+  blocked.
 
 ## Журнал змін
+
+### Version 1.9
+
+* Оновлено прапори сумісності для останніх версій NVDA.
+* Оновлено переклади.
+* Updated documentation.
 
 ### Версія 1.8
 
