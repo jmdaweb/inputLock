@@ -1,7 +1,7 @@
 # Eingabesperre #
 
 * Autor: Jose Manuel Delicado
-* NVDA compatibility: 2017.3 to 2021.1
+* NVDA-Kompatibilität: 2017.3 bis 2021.1
 * [Stabile Version herunterladen][1]
 
 ## Einführung
@@ -44,17 +44,17 @@ automatisch gesperrt werden soll.
 Hinweis: Wenn Mausklicks blockiert sind, können Sie keine NVDA-Funktionen
 verwenden, um mit der Maus zu arbeiten.
 
-## Limitations and known problems
+## Einschränkungen und bekannte Probleme
 
-Input Lock has the following known problems:
+Folgende und bekannte Probleme:
 
-* The shortcuts control+alt+del and windows+l can be used even when the
-  keyboard is locked.
-* NVDA unlocks the keyboard and other input methods when the computer wakes
-  up from standby mode or the session is restored from the Windows lock
-  screen.
-* On some laptops, the touchpad still accepts user input after mouse is
-  blocked.
+* Die Tastenkombinationen Strg+Alt+Entf und Fenster+l können auch bei
+  gesperrter Tastatur verwendet werden.
+* NVDA entsperrt die Tastatur und andere Eingabemethoden, wenn der Computer
+  aus dem Standby-Modus aufwacht oder die Sitzung über den
+  Windows-Sperrbildschirm wiederhergestellt wird.
+* Bei einigen Laptops akzeptiert das Touchpad immer noch Benutzereingaben,
+  nachdem die Maus blockiert wurde.
 
 ## Änderungen
 
@@ -62,7 +62,7 @@ Input Lock has the following known problems:
 
 * Es wurde die Kompatibilität mit den neuesten NVDA-Versionen aktualisiert.
 * Aktualisierte Übersetzungen.
-* Updated documentation.
+* Aktualisierte Dokumentation.
 
 ### Version 1.8
 

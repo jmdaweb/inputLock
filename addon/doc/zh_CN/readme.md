@@ -1,7 +1,7 @@
 # 输入锁 #
 
 * 作者: Jose Manuel Delicado
-* NVDA compatibility: 2017.3 to 2021.1
+* NVDA 兼容版本: 2017.3 到 2021.1
 * 下载 [稳定版][1]
 
 ## 介绍
@@ -21,25 +21,21 @@
 
 注意：当鼠标单击被阻止时，您无法使用任何和鼠标相关的NVDA手势。
 
-## Limitations and known problems
+## 限制和已知问题
 
-Input Lock has the following known problems:
+输入锁具有以下已知问题：
 
-* The shortcuts control+alt+del and windows+l can be used even when the
-  keyboard is locked.
-* NVDA unlocks the keyboard and other input methods when the computer wakes
-  up from standby mode or the session is restored from the Windows lock
-  screen.
-* On some laptops, the touchpad still accepts user input after mouse is
-  blocked.
+* 即使键盘被锁定，也可使用Ctrl+ alt + del 和 Windows + L 快捷键。
+* 当计算机从待机模式唤醒或会话从 Windows 锁定屏幕恢复时，NVDA 会解锁键盘和其他输入设备。
+* 在某些笔记本电脑上，鼠标被锁定后，触摸板仍然接受用户输入。
 
 ## 更新日志
 
-### Version 1.9
+### 版本1.9
 
 * 更新了最新NVDA版本的兼容性标志。
 * 更新翻译。
-* Updated documentation.
+* 更新文档。
 
 ### 版本1.8
 
