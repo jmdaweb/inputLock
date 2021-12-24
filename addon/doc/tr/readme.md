@@ -2,7 +2,7 @@
 
 * Yazar: Jose Manuel Delicado
 * NVDA uyumluluğu: 2017.3 - 2021.1
-* kararlı sürüm][1]ü indir
+* [kararlı sürüm][1]ü indir
 
 ## Giriş
 
