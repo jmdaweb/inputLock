@@ -98,12 +98,12 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		   not config.conf['inputlock']['blockClicks']:
 			return mouseCallbackFunc(msg, x, y, injected)
 		else:
-			if self.mouseLocked and not self.locked:
+			if  self.mouseLocked and not self.locked:
 				mouseHandler.executeMouseMoveEvent(self.cursorPos[0], self.cursorPos[1])
 			winUser.setCursorPos(self.cursorPos[0], self.cursorPos[1])
 
 	def capture(self, gesture):
-		if gesture.displayName == self.gesture.displayName:
+		if not self.gesture or gesture.displayName == self.gesture.displayName:
 			return True
 		else:
 			return False
@@ -119,6 +119,16 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		winInputHook.setCallbacks(mouse=mouseCallbackFunc)
 		self.cursorPos = None
 		mouseCallbackFunc = None
+
+	def event_foreground(self, obj, next):
+		try:
+			window = obj.appModule.productName
+		except:
+			window = ""
+		if self.locked and window != 'Microsoft.LockApp':
+			self.prevCaptureFunc = inputCore.manager._captureFunc
+			inputCore.manager._captureFunc = self.capture
+		next()
 
 	def script_inputLock(self, gesture):
 		self.locked = not self.locked
