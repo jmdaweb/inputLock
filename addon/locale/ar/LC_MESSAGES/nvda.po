@@ -5,67 +5,65 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: BloqueioDeEntrada 1.4\n"
-"Report-Msgid-Bugs-To: nvda-translations@groups.io\n"
-"POT-Creation-Date: 2018-11-30 05:43+1000\n"
-"PO-Revision-Date: 2021-11-18 23:13+0000\n"
-"Language: pt_PT\n"
+"Project-Id-Version: inputLock 1.8\n"
+"Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
+"POT-Creation-Date: 2021-02-19 09:05+0000\n"
+"PO-Revision-Date: 2021-09-06 23:50+0300\n"
+"Language: ar\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Last-Translator: Ângelo Abrantes <ampa4374@gmail.com>\n"
-"Language-Team: Equipa Portuguesa do NVDA <ampa4374@gmail.com; rui."
-"fontes@tiflotecnia.pt>\n"
+"Last-Translator: Hatoon <h.felemban@hotmail.com>\n"
+"Language-Team: \n"
 "X-Generator: Poedit 3.0\n"
-"X-Poedit-SourceCharset: UTF-8\n"
 
 #. TRANSLATORS: Settings dialog and/or panel title
 msgid "Input lock settings"
-msgstr "Configurações de bloqueio de entrada"
+msgstr "إعدادات Input lock"
 
 #. TRANSLATORS: block mouse at startup checkbox
 msgid "Block mouse when NVDA is started"
-msgstr "Bloquear o rato quando o NVDA é iniciado"
+msgstr "تعطيلُ الفأرة عند بدء NVDA"
 
 #. TRANSLATORS: block also mouse clicks checkbox
 msgid "Block clicks when mouse is locked"
-msgstr "Bloquear cliques quando o rato está bloqueado"
+msgstr "تعديلُ النقرات عندما تكون الفأرة معطّلة."
 
 #. TRANSLATORS: The configuration option in NVDA Preferences menu
 msgid "Input lock settings..."
-msgstr "Configurações do bloqueio de entrada..."
+msgstr "إعداداتُ Input lock "
 
 msgid "Change input lock settings"
-msgstr "Alterar as configurações do bloqueio de entrada"
+msgstr "تغيير إعدادات input lock "
 
 #. TRANSLATORS: message spoken when the input is locked
 msgid "Input locked"
-msgstr "Entrada bloqueada"
+msgstr "الإدخال معطَّل"
 
 #. TRANSLATORS: message spoken when the input is unlocked
 msgid "Input unlocked"
-msgstr "Entrada desbloqueada"
+msgstr "تفعيل الإدخال"
 
 #. TRANSLATORS: gesture description for Input gestures dialog
 msgid "Toggle input lock"
-msgstr "Alternar bloqueio de entrada"
+msgstr "تعطيلُ الإدخال"
 
 #. TRANSLATORS: message spoken when the mouse is locked
 msgid "Mouse locked"
-msgstr "Rato bloqueado"
+msgstr "الفأرة معطَّلة"
 
 #. TRANSLATORS: message spoken when the mouse is unlocked
 msgid "Mouse unlocked"
-msgstr "Rato desbloqueado"
+msgstr "تفعيلُ الفأرة"
 
 #. TRANSLATORS: gesture description for Input gestures dialog
 msgid "Toggle mouse lock"
-msgstr "Alternar o bloqueio do rato"
+msgstr "تعطيلُ الفأرة"
 
 #. Add-on description
 #. TRANSLATORS: Summary for this add-on to be shown on installation and add-on informaiton.
 msgid "Input lock"
-msgstr "Bloqueio de entrada"
+msgstr "تعطيلُ الإدخال"
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on installation and add-on information
@@ -74,6 +72,6 @@ msgid ""
 "with a single gesture or key press.\n"
 "This gesture can be changed from Input Gestures dialog."
 msgstr ""
-" Com este extra, poderá bloquear e desbloquear os seus dispositivos de "
-"entrada com um único comando ou pressionar de tecla.\n"
-"Esse comando pode ser alterado no menu \"definir comandos\"."
+"مع هذه الإضافة، ستغدو قادرًا على تفعيل أو تعطيل الإدخال عبر أجهزة الإدخال "
+"الخاصة بك بضغطة واحدة على مفتاح اختصار أو إيماءة.\n"
+"يمكن تغيير هذا الاختصار عبر مربّع حوار تخصيص اختصارات NVDA."

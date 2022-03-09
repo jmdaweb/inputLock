@@ -1,28 +1,28 @@
 # Input Lock #
 
-* Auteur : Jose Manuel Delicado
-* NVDA compatibility: 2017.3 to 2021.1
+* Auteur : Jose Manuel Delicado
+* Compatibilité NVDA: 2017.3 à 2021.1
 * Télécharger [version stable][1]
 
 ## Introduction
 
-Avez-vous des enfants ou des animaux domestiques à la maison ? Avez-vous un
-chat qui aime beaucoup grimper sur votre table et marcher sur votre clavier
-? Déplacez-vous accidentellement la souris sur des parties aléatoires de
-l'écran lorsque vous utilisez votre ordinateur portable ? Si oui, Input Lock
-est pour vous ! Vous pourrez laisser votre ordinateur seul et allumé sans
-risque.
+Avez-vous des enfants ou des animaux domestiques à la maison ? Avez-vous un
+chat qui aime beaucoup grimper sur votre table et marcher sur votre
+clavier ? Déplacez-vous accidentellement la souris sur des parties
+aléatoires de l'écran lorsque vous utilisez votre ordinateur portable ? Si
+oui, Input Lock est pour vous ! Vous pourrez laisser votre ordinateur seul
+et allumé sans risque.
 
 Une fois installée, vous pourrez verrouiller votre clavier, votre écran
-tactile, si votre ordinateur portable en a un, un écran souris et un
+tactile, si votre ordinateur portable en a un, votre  souris et votre
 afficheur braille.
 
 ## Utilisation
 
 Cette extension ajoute deux gestes supplémentaires à NVDA. Par défaut, ils
-ne sont pas attribués, vous devrez donc les configurer à partir de la boîte
-de dialogue Gestes de commandes. Lisez le Guide de l'utilisateur de NVDA
-pour plus d'informations.
+ne sont pas assignés, vous devrez donc les configurer à partir du dialogue
+Gestes de commandes. Lisez le Guide de l'utilisateur de NVDA pour plus
+d'informations.
 
 Lorsque vous appuyez sur le geste Basculer le verrouillage d'entrée, NVDA
 dira "Entrée verrouillée". Vos périphériques d'entrée seront bloqués jusqu'à
@@ -35,26 +35,26 @@ déverrouiller. Lorsque la souris est verrouillée, vous pouvez utiliser les
 gestes de NVDA pour la déplacer et cliquer avec les boutons gauche et droit,
 mais vous ne pouvez pas déplacer la souris elle-même. Les clics de souris
 peuvent également être désactivés à partir de la catégorie Input lock dans
-la boîte de dialogue Paramètres de NVDA (NVDA 2018.2 et versions
-ultérieures) ou dans la boîte de dialogue Paramètres du module
-complémentaire pour les versions antérieures, disponibles dans le menu
-Préférences. De plus, à partir de ces paramètres, vous pouvez contrôler si
-la souris se verrouille au démarrage ou non de NVDA.
+le dialogue Paramètres de NVDA (NVDA 2018.2 et versions ultérieures) ou dans
+le dialogue Paramètres du module complémentaire pour les versions
+antérieures, disponibles dans le menu Préférences. De plus, à partir de ces
+paramètres, vous pouvez contrôler si la souris se verrouille au démarrage ou
+non de NVDA.
 
 Remarque : lorsque les clics de souris sont bloqués, vous ne pouvez utiliser
 aucun geste de NVDA pour travailler avec la souris.
 
-## Limitations and known problems
+## Limitations et problèmes connus
 
-Input Lock has the following known problems:
+Input Lock présente les problèmes suivants :
 
-* The shortcuts control+alt+del and windows+l can be used even when the
-  keyboard is locked.
-* NVDA unlocks the keyboard and other input methods when the computer wakes
-  up from standby mode or the session is restored from the Windows lock
-  screen.
-* On some laptops, the touchpad still accepts user input after mouse is
-  blocked.
+* Les raccourcis clavier contrôle+alt+effacement et Windows+l peuvent être
+  utilisés même lorsque le clavier est verrouillé.
+* NVDA déverrouille le clavier et les autres méthodes de saisie quand
+  l'ordinateur sort du mode veille ou quand la session est restaurée depuis
+  l'écran de verrouillage de Windows.
+* Sur certains portables, le pavé tactile accepte encore des actions de
+  l'utilisateur après verrouillage de la souris.
 
 ## Journal des Changements
 
@@ -63,7 +63,7 @@ Input Lock has the following known problems:
 * Les indicateurs de compatibilité ont été mis à jour avec les versions
   récentes de NVDA.
 * Traductions mises à jour.
-* Updated documentation.
+* Documentation mise à jour.
 
 ### Version 1.8
 
@@ -91,13 +91,13 @@ Input Lock has the following known problems:
 
 ### Version 1.4
 
-* Les gestes pour le module complémentaire sont non affectés par défaut.
+* Les gestes pour l'extension ne sont pas assignés par défaut.
 
 ### Version 1.3
 
-* Ajout d'un panneau de configuration dans la boîte de dialogue
-  Paramètres. Pour les anciennes versions de NVDA, un élément de menu et une
-  boîte de dialogue ont également été ajoutés.
+* Ajout d'un panneau de configuration dans le dialogue Paramètres. Pour les
+  anciennes versions de NVDA, un élément de menu et un dialogue ont
+  également été ajoutés.
 * Ajout d'un paramètre pour verrouiller la souris au démarrage de NVDA.
 * Ajout d'un paramètre pour bloquer également les clics de souris lorsque la
   souris est verrouillée.
