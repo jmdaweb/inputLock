@@ -11,7 +11,6 @@ import mouseHandler
 import winInputHook
 import winUser
 import config
-import gui
 from gui import guiHelper
 import wx
 from gui import NVDASettingsDialog
@@ -31,10 +30,6 @@ allowedMouseActions = [
 	mouseHandler.WM_RBUTTONDOWN,
 	mouseHandler.WM_RBUTTONUP]
 mouseCallbackFunc = None
-
-
-
-
 
 
 class GlobalPlugin(globalPluginHandler.GlobalPlugin):
@@ -65,7 +60,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		   not config.conf['inputlock']['blockClicks']:
 			return mouseCallbackFunc(msg, x, y, injected)
 		else:
-			if  self.mouseLocked and not self.locked:
+			if self.mouseLocked and not self.locked:
 				mouseHandler.executeMouseMoveEvent(self.cursorPos[0], self.cursorPos[1])
 			winUser.setCursorPos(self.cursorPos[0], self.cursorPos[1])
 
@@ -90,7 +85,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 	def event_foreground(self, obj, next):
 		try:
 			window = obj.appModule.productName
-		except:
+		except Exception:
 			window = ""
 		if self.locked and window != 'Microsoft.LockApp':
 			self.prevCaptureFunc = inputCore.manager._captureFunc
@@ -99,8 +94,8 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 
 	@script(
 		# TRANSLATORS: gesture description for Input gestures dialog
-		description = _("Toggle input lock"),
-		category = globalCommands.SCRCAT_INPUT)
+		description=_("Toggle input lock"),
+		category=globalCommands.SCRCAT_INPUT)
 	def script_inputLock(self, gesture):
 		self.locked = not self.locked
 		self.gesture = gesture
@@ -122,8 +117,8 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 
 	@script(
 		# TRANSLATORS: gesture description for Input gestures dialog
-		description = _("Toggle mouse lock"),
-		category = globalCommands.SCRCAT_INPUT)
+		description=_("Toggle mouse lock"),
+		category=globalCommands.SCRCAT_INPUT)
 	def script_mouseLock(self, gesture):
 		self.mouseLocked = not self.mouseLocked
 		if self.mouseLocked:
@@ -142,17 +137,17 @@ class inputLockPanel(SettingsPanel):
 
 	def makeSettings(self, sizer):
 		helper = guiHelper.BoxSizerHelper(self, sizer=sizer)
-		# TRANSLATORS: block mouse at startup checkbox
-		self.blockmouseenabled = helper.addItem(wx.CheckBox(self, wx.ID_ANY, label=_("Block mouse when NVDA is started")))
+		self.blockmouseenabled = helper.addItem(wx.CheckBox(
+			# TRANSLATORS: block mouse at startup checkbox
+			self, wx.ID_ANY, label=_("Block mouse when NVDA is started")))
 		self.blockmouseenabled.SetValue(
 			config.conf['inputlock']['blockMouseAtStartup'])
-		# TRANSLATORS: block also mouse clicks checkbox
-		self.blockclicksenabled = helper.addItem(wx.CheckBox(self, wx.ID_ANY, label=_("Block clicks when mouse is locked")))
+		self.blockclicksenabled = helper.addItem(wx.CheckBox(
+			# TRANSLATORS: block also mouse clicks checkbox
+			self, wx.ID_ANY, label=_("Block clicks when mouse is locked")))
 		self.blockclicksenabled.SetValue(config.conf['inputlock']['blockClicks'])
-
 
 	def onSave(self):
 		config.conf['inputlock']['blockMouseAtStartup'] = \
 		self.blockmouseenabled.GetValue()
 		config.conf['inputlock']['blockClicks'] = self.blockclicksenabled.GetValue()
-
