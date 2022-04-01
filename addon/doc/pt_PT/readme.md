@@ -1,7 +1,7 @@
 # Bloqueio de entrada #
 
 * Autor: José Manuel Delicado
-* Compatibilidade com o NVDA: 2017.3 a 2021.1
+* NVDA compatibility: 2021.3 and beyond
 * Baixar [versão estável][1]
 
 ## Introdução
@@ -46,13 +46,19 @@ Este extra tem os seguintes problemas conhecidos:
 
 * Os atalhos control+alt+del e windows+l podem ser usados mesmo quando o
   teclado está bloqueado.
-* O NVDA desbloqueia o teclado e outros métodos de entrada quando o
-  computador acorda do modo standby ou a sessão é restaurada a partir do
-  ecrã de bloqueio do Windows.
 * Em alguns computadores portáteis, o touchpad ainda aceita a entrada do
   utilizador depois de o rato ser bloqueado.
 
 ## Mudanças:
+
+### Version 1.10
+
+* Adicionadas etiquetas de compatibilidade com as versões recentes do NVDA
+* Actualização de traduções
+* Documentação actualizada.
+* Now, minimum supported version is 2021.3.
+* The input will remain blocked after waking up from standby mode. Thanks to
+  Javi Dominguez.
 
 ### Versão 1.9
 

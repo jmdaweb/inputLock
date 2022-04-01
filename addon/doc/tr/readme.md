@@ -1,7 +1,7 @@
 # Girdi Kilidi #
 
 * Yazar: Jose Manuel Delicado
-* NVDA uyumluluğu: 2017.3 - 2021.1
+* NVDA compatibility: 2021.3 and beyond
 * [kararlı sürüm][1]ü indir
 
 ## Giriş
@@ -46,13 +46,19 @@ Girdi Kilidi aşağıdaki bilinen sorunlara sahiptir:
 
 * Ctrl+alt+del ve windows+l kısayolları, klavye kilitliyken bile
   kullanılabilir.
-* NVDA, bilgisayar bekleme modundan çıktığında veya Windows kilit ekranından
-  oturum geri yüklendiğinde klavyenin ve diğer girdi yöntemlerinin kilidini
-  açar.
 * Bazı dizüstü bilgisayarlarda, fare kilitli olmasına rağmen dokunmatik
   yüzey yine de kullanıcı girişini kabul eder.
 
 ## Değişiklik Listesi
+
+### Version 1.10
+
+* En son NVDA sürümleri için uyumluluk güncellemesi.
+* Çeviriler güncellendi.
+* dokümantasyon güncellendi.
+* Now, minimum supported version is 2021.3.
+* The input will remain blocked after waking up from standby mode. Thanks to
+  Javi Dominguez.
 
 ### Sürüm 1.9
 

@@ -1,7 +1,7 @@
 # Input Lock #
 
 * Auteur : Jose Manuel Delicado
-* Compatibilité NVDA: 2017.3 à 2021.1
+* NVDA compatibility: 2021.3 and beyond
 * Télécharger [version stable][1]
 
 ## Introduction
@@ -50,13 +50,20 @@ Input Lock présente les problèmes suivants :
 
 * Les raccourcis clavier contrôle+alt+effacement et Windows+l peuvent être
   utilisés même lorsque le clavier est verrouillé.
-* NVDA déverrouille le clavier et les autres méthodes de saisie quand
-  l'ordinateur sort du mode veille ou quand la session est restaurée depuis
-  l'écran de verrouillage de Windows.
 * Sur certains portables, le pavé tactile accepte encore des actions de
   l'utilisateur après verrouillage de la souris.
 
 ## Journal des Changements
+
+### Version 1.10
+
+* Les indicateurs de compatibilité ont été mis à jour avec les versions
+  récentes de NVDA.
+* Traductions mises à jour.
+* Documentation mise à jour.
+* Now, minimum supported version is 2021.3.
+* The input will remain blocked after waking up from standby mode. Thanks to
+  Javi Dominguez.
 
 ### Version 1.9
 
