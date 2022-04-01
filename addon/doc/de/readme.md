@@ -1,7 +1,7 @@
 # Eingabesperre #
 
 * Autor: Jose Manuel Delicado
-* NVDA-Kompatibilität: 2017.3 bis 2021.1
+* NVDA compatibility: 2021.3 and beyond
 * [Stabile Version herunterladen][1]
 
 ## Einführung
@@ -50,13 +50,19 @@ Folgende und bekannte Probleme:
 
 * Die Tastenkombinationen Strg+Alt+Entf und Fenster+l können auch bei
   gesperrter Tastatur verwendet werden.
-* NVDA entsperrt die Tastatur und andere Eingabemethoden, wenn der Computer
-  aus dem Standby-Modus aufwacht oder die Sitzung über den
-  Windows-Sperrbildschirm wiederhergestellt wird.
 * Bei einigen Laptops akzeptiert das Touchpad immer noch Benutzereingaben,
   nachdem die Maus blockiert wurde.
 
 ## Änderungen
+
+### Version 1.10
+
+* Es wurde die Kompatibilität mit den neuesten NVDA-Versionen aktualisiert.
+* Aktualisierte Übersetzungen.
+* Aktualisierte Dokumentation.
+* Now, minimum supported version is 2021.3.
+* The input will remain blocked after waking up from standby mode. Thanks to
+  Javi Dominguez.
 
 ### Version 1.9
 

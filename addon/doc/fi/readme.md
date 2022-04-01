@@ -1,7 +1,7 @@
 # Syöttölukko #
 
 * Tekijä: Jose Manuel Delicado
-* Yhteensopivuus: NVDA 2017.3-2021.1
+* Yhteensopivuus: NVDA 2021.3 ja uudemmat
 * Lataa [vakaa versio][1]
 
 ## Johdanto
@@ -45,13 +45,19 @@ Syöttölukossa on seuraavia tunnettuja ongelmia:
 
 * Ctrl+Alt+Del- ja Win+L-näppäinkomennot toimivat, vaikka näppäimistö on
   lukittu.
-* Kun tietokone herää valmiustilasta tai istunto palautetaan Windowsin
-  lukitusnäytöstä, NVDA avaa näppäimistön ja muiden syöttömenetelmien
-  lukituksen.
-* Kun hiiri on estetty, kosketuslevy hyväksyy silti joissakin kannettavissa
-  käyttäjän syötettä.
+* Vaikka hiiri on estetty, kosketuslevy hyväksyy silti joissakin
+  kannettavissa käyttäjän syötteen.
 
 ## Muutosloki
+
+### Versio 1.10
+
+* Yhteensopivuusliput päivitetty uusimmille NVDA-versioille.
+* Käännöksiä päivitetty.
+* Dokumentaatiota päivitetty.
+* Vanhin tuettu versio on nyt 2021.3.
+* Syöte pysyy estettynä valmiustilasta heräämisen jälkeen. Kiitos Javi
+  Dominguezille.
 
 ### Versio 1.9
 

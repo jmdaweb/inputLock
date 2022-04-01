@@ -1,7 +1,7 @@
 # Input Lock #
 
 * Autor: José Manuel Delicado
-* NVDA compatibility: 2017.3 to 2021.1
+* NVDA compatibility: 2021.3 and beyond
 * Descărcați [versiunea stabilă][1]
 
 ## Introducere
@@ -46,13 +46,19 @@ Input Lock has the following known problems:
 
 * The shortcuts control+alt+del and windows+l can be used even when the
   keyboard is locked.
-* NVDA unlocks the keyboard and other input methods when the computer wakes
-  up from standby mode or the session is restored from the Windows lock
-  screen.
 * On some laptops, the touchpad still accepts user input after mouse is
   blocked.
 
 ## Jurnal de modificări
+
+### Version 1.10
+
+* S-a adăugat compatibilitatea cu versiunile recente de NVDA.
+* Traduceri actualizate.
+* Updated documentation.
+* Now, minimum supported version is 2021.3.
+* The input will remain blocked after waking up from standby mode. Thanks to
+  Javi Dominguez.
 
 ### Version 1.9
 

@@ -1,7 +1,7 @@
 # Input Lock #
 
 * Autor: Jose Manuel Delicado
-* Compatibilidade con NVDA: da 2017.3 á 2021.1
+* NVDA compatibility: 2021.3 and beyond
 * Descargar [versión estable][1]
 
 ## Introdución
@@ -44,13 +44,19 @@ Input Lock ten os seguintes problemas coñecidos:
 
 * Os atallo control+alt+supr e windows+l pódense utilizar mesmo cando o
   teclado está bloqueado.
-* NVDA desbloquea o teclado e outros métodos de entrada cando o ordenador
-  esperta do modo de suspensión ou se restaura a sesión dende a pantalla de
-  bloqueo de windows.
 * Nalgúns portátiles, o panel táctil do rato aínda acepta entrada do usuario
   unha vez se bloquea o rato.
 
 ## Rexistro de trocos
+
+### Version 1.10
+
+* Actualizadas as marcas de compatibilidade para versións recentes de NVDA.
+* Traducións actualizadas.
+* Documentación actualizada.
+* Now, minimum supported version is 2021.3.
+* The input will remain blocked after waking up from standby mode. Thanks to
+  Javi Dominguez.
 
 ### Versión 1.9
 

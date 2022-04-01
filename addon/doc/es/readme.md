@@ -1,7 +1,7 @@
 # Input Lock #
 
 * Autor: José Manuel Delicado
-* Compatibilidad con NVDA: de 2017.3 a 2021.1
+* Compatibilidad con NVDA: de 2021.3 en adelante
 * Descargar [versión estable][1]
 
 ## Introducción
@@ -45,13 +45,20 @@ Bloqueo de entrada tiene los siguientes problemas conocidos:
 
 * Los atajos ctrl+alt+supr y windows+l se pueden usar incluso con el teclado
   bloqueado.
-* NVDA desbloquea el teclado y otros métodos de entrada cuando el ordenador
-  se despierta del modo suspensión o se restaura la sesión desde la pantalla
-  de bloqueo de Windows.
 * En algunos portátiles, el touchpad todavía acepta entrada del usuario
   después de bloquear el ratón.
 
 ## Registro de cambios
+
+### Versión 1.10
+
+* Se han actualizado los indicadores de compatibilidad con versiones
+  recientes de NVDA.
+* Traducciones actualizadas.
+* Actualizada la documentación.
+* Ahora, la versión mínima soportada es la 2021.3.
+* La entrada permanecerá bloqueada después de salir de la
+  suspensión. Gracias a Javi Domínguez.
 
 ### Versión 1.9
 
