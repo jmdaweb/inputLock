@@ -1,7 +1,7 @@
 # Input Lock addon for NVDA
 # This file is covered by the GNU General Public License.
 # See the file COPYING.txt for more details.
-# Copyright (C) 2022 Jose Manuel Delicado <jmdaweb@hotmail.com>
+# Copyright (C) 2022 Jose Manuel Delicado <jm.delicado@nvda.es>
 import globalPluginHandler
 import globalCommands
 import addonHandler
