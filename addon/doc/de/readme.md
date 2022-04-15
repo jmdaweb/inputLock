@@ -1,7 +1,7 @@
 # Eingabesperre #
 
 * Autor: Jose Manuel Delicado
-* NVDA compatibility: 2021.3 and beyond
+* NVDA-Kompatibilität: Ab 2021.3
 * [Stabile Version herunterladen][1]
 
 ## Einführung
@@ -60,9 +60,9 @@ Folgende und bekannte Probleme:
 * Es wurde die Kompatibilität mit den neuesten NVDA-Versionen aktualisiert.
 * Aktualisierte Übersetzungen.
 * Aktualisierte Dokumentation.
-* Now, minimum supported version is 2021.3.
-* The input will remain blocked after waking up from standby mode. Thanks to
-  Javi Dominguez.
+* Es wird mindestens die Version 2021.3 unterstützt.
+* Die Eingabe bleibt nach dem Aufwachen aus dem Standby-Modus
+  blockiert. Dank an Javi Dominguez.
 
 ### Version 1.9
 
