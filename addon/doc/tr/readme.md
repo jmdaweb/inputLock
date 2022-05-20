@@ -1,7 +1,7 @@
 # Girdi Kilidi #
 
 * Yazar: Jose Manuel Delicado
-* NVDA compatibility: 2021.3 and beyond
+* NVDA uyumluluğu: 2021.3 ve sonrası
 * [kararlı sürüm][1]ü indir
 
 ## Giriş
@@ -51,14 +51,14 @@ Girdi Kilidi aşağıdaki bilinen sorunlara sahiptir:
 
 ## Değişiklik Listesi
 
-### Version 1.10
+### Sürüm 1.10
 
 * En son NVDA sürümleri için uyumluluk güncellemesi.
 * Çeviriler güncellendi.
 * dokümantasyon güncellendi.
-* Now, minimum supported version is 2021.3.
-* The input will remain blocked after waking up from standby mode. Thanks to
-  Javi Dominguez.
+* Şimdi, desteklenen minimum sürüm 2021.3.
+* Bekleme modundan uyandıktan sonra girişler engellenmeye devam
+  edecektir. Javi Dominguez'e teşekkürler.
 
 ### Sürüm 1.9
 
