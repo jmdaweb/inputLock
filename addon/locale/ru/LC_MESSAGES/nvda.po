@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: 'inputLock' '1.10'\n"
 "Report-Msgid-Bugs-To: 'nvda-translations@groups.io'\n"
 "POT-Creation-Date: 2022-05-15 16:13+0400\n"
-"PO-Revision-Date: 2022-05-15 16:24+0400\n"
+"PO-Revision-Date: 2022-05-21 15:59+0400\n"
 "Last-Translator: Dragan Ratkovich\n"
 "Language-Team: \n"
 "Language: ru\n"
@@ -32,9 +32,8 @@ msgid "Block clicks when mouse is locked"
 msgstr "Блокировать щелчки, когда мышь заблокирована"
 
 #. TRANSLATORS: The configuration option in NVDA Preferences menu
-#, fuzzy
 msgid "Input lock settings..."
-msgstr "Настройки блокировки ввода"
+msgstr "Настройки блокировки ввода..."
 
 #, fuzzy
 msgid "Change input lock settings"
