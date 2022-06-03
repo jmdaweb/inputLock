@@ -17,9 +17,9 @@ Kun tämä lisäosa on asennettuna, voit lukita näppäimistön, kosketusnäytö
 
 ## Käyttö
 
-Tämä lisäosa lisää NVDA:han kaksi syötekomentoa. Niihin ei ole liitetty
+Tämä lisäosa lisää NVDA:han kaksi näppäinkomentoa. Niihin ei ole määritetty
 oletusarvoisesti näppäinkomentoja, joten ne on määritettävä
-Syötekomennot-valintaikkunasta. Katso lisätietoja NVDA:n käyttöoppaasta.
+Näppäinkomennot-valintaikkunasta. Katso lisätietoja NVDA:n käyttöoppaasta.
 
 Kun painat syöttölukon tilanvaihtokomentoa, NVDA sanoo "Syöttö
 lukittu". Syöttölaitteiden käyttö estetään, kunnes painat uudelleen samaa
@@ -88,8 +88,7 @@ Syöttölukossa on seuraavia tunnettuja ongelmia:
 
 ### Versio 1.4
 
-* Lisäosan syötekomentoihin ei ole määritelty oletusarvoisesti
-  näppäinkomentoja.
+* Lisäosan komentoihin ei ole määritelty oletusarvoisesti näppäinkomentoja.
 
 ### Versio 1.3
 

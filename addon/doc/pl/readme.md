@@ -1,7 +1,7 @@
 # Input Lock #
 
 * Autor: Jose Manuel Delicado
-* NVDA compatibility: 2021.3 and beyond
+* Zgodność z NVDA: 2021.3 i później
 * Pobierz [wersja stabilna][1]
 
 ## Opis
@@ -39,47 +39,47 @@ określić, czy mysz ma być automatycznie blokowana po starcie NVDa, czy nie.
 Uwaga! Jeśli kliknięcia myszy są zablokowane, polecenia NVDA dotyczące myszy
 również nie działają.
 
-## Limitations and known problems
+## Ograniczenia i znane problemy
 
-Input Lock has the following known problems:
+Blokada wejścia ma następujące znane problemy:
 
-* The shortcuts control+alt+del and windows+l can be used even when the
-  keyboard is locked.
-* On some laptops, the touchpad still accepts user input after mouse is
-  blocked.
+* Skróty control+alt+del i windows+l mogą być używane nawet wtedy, gdy
+  klawiatura jest zablokowana.
+* Na niektórych laptopach touchpad nadal akceptuje dane wejściowe
+  użytkownika po zablokowaniu myszy.
 
 ## Lista zmian
 
-### Version 1.10
+### Wersja 1.10
 
-* Updated compatibility flags for recent NVDA versions.
-* Updated translations.
-* Updated documentation.
-* Now, minimum supported version is 2021.3.
-* The input will remain blocked after waking up from standby mode. Thanks to
-  Javi Dominguez.
+* Dodano zgodność z najnowszymi wersjami NVDA.
+* Zaktualizowane tłumaczenia.
+* Zaktualizowana dokumentacja.
+* Teraz minimalna obsługiwana wersja to 2021.3.
+* Wejście pozostanie zablokowane po wybudzeniu z trybu
+  gotowości. Podziękowania dla Javiego Domingueza.
 
-### Version 1.9
+### Wersja 1.9
 
-* Updated compatibility flags for recent NVDA versions.
-* Updated translations.
-* Updated documentation.
+* Dodano zgodność z najnowszymi wersjami NVDA.
+* Zaktualizowane tłumaczenia.
+* Zaktualizowana dokumentacja.
 
-### Version 1.8
+### Wersja 1.8
 
-* Updated compatibility flags for recent NVDA versions.
-* Updated translations.
+* Dodano zgodność z najnowszymi wersjami NVDA.
+* Zaktualizowane tłumaczenia.
 
-### Version 1.7
+### Wersja 1.7
 
-* Updated compatibility flags for recent NVDA versions.
-* Updated translations.
+* Dodano zgodność z najnowszymi wersjami NVDA.
+* Zaktualizowane tłumaczenia.
 
-### Version 1.6
+### Wersja 1.6
 
-* Now, settings are removed only when the add-on is
-  uninstalled. Configuration is nolonger reset when upgrading.
-* New and updated translations.
+* Od teraz ustawienia usuwają się tylko po odinstalowaniu dodatku. Ponadto,
+  nie resetują się już po aktualizacji.
+* Nowe i zaktualizowane tłumaczenia.
 
 ### Wersja 1.5
 
@@ -97,13 +97,13 @@ Input Lock has the following known problems:
 * Dodano możliwość blokowania myszy przy starcie NVDA.
 * Dodano możliwość blokowania kliknięć myszy, kiedy sama mysz jest już
   zablokowana.
-* Naprawiono pewne niewielkie błędy. Poprawiono optymalizację kodu
-  źródłowego oraz usunięto zdublowane fragmenty tłumaczenia.
+* Naprawiono małe błędy, niektóre optymalizacje kodu i mniej zduplikowanych
+  ciągów dla tłumaczy
 
 ### Wersja 1.2
 
-* Od teraz zablokować można również mysz.
-* Nowe polecenie służące do blokowania i odblokowywania wyłącznie myszy.
+* Teraz mysz może być również zablokowana
+* Nowe polecenie blokowania i odblokowywania tylko myszy
 
 ### Wersja 1.1
 
