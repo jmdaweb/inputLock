@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: 'inputLock' '1.10'\n"
 "Report-Msgid-Bugs-To: 'nvda-translations@groups.io'\n"
 "POT-Creation-Date: 2022-05-15 15:38+0400\n"
-"PO-Revision-Date: 2022-05-29 13:48+0400\n"
+"PO-Revision-Date: 2022-07-23 14:40+0400\n"
 "Last-Translator: Dragan Ratkovich\n"
 "Language-Team: \n"
 "Language: ka\n"
@@ -16,11 +16,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 3.0.1\n"
+"X-Generator: Poedit 3.1.1\n"
 
 #. TRANSLATORS: Settings dialog and/or panel title
 msgid "Input lock settings"
-msgstr "Input lock-ის პარამეტრები"
+msgstr "შეყვანის დაბლოკვის პარამეტრები"
 
 #. TRANSLATORS: block mouse at startup checkbox
 msgid "Block mouse when NVDA is started"
@@ -32,11 +32,10 @@ msgstr "მაუსის დაბლოკვისას დაწკაპ�
 
 #. TRANSLATORS: The configuration option in NVDA Preferences menu
 msgid "Input lock settings..."
-msgstr "Input lock-ის პარამეტრები..."
+msgstr "შეყვანის დაბლოკვის პარამეტრები..."
 
-#, fuzzy
 msgid "Change input lock settings"
-msgstr "Input lock-ის პარამეტრები"
+msgstr "შეყვანის დაბლოკვის პარამეტრების შეცვლა"
 
 #. TRANSLATORS: message spoken when the input is locked
 msgid "Input locked"
