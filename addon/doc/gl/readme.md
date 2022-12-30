@@ -1,7 +1,7 @@
 # Input Lock #
 
 * Autor: Jose Manuel Delicado
-* NVDA compatibility: 2021.3 and beyond
+* Compatibilidade con NVDA: 2021.3 en diante
 * Descargar [versión estable][1]
 
 ## Introdución
@@ -49,13 +49,13 @@ Input Lock ten os seguintes problemas coñecidos:
 
 ## Rexistro de trocos
 
-### Version 1.10
+### Versión 1.10
 
 * Actualizadas as marcas de compatibilidade para versións recentes de NVDA.
 * Traducións actualizadas.
 * Documentación actualizada.
-* Now, minimum supported version is 2021.3.
-* The input will remain blocked after waking up from standby mode. Thanks to
+* Agora, a versión mínima soportada é a 2021.3.
+* A entrada seguirá bloqueada tras volver do modo de suspensión. Grazas a
   Javi Dominguez.
 
 ### Versión 1.9
