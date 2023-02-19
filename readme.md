@@ -27,6 +27,13 @@ Input Lock has the following known problems:
 
 ## Changelog
 
+### Version 1.11
+
+* Updated compatibility flags for recent NVDA versions.
+* Updated translations.
+* Updated documentation.
+* Now, minimum supported version is 2022.4.
+
 ### Version 1.10
 
 * Updated compatibility flags for recent NVDA versions.
