@@ -57,7 +57,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 
 	def mouseCapture(self, msg, x, y, injected):
 		if msg in allowedMouseActions and not self.locked and\
-		   not config.conf['inputlock']['blockClicks']:
+		not config.conf['inputlock']['blockClicks']:
 			return mouseCallbackFunc(msg, x, y, injected)
 		else:
 			if self.mouseLocked and not self.locked:
