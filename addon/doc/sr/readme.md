@@ -1,7 +1,7 @@
 # Zaključavanje unosa #
 
 * Autor: Jose Manuel Delicado
-* NVDA compatibility: 2021.3 and beyond
+* NVDA compatibility: 2022.4 and beyond
 * Preuzmi [stabilnu verziju][1]
 
 ## Uvod
@@ -48,6 +48,12 @@ Input Lock has the following known problems:
   blocked.
 
 ## Promene
+
+### Version 1.11
+
+* Ažurirani parametri kompatibilnosti za najnovije NVDA verzije.
+* Ažurirani prevodi.
+* Now, minimum supported version is 2022.4.
 
 ### Version 1.10
 

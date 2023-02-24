@@ -1,7 +1,7 @@
 # Inputlås #
 
 * Forfatter: Jose Manuel Delicado
-* NVDA-kompatibilitet: 2021.3 og senere
+* NVDA compatibility: 2022.4 and beyond
 * Download [stabil version][1]
 
 ## Introduktion
@@ -48,6 +48,12 @@ Inputlås har følgende kendte problemer:
   efter at musen er blokeret.
 
 ## Ændringslog
+
+### Version 1.11
+
+* Opdaterede kompatibilitetsflag til nyere NVDA-versioner.
+* Opdaterede oversættelser.
+* Now, minimum supported version is 2022.4.
 
 ### Version 1.10
 

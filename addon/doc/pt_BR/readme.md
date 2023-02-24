@@ -1,7 +1,7 @@
 # Bloqueio de Entrada (Input Lock) #
 
 * Autor: José Manuel Delicado
-* NVDA compatibility: 2021.3 and beyond
+* NVDA compatibility: 2022.4 and beyond
 * Baixe a [versão estável][1]
 
 ## Introdução
@@ -50,6 +50,13 @@ Bloqueio de Entrada tem os seguintes problemas conhecidos:
   mouse é bloqueado.
 
 ## Registro de mudanças (Changelog)
+
+### Version 1.11
+
+* Adicionado sinalizadores (flags) de compatibilidade com as versões
+  recentes do NVDA.
+* Traduções atualizadas.
+* Now, minimum supported version is 2022.4.
 
 ### Version 1.10
 

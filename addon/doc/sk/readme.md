@@ -1,7 +1,7 @@
 # Blokovanie vstupu #
 
 * Autor: Jose Manuel Delicado
-* NVDA compatibility: 2021.3 and beyond
+* NVDA compatibility: 2022.4 and beyond
 * Stiahnuť [stabilnú verziu][1]
 
 ## Úvod
@@ -41,6 +41,12 @@ Input Lock has the following known problems:
   blocked.
 
 ## Zmeny
+
+### Version 1.11
+
+* Upravené požiadavky kompatibility pre aktuálne verzie NVDA.
+* Aktualizované preklady.
+* Now, minimum supported version is 2022.4.
 
 ### Version 1.10
 

@@ -1,7 +1,7 @@
 # Input Lock #
 
 * Autor: José Manuel Delicado
-* NVDA compatibility: 2021.3 and beyond
+* NVDA compatibility: 2022.4 and beyond
 * Descărcați [versiunea stabilă][1]
 
 ## Introducere
@@ -50,6 +50,12 @@ Input Lock has the following known problems:
   blocked.
 
 ## Jurnal de modificări
+
+### Version 1.11
+
+* S-a adăugat compatibilitatea cu versiunile recente de NVDA.
+* Traduceri actualizate.
+* Now, minimum supported version is 2022.4.
 
 ### Version 1.10
 

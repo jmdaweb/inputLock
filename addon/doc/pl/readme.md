@@ -1,7 +1,7 @@
 # Input Lock #
 
 * Autor: Jose Manuel Delicado
-* Zgodność z NVDA: 2021.3 i później
+* NVDA compatibility: 2022.4 and beyond
 * Pobierz [wersja stabilna][1]
 
 ## Opis
@@ -49,6 +49,12 @@ Blokada wejścia ma następujące znane problemy:
   użytkownika po zablokowaniu myszy.
 
 ## Lista zmian
+
+### Version 1.11
+
+* Dodano zgodność z najnowszymi wersjami NVDA.
+* Zaktualizowane tłumaczenia.
+* Now, minimum supported version is 2022.4.
 
 ### Wersja 1.10
 

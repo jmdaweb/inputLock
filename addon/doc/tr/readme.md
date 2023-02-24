@@ -1,7 +1,7 @@
 # Girdi Kilidi #
 
 * Yazar: Jose Manuel Delicado
-* NVDA uyumluluğu: 2021.3 ve sonrası
+* NVDA compatibility: 2022.4 and beyond
 * [kararlı sürüm][1]ü indir
 
 ## Giriş
@@ -50,6 +50,12 @@ Girdi Kilidi aşağıdaki bilinen sorunlara sahiptir:
   yüzey yine de kullanıcı girişini kabul eder.
 
 ## Değişiklik Listesi
+
+### Version 1.11
+
+* En son NVDA sürümleri için uyumluluk güncellemesi.
+* Çeviriler güncellendi.
+* Now, minimum supported version is 2022.4.
 
 ### Sürüm 1.10
 
