@@ -1,7 +1,7 @@
 # قفل ورودی‌ها (Input Lock) #
 
 * نویسنده: Jose Manuel Delicado
-* NVDA compatibility: 2021.3 and beyond
+* NVDA compatibility: 2022.4 and beyond
 * دانلود [نسخه‌ی پایدار][1]
 
 ## مقدمه
@@ -49,6 +49,12 @@ Input Lock has the following known problems:
   blocked.
 
 ## فهرست تغییرات
+
+### Version 1.11
+
+* Updated compatibility flags for recent NVDA versions.
+* Updated translations.
+* Now, minimum supported version is 2022.4.
 
 ### Version 1.10
 

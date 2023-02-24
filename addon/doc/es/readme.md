@@ -1,7 +1,7 @@
 # Input Lock #
 
 * Autor: José Manuel Delicado
-* Compatibilidad con NVDA: de 2021.3 en adelante
+* Compatibilidad con NVDA: de 2022.4 en adelante
 * Descargar [versión estable][1]
 
 ## Introducción
@@ -49,6 +49,13 @@ Bloqueo de entrada tiene los siguientes problemas conocidos:
   después de bloquear el ratón.
 
 ## Registro de cambios
+
+### Versión 1.11
+
+* Se han actualizado los indicadores de compatibilidad con versiones
+  recientes de NVDA.
+* Traducciones actualizadas.
+* Ahora, la versión mínima soportada es la 2022.4.
 
 ### Versión 1.10
 

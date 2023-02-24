@@ -1,7 +1,7 @@
 # Input Lock #
 
 * Auteur : Jose Manuel Delicado
-* NVDA compatibility: 2021.3 and beyond
+* NVDA compatibility: 2022.4 and beyond
 * Télécharger [version stable][1]
 
 ## Introduction
@@ -54,6 +54,13 @@ Input Lock présente les problèmes suivants :
   l'utilisateur après verrouillage de la souris.
 
 ## Journal des Changements
+
+### Version 1.11
+
+* Les indicateurs de compatibilité ont été mis à jour avec les versions
+  récentes de NVDA.
+* Traductions mises à jour.
+* Now, minimum supported version is 2022.4.
 
 ### Version 1.10
 

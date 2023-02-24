@@ -1,7 +1,7 @@
 # Syöttölukko #
 
 * Tekijä: Jose Manuel Delicado
-* Yhteensopivuus: NVDA 2021.3 ja uudemmat
+* Yhteensopivuus: NVDA 2022.4 ja uudemmat
 * Lataa [vakaa versio][1]
 
 ## Johdanto
@@ -49,6 +49,12 @@ Syöttölukossa on seuraavia tunnettuja ongelmia:
   kannettavissa käyttäjän syötteen.
 
 ## Muutosloki
+
+### Versio 1.11
+
+* Yhteensopivuusliput päivitetty uusimmille NVDA-versioille.
+* Käännöksiä päivitetty.
+* Vanhin tuettu versio on nyt 2022.4.
 
 ### Versio 1.10
 

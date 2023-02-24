@@ -1,7 +1,7 @@
 # Khóa đầu vào #
 
 * Tác giả: Jose Manuel Delicado
-* NVDA compatibility: 2021.3 and beyond
+* NVDA compatibility: 2022.4 and beyond
 * Tải về [phiên bản chính thức][1]
 
 ## Giới thiệu
@@ -47,6 +47,12 @@ Input Lock has the following known problems:
   blocked.
 
 ## Bản ghi các thay đổi
+
+### Version 1.11
+
+* Thêm tương thích cho các bản phát hành gần đây của NVDA.
+* Cập nhật các bản phiên dịch.
+* Now, minimum supported version is 2022.4.
 
 ### Version 1.10
 

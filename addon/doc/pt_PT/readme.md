@@ -1,7 +1,7 @@
 # Bloqueio de entrada #
 
 * Autor: José Manuel Delicado
-* NVDA compatibility: 2021.3 and beyond
+* NVDA compatibility: 2022.4 and beyond
 * Baixar [versão estável][1]
 
 ## Introdução
@@ -50,6 +50,12 @@ Este extra tem os seguintes problemas conhecidos:
   utilizador depois de o rato ser bloqueado.
 
 ## Mudanças:
+
+### Version 1.11
+
+* Adicionadas etiquetas de compatibilidade com as versões recentes do NVDA
+* Actualização de traduções
+* Now, minimum supported version is 2022.4.
 
 ### Version 1.10
 

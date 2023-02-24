@@ -1,7 +1,7 @@
 # Eingabesperre #
 
 * Autor: Jose Manuel Delicado
-* NVDA-Kompatibilität: Ab 2021.3
+* NVDA compatibility: 2022.4 and beyond
 * [Stabile Version herunterladen][1]
 
 ## Einführung
@@ -54,6 +54,12 @@ Folgende und bekannte Probleme:
   nachdem die Maus blockiert wurde.
 
 ## Änderungen
+
+### Version 1.11
+
+* Es wurde die Kompatibilität mit den neuesten NVDA-Versionen aktualisiert.
+* Aktualisierte Übersetzungen.
+* Now, minimum supported version is 2022.4.
 
 ### Version 1.10
 
