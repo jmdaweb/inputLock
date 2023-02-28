@@ -42,6 +42,12 @@ This gesture can be changed from Input Gestures dialog."""),
 	# and for development releases, use "dev".)
 	# Do not change unless you know what you are doing!
 	"addon_updateChannel" : None,
+	# Add-on license such as GPL 2
+	"addon_license": "GPL 2",
+	# URL for the license document the ad-on is licensed under
+	"addon_licenseURL": "https://www.gnu.org/licenses/old-licenses/gpl-2.0.html",
+	# URL for the add-on repository where the source code can be found
+	"addon_sourceURL": "https://github.com/jmdaweb/inputLock",
 }
 
 # Define the python files that are the sources of your add-on.
