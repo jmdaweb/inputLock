@@ -121,4 +121,4 @@ Syöttölukossa on seuraavia tunnettuja ongelmia:
 
 [[!tag dev stable]]
 
-[1]: https://addons.nvda-project.org/files/get.php?file=inputlock
+[1]: https://addons.nvda-project.org/files/get.php?file=inputLock

@@ -1,7 +1,7 @@
 # Zaključaj unos (Input Lock) #
 
 * Autor: Jose Manuel Delicado
-* NVDA compatibility: 2022.4 and beyond
+* NVDA kompatibilnost: 2022.4 i novije verzije
 * Preuzmi [stabilnu verziju][1]
 
 ## Uvod
@@ -48,11 +48,11 @@ NVDA gestu za rad s mišem.
 
 ## Promjene
 
-### Version 1.11
+### Verzija 1.11
 
 * Ažurirani problemi kompatibilnosti za nedavne NVDA verzije.
 * Ažurirani prijevodi.
-* Now, minimum supported version is 2022.4.
+* Sada je najmanja podržana verzija 2022.4.
 
 ### Verzija 1.10
 
@@ -119,4 +119,4 @@ NVDA gestu za rad s mišem.
 
 [[!tag dev stable]]
 
-[1]: https://addons.nvda-project.org/files/get.php?file=inputlock
+[1]: https://addons.nvda-project.org/files/get.php?file=inputLock
