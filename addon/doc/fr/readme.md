@@ -36,10 +36,10 @@ gestes de NVDA pour la déplacer et cliquer avec les boutons gauche et droit,
 mais vous ne pouvez pas déplacer la souris elle-même. Les clics de souris
 peuvent également être désactivés à partir de la catégorie Input lock dans
 le dialogue Paramètres de NVDA (NVDA 2018.2 et versions ultérieures) ou dans
-le dialogue Paramètres du module complémentaire pour les versions
-antérieures, disponibles dans le menu Préférences. De plus, à partir de ces
-paramètres, vous pouvez contrôler si la souris se verrouille au démarrage ou
-non de NVDA.
+le dialogue Paramètres de l'extension pour les versions antérieures,
+disponibles dans le menu Préférences. De plus, à partir de ces paramètres,
+vous pouvez contrôler si la souris se verrouille au démarrage ou non de
+NVDA.
 
 Remarque : lorsque les clics de souris sont bloqués, vous ne pouvez utiliser
 aucun geste de NVDA pour travailler avec la souris.
