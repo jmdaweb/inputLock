@@ -1,7 +1,7 @@
 # Input Lock #
 
 * Autor: Jose Manuel Delicado
-* NVDA compatibility: 2022.4 and beyond
+* Zgodność z NVDA: 2022.4 i nowsze
 * Pobierz [wersja stabilna][1]
 
 ## Opis
@@ -50,11 +50,11 @@ Blokada wejścia ma następujące znane problemy:
 
 ## Lista zmian
 
-### Version 1.11
+### Wersja 1.11
 
 * Dodano zgodność z najnowszymi wersjami NVDA.
 * Zaktualizowane tłumaczenia.
-* Now, minimum supported version is 2022.4.
+* Teraz minimalna obsługiwana wersja to 2022.4.
 
 ### Wersja 1.10
 
