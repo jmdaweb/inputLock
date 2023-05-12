@@ -1,7 +1,7 @@
 # Eingabesperre #
 
 * Autor: Jose Manuel Delicado
-* NVDA compatibility: 2022.4 and beyond
+* NVDA-Kompatibilität: 2022.4 oder neuer
 * [Stabile Version herunterladen][1]
 
 ## Einführung
@@ -59,7 +59,7 @@ Folgende und bekannte Probleme:
 
 * Es wurde die Kompatibilität mit den neuesten NVDA-Versionen aktualisiert.
 * Aktualisierte Übersetzungen.
-* Now, minimum supported version is 2022.4.
+* Mindestens Version 2022.4 wird unterstützt.
 
 ### Version 1.10
 
