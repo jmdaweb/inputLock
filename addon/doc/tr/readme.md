@@ -1,7 +1,7 @@
 # Girdi Kilidi #
 
 * Yazar: Jose Manuel Delicado
-* NVDA compatibility: 2022.4 and beyond
+* NVDA uyumluluğu: 2022.4 ve sonrası
 * [kararlı sürüm][1]ü indir
 
 ## Giriş
@@ -51,17 +51,17 @@ Girdi Kilidi aşağıdaki bilinen sorunlara sahiptir:
 
 ## Değişiklik Listesi
 
-### Version 1.11
+### Sürüm 1.11
 
 * En son NVDA sürümleri için uyumluluk güncellemesi.
 * Çeviriler güncellendi.
-* Now, minimum supported version is 2022.4.
+* Şimdi, desteklenen minimum sürüm 2022.4.
 
 ### Sürüm 1.10
 
 * En son NVDA sürümleri için uyumluluk güncellemesi.
 * Çeviriler güncellendi.
-* dokümantasyon güncellendi.
+* Dokümantasyon güncellendi.
 * Şimdi, desteklenen minimum sürüm 2021.3.
 * Bekleme modundan uyandıktan sonra girişler engellenmeye devam
   edecektir. Javi Dominguez'e teşekkürler.
@@ -70,7 +70,7 @@ Girdi Kilidi aşağıdaki bilinen sorunlara sahiptir:
 
 * En son NVDA sürümleri için uyumluluk güncellemesi.
 * Çeviriler güncellendi.
-* dokümantasyon güncellendi.
+* Dokümantasyon güncellendi.
 
 ### Sürüm 1.8
 
