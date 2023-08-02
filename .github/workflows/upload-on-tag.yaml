@@ -22,10 +22,10 @@ jobs:
         sudo apt install gettext
     - name: Build pot template
       run: scons pot
-    - name: Calculate sha256
-      run: sha256sum *.nvda-addon >> changelog.md
     - name: Build add-on
       run: scons
+    - name: Calculate sha256
+      run: sha256sum *.nvda-addon >> changelog.md
     - name: Release
       uses: softprops/action-gh-release@v1
       env:
