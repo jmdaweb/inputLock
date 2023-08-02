@@ -20,6 +20,10 @@ jobs:
         pip install scons markdown
         sudo apt update
         sudo apt install gettext
+    - name: Build pot template
+      run: scons pot
+    - name: Calculate sha256
+      run: sha256sum *.nvda-addon >> changelog.md
     - name: Build add-on
       run: scons
     - name: Release
@@ -29,5 +33,7 @@ jobs:
       with:
         files: |
           *.nvda-addon
+          *.json
+          *.pot
         body_path: changelog.md
         prerelease: ${{ endsWith(github.ref, '-dev') }}
