@@ -13,10 +13,12 @@ import winUser
 import config
 from gui import guiHelper
 import wx
+import versionInfo
 from gui import NVDASettingsDialog
 from gui.settingsDialogs import SettingsPanel
 from scriptHandler import script
 addonHandler.initTranslation()
+speakOnDemand = {"speakOnDemand": True} if versionInfo.version_year >= 2024 else {}
 
 confspec = {
 	"blockMouseAtStartup": "boolean(default=false)",
@@ -95,7 +97,8 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 	@script(
 		# TRANSLATORS: gesture description for Input gestures dialog
 		description=_("Toggle input lock"),
-		category=globalCommands.SCRCAT_INPUT)
+		category=globalCommands.SCRCAT_INPUT,
+		**speakOnDemand)
 	def script_inputLock(self, gesture):
 		self.locked = not self.locked
 		self.gesture = gesture
@@ -118,7 +121,8 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 	@script(
 		# TRANSLATORS: gesture description for Input gestures dialog
 		description=_("Toggle mouse lock"),
-		category=globalCommands.SCRCAT_INPUT)
+		category=globalCommands.SCRCAT_INPUT,
+		**speakOnDemand)
 	def script_mouseLock(self, gesture):
 		self.mouseLocked = not self.mouseLocked
 		if self.mouseLocked:
