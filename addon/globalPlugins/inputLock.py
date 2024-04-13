@@ -9,8 +9,8 @@ import ui
 import inputCore
 import mouseHandler
 import winInputHook
-import winreg
 import winUser
+import winreg
 import config
 from gui import guiHelper
 from keyboardHandler import KeyboardInputGesture
@@ -35,6 +35,7 @@ allowedMouseActions = [
 	mouseHandler.WM_RBUTTONUP]
 mouseCallbackFunc = None
 
+
 def getTouchpadStatus():
 	"""
 	Returns the status of the Precision Touchpad.
@@ -43,11 +44,13 @@ def getTouchpadStatus():
 		bool: True if the touchpad is enabled, False if disabled.
 		None: If there's an error accessing the registry.
 	"""
+	path = r"SOFTWARE\Microsoft\Windows\CurrentVersion\PrecisionTouchPad\Status"
 	try:
-		with winreg.OpenKey(winreg.HKEY_CURRENT_USER, r"SOFTWARE\Microsoft\Windows\CurrentVersion\PrecisionTouchPad\Status") as key:
+		with winreg.OpenKey(winreg.HKEY_CURRENT_USER, path) as key:
 			return bool(winreg.QueryValueEx(key, "Enabled")[0])
 	except FileNotFoundError:
 		return None
+
 
 class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 
@@ -156,9 +159,16 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		**speakOnDemand)
 	def script_SwitchTouchpad(self, gesture):
 		if getTouchpadStatus() is None:
-			return ui.message(_("not support"))
+			# TRANSLATORS: message spoken when the touchpad lock is not supported
+			ui.message(_("not support"))
+			return
 		KeyboardInputGesture.fromName("windows+control+f24").send()
-		ui.message(_("Touchpad unlocked") if getTouchpadStatus() else _("Touchpad locked"))
+		if getTouchpadStatus():
+			# TRANSLATORS: message spoken when the touchpad is unlocked
+			ui.message(_("Touchpad unlocked"))
+		else:
+			# TRANSLATORS: message spoken when the touchpad is locked
+			ui.message(_("Touchpad locked"))
 
 
 class inputLockPanel(SettingsPanel):
