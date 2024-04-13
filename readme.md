@@ -6,13 +6,15 @@
 
 Do you have kids or pets at home? Do you have a cat and It likes very much climbing your table and walking over your keyboard? Do you accidentally move the mouse to random parts in the screen while using your laptop? Then Input Lock is for you! You will be able to leave your computer alone and turned on without risk.
 
-Once installed, you will be able to lock your keyboard, touch screen, if your laptop has one, mouse and Braille display.
+Once installed, you will be able to lock your keyboard, touch screen (if your laptop has one), touchpad, mouse, and Braille display.
 
 ## Usage
 
-This addon adds two extra gestures to NVDA. By default they are unassigned, so you will have to configure them from Input gestures dialog. Read the NVDA User Guide for more information.
+This addon adds three extra gestures to NVDA. By default they are unassigned, so you will have to configure them from Input gestures dialog. Read the NVDA User Guide for more information.
 
 When you press the toggle input lock gesture, NVDA will say "Input locked". Your input devices will be blocked until you press the same gesture again. In that moment, NVDA will say "Input unlocked" and everything will work as usual.
+
+Locking the touchpad can prevent us from accidentally touching it, especially those who are used to using the laptop keyboard directly. When you press the toggle touchpad lock gesture, NVDA will say "Touchpad locked". Your touchpad will be blocked until you press the same gesture again. In that moment, NVDA will say "Touchpad unlocked" and everything will work as usual.
 
 If you press the toggle mouse block gesture, your mouse will be locked. Press this command again to unlock it. While mouse is locked, you can use NVDA gestures to move it, and click with left and right buttons, but You can't move the mouse itself. Mouse clicks can also be disabled from Input lock category in NVDA settings dialog (NVDA 2018.2 and later) or from add-on settings dialog for older versions, available under preferences menu. In addition, from these settings you can control wether mouse locks when NVDA is started or not.
 
@@ -23,7 +25,7 @@ Note: when mouse clicks are blocked, you can't use any NVDA gestures to work wit
 Input Lock has the following known problems:
 
 * The shortcuts control+alt+del and windows+l can be used even when the keyboard is locked.
-* On some laptops, the touchpad still accepts user input after mouse is blocked.
+* For gestures used to lock the touchpad, please try to assign a small number of key combination gestures. It is recommended to use NVDA+letters or numbers, Ctrl+F keys etc.
 
 ## Changelog
 
