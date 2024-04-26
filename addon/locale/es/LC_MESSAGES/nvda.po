@@ -9,13 +9,56 @@ msgstr ""
 "Report-Msgid-Bugs-To: nvda-translations@groups.io\n"
 "POT-Creation-Date: 2018-11-30 05:43+1000\n"
 "PO-Revision-Date: 2018-11-29 21:41+0100\n"
+"Last-Translator: José Manuel Delicado <jmdaweb@hotmail.com>\n"
+"Language-Team: \n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Last-Translator: José Manuel Delicado <jmdaweb@hotmail.com>\n"
-"Language-Team: \n"
 "X-Generator: Poedit 2.2\n"
+
+#. TRANSLATORS: gesture description for Input gestures dialog
+msgid "Toggle input lock"
+msgstr "Alternar bloqueo de entrada"
+
+#. TRANSLATORS: message spoken when the input is locked
+msgid "Input locked"
+msgstr "Entrada bloqueada"
+
+#. TRANSLATORS: message spoken when the input is unlocked
+msgid "Input unlocked"
+msgstr "Entrada desbloqueada"
+
+#. TRANSLATORS: gesture description for Input gestures dialog
+msgid "Toggle mouse lock"
+msgstr "Alternar bloqueo de ratón"
+
+#. TRANSLATORS: message spoken when the mouse is locked
+msgid "Mouse locked"
+msgstr "Ratón bloqueado"
+
+#. TRANSLATORS: message spoken when the mouse is unlocked
+msgid "Mouse unlocked"
+msgstr "Ratón desbloqueado"
+
+#. TRANSLATORS: gesture description for Input gestures dialog
+#, fuzzy
+msgid "Toggle touchpad lock"
+msgstr "Alternar bloqueo de ratón"
+
+#. TRANSLATORS: message spoken when the touchpad lock is not supported
+msgid "not support"
+msgstr ""
+
+#. TRANSLATORS: message spoken when the touchpad is unlocked
+#, fuzzy
+msgid "Touchpad unlocked"
+msgstr "Ratón desbloqueado"
+
+#. TRANSLATORS: message spoken when the touchpad is locked
+#, fuzzy
+msgid "Touchpad locked"
+msgstr "Ratón bloqueado"
 
 #. TRANSLATORS: Settings dialog and/or panel title
 msgid "Input lock settings"
@@ -29,44 +72,14 @@ msgstr "Bloquear el ratón cuando se inicie NVDA"
 msgid "Block clicks when mouse is locked"
 msgstr "Bloquear clics cuando el ratón esté bloqueado"
 
-#. TRANSLATORS: The configuration option in NVDA Preferences menu
-msgid "Input lock settings..."
-msgstr "Ajustes de bloqueo de entrada..."
-
-msgid "Change input lock settings"
-msgstr "Cambiar ajustes del bloqueo de entrada"
-
-#. TRANSLATORS: message spoken when the input is locked
-msgid "Input locked"
-msgstr "Entrada bloqueada"
-
-#. TRANSLATORS: message spoken when the input is unlocked
-msgid "Input unlocked"
-msgstr "Entrada desbloqueada"
-
-#. TRANSLATORS: gesture description for Input gestures dialog
-msgid "Toggle input lock"
-msgstr "Alternar bloqueo de entrada"
-
-#. TRANSLATORS: message spoken when the mouse is locked
-msgid "Mouse locked"
-msgstr "Ratón bloqueado"
-
-#. TRANSLATORS: message spoken when the mouse is unlocked
-msgid "Mouse unlocked"
-msgstr "Ratón desbloqueado"
-
-#. TRANSLATORS: gesture description for Input gestures dialog
-msgid "Toggle mouse lock"
-msgstr "Alternar bloqueo de ratón"
-
-#. Add-on description
-#. TRANSLATORS: Summary for this add-on to be shown on installation and add-on informaiton.
+#. Add-on summary, usually the user visible name of the addon.
+#. Translators: Summary for this add-on
+#. to be shown on installation and add-on information found in Add-ons Manager.
 msgid "Input lock"
 msgstr "Bloqueo de entrada"
 
 #. Add-on description
-#. Translators: Long description to be shown for this add-on on installation and add-on information
+#. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
 msgid ""
 " With this addon, you will be able to lock and unlock your input devices "
 "with a single gesture or key press.\n"
@@ -75,3 +88,9 @@ msgstr ""
 " Con este complemento, podrás bloquear y desbloquear tus dispositivos de "
 "entrada con un único gesto o combinación de teclado.\n"
 "Este gesto se puede modificar desde el diálogo gestos de entrada."
+
+#~ msgid "Input lock settings..."
+#~ msgstr "Ajustes de bloqueo de entrada..."
+
+#~ msgid "Change input lock settings"
+#~ msgstr "Cambiar ajustes del bloqueo de entrada"

@@ -18,6 +18,49 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Poedit 3.1.1\n"
 
+#. TRANSLATORS: gesture description for Input gestures dialog
+msgid "Toggle input lock"
+msgstr "შეყვანის დაბლოკვის გადართვა"
+
+#. TRANSLATORS: message spoken when the input is locked
+msgid "Input locked"
+msgstr "შეყვანა დაბლოკილია"
+
+#. TRANSLATORS: message spoken when the input is unlocked
+msgid "Input unlocked"
+msgstr "შეყვანა განბლოკილია"
+
+#. TRANSLATORS: gesture description for Input gestures dialog
+msgid "Toggle mouse lock"
+msgstr "მაუსის დაბლოკვის გადართვა"
+
+#. TRANSLATORS: message spoken when the mouse is locked
+msgid "Mouse locked"
+msgstr "მაუსი დაბლოკილია"
+
+#. TRANSLATORS: message spoken when the mouse is unlocked
+msgid "Mouse unlocked"
+msgstr "მაუსი განბლოკილია"
+
+#. TRANSLATORS: gesture description for Input gestures dialog
+#, fuzzy
+msgid "Toggle touchpad lock"
+msgstr "მაუსის დაბლოკვის გადართვა"
+
+#. TRANSLATORS: message spoken when the touchpad lock is not supported
+msgid "not support"
+msgstr ""
+
+#. TRANSLATORS: message spoken when the touchpad is unlocked
+#, fuzzy
+msgid "Touchpad unlocked"
+msgstr "მაუსი განბლოკილია"
+
+#. TRANSLATORS: message spoken when the touchpad is locked
+#, fuzzy
+msgid "Touchpad locked"
+msgstr "მაუსი დაბლოკილია"
+
 #. TRANSLATORS: Settings dialog and/or panel title
 msgid "Input lock settings"
 msgstr "შეყვანის დაბლოკვის პარამეტრები"
@@ -30,44 +73,14 @@ msgstr "NVDA-ს ჩართვისას მაუსის დაბლო�
 msgid "Block clicks when mouse is locked"
 msgstr "მაუსის დაბლოკვისას დაწკაპუნებების დაბლოკვა"
 
-#. TRANSLATORS: The configuration option in NVDA Preferences menu
-msgid "Input lock settings..."
-msgstr "შეყვანის დაბლოკვის პარამეტრები..."
-
-msgid "Change input lock settings"
-msgstr "შეყვანის დაბლოკვის პარამეტრების შეცვლა"
-
-#. TRANSLATORS: message spoken when the input is locked
-msgid "Input locked"
-msgstr "შეყვანა დაბლოკილია"
-
-#. TRANSLATORS: message spoken when the input is unlocked
-msgid "Input unlocked"
-msgstr "შეყვანა განბლოკილია"
-
-#. TRANSLATORS: gesture description for Input gestures dialog
-msgid "Toggle input lock"
-msgstr "შეყვანის დაბლოკვის გადართვა"
-
-#. TRANSLATORS: message spoken when the mouse is locked
-msgid "Mouse locked"
-msgstr "მაუსი დაბლოკილია"
-
-#. TRANSLATORS: message spoken when the mouse is unlocked
-msgid "Mouse unlocked"
-msgstr "მაუსი განბლოკილია"
-
-#. TRANSLATORS: gesture description for Input gestures dialog
-msgid "Toggle mouse lock"
-msgstr "მაუსის დაბლოკვის გადართვა"
-
-#. Add-on description
-#. TRANSLATORS: Summary for this add-on to be shown on installation and add-on informaiton.
+#. Add-on summary, usually the user visible name of the addon.
+#. Translators: Summary for this add-on
+#. to be shown on installation and add-on information found in Add-ons Manager.
 msgid "Input lock"
 msgstr "Input lock"
 
 #. Add-on description
-#. Translators: Long description to be shown for this add-on on installation and add-on information
+#. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
 msgid ""
 " With this addon, you will be able to lock and unlock your input devices "
 "with a single gesture or key press.\n"
@@ -76,3 +89,9 @@ msgstr ""
 " ამ დამატების საშუალებით, შეგიძლიათ დაბლოკოთ და განბლოკოთ თქვენი შეყვანის "
 "მოწყობილობები ერთი ჟესტითა თუ კლავიშთა კომბინაციით.\n"
 "ამ ჟესტის შეცვლა შესაძლებელია შეყვანის ჟესტების დიალოგურ ფანჯარაში.."
+
+#~ msgid "Input lock settings..."
+#~ msgstr "შეყვანის დაბლოკვის პარამეტრები..."
+
+#~ msgid "Change input lock settings"
+#~ msgstr "შეყვანის დაბლოკვის პარამეტრების შეცვლა"

@@ -17,6 +17,49 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 3.3.2\n"
 
+#. TRANSLATORS: gesture description for Input gestures dialog
+msgid "Toggle input lock"
+msgstr "Eingabensperre ein- und ausschalten"
+
+#. TRANSLATORS: message spoken when the input is locked
+msgid "Input locked"
+msgstr "Eingabe gesperrt"
+
+#. TRANSLATORS: message spoken when the input is unlocked
+msgid "Input unlocked"
+msgstr "Eingabe entsperrt"
+
+#. TRANSLATORS: gesture description for Input gestures dialog
+msgid "Toggle mouse lock"
+msgstr "Maus sperren und entsperren"
+
+#. TRANSLATORS: message spoken when the mouse is locked
+msgid "Mouse locked"
+msgstr "Maus gesperrt"
+
+#. TRANSLATORS: message spoken when the mouse is unlocked
+msgid "Mouse unlocked"
+msgstr "Maus entsperrt"
+
+#. TRANSLATORS: gesture description for Input gestures dialog
+#, fuzzy
+msgid "Toggle touchpad lock"
+msgstr "Maus sperren und entsperren"
+
+#. TRANSLATORS: message spoken when the touchpad lock is not supported
+msgid "not support"
+msgstr ""
+
+#. TRANSLATORS: message spoken when the touchpad is unlocked
+#, fuzzy
+msgid "Touchpad unlocked"
+msgstr "Maus entsperrt"
+
+#. TRANSLATORS: message spoken when the touchpad is locked
+#, fuzzy
+msgid "Touchpad locked"
+msgstr "Maus gesperrt"
+
 #. TRANSLATORS: Settings dialog and/or panel title
 msgid "Input lock settings"
 msgstr "Eingabesperre-Einstellungen"
@@ -29,50 +72,26 @@ msgstr "Maus blockieren, sobald NVDA gestartet wird"
 msgid "Block clicks when mouse is locked"
 msgstr "Blockiere Mausklicks, wenn die Maus gesperrt ist"
 
-#. TRANSLATORS: The configuration option in NVDA Preferences menu
-msgid "Input lock settings..."
-msgstr "Eingabesperre-Einstellungen..."
-
-msgid "Change input lock settings"
-msgstr "Eingabesperre-Einstellungen ändern"
-
-#. TRANSLATORS: message spoken when the input is locked
-msgid "Input locked"
-msgstr "Eingabe gesperrt"
-
-#. TRANSLATORS: message spoken when the input is unlocked
-msgid "Input unlocked"
-msgstr "Eingabe entsperrt"
-
-#. TRANSLATORS: gesture description for Input gestures dialog
-msgid "Toggle input lock"
-msgstr "Eingabensperre ein- und ausschalten"
-
-#. TRANSLATORS: message spoken when the mouse is locked
-msgid "Mouse locked"
-msgstr "Maus gesperrt"
-
-#. TRANSLATORS: message spoken when the mouse is unlocked
-msgid "Mouse unlocked"
-msgstr "Maus entsperrt"
-
-#. TRANSLATORS: gesture description for Input gestures dialog
-msgid "Toggle mouse lock"
-msgstr "Maus sperren und entsperren"
-
-#. Add-on description
-#. TRANSLATORS: Summary for this add-on to be shown on installation and add-on informaiton.
+#. Add-on summary, usually the user visible name of the addon.
+#. Translators: Summary for this add-on
+#. to be shown on installation and add-on information found in Add-ons Manager.
 msgid "Input lock"
 msgstr "Eingabesperre"
 
 #. Add-on description
-#. Translators: Long description to be shown for this add-on on installation and add-on information
+#. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
 msgid ""
 " With this addon, you will be able to lock and unlock your input devices "
 "with a single gesture or key press.\n"
 "This gesture can be changed from Input Gestures dialog."
 msgstr ""
-"Mit dieser NVDA-Erweiterung können Sie Ihre Eingabegeräte mit einer "
-"einzigen Geste oder Tastenkombination sperren und entsperren.\n"
+"Mit dieser NVDA-Erweiterung können Sie Ihre Eingabegeräte mit einer einzigen "
+"Geste oder Tastenkombination sperren und entsperren.\n"
 "Diese Geste kann im Dialogfeld für die Tastenbefehle in der Kategorie "
 "\"Eingaben\" angepasst werden."
+
+#~ msgid "Input lock settings..."
+#~ msgstr "Eingabesperre-Einstellungen..."
+
+#~ msgid "Change input lock settings"
+#~ msgstr "Eingabesperre-Einstellungen ändern"
