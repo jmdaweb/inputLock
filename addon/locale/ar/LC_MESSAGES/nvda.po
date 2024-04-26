@@ -9,13 +9,56 @@ msgstr ""
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2021-02-19 09:05+0000\n"
 "PO-Revision-Date: 2021-09-06 23:50+0300\n"
+"Last-Translator: Hatoon <h.felemban@hotmail.com>\n"
+"Language-Team: \n"
 "Language: ar\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Last-Translator: Hatoon <h.felemban@hotmail.com>\n"
-"Language-Team: \n"
 "X-Generator: Poedit 3.0\n"
+
+#. TRANSLATORS: gesture description for Input gestures dialog
+msgid "Toggle input lock"
+msgstr "تعطيلُ الإدخال"
+
+#. TRANSLATORS: message spoken when the input is locked
+msgid "Input locked"
+msgstr "الإدخال معطَّل"
+
+#. TRANSLATORS: message spoken when the input is unlocked
+msgid "Input unlocked"
+msgstr "تفعيل الإدخال"
+
+#. TRANSLATORS: gesture description for Input gestures dialog
+msgid "Toggle mouse lock"
+msgstr "تعطيلُ الفأرة"
+
+#. TRANSLATORS: message spoken when the mouse is locked
+msgid "Mouse locked"
+msgstr "الفأرة معطَّلة"
+
+#. TRANSLATORS: message spoken when the mouse is unlocked
+msgid "Mouse unlocked"
+msgstr "تفعيلُ الفأرة"
+
+#. TRANSLATORS: gesture description for Input gestures dialog
+#, fuzzy
+msgid "Toggle touchpad lock"
+msgstr "تعطيلُ الفأرة"
+
+#. TRANSLATORS: message spoken when the touchpad lock is not supported
+msgid "not support"
+msgstr ""
+
+#. TRANSLATORS: message spoken when the touchpad is unlocked
+#, fuzzy
+msgid "Touchpad unlocked"
+msgstr "تفعيلُ الفأرة"
+
+#. TRANSLATORS: message spoken when the touchpad is locked
+#, fuzzy
+msgid "Touchpad locked"
+msgstr "الفأرة معطَّلة"
 
 #. TRANSLATORS: Settings dialog and/or panel title
 msgid "Input lock settings"
@@ -29,44 +72,14 @@ msgstr "تعطيلُ الفأرة عند بدء NVDA"
 msgid "Block clicks when mouse is locked"
 msgstr "تعديلُ النقرات عندما تكون الفأرة معطّلة."
 
-#. TRANSLATORS: The configuration option in NVDA Preferences menu
-msgid "Input lock settings..."
-msgstr "إعداداتُ Input lock "
-
-msgid "Change input lock settings"
-msgstr "تغيير إعدادات input lock "
-
-#. TRANSLATORS: message spoken when the input is locked
-msgid "Input locked"
-msgstr "الإدخال معطَّل"
-
-#. TRANSLATORS: message spoken when the input is unlocked
-msgid "Input unlocked"
-msgstr "تفعيل الإدخال"
-
-#. TRANSLATORS: gesture description for Input gestures dialog
-msgid "Toggle input lock"
-msgstr "تعطيلُ الإدخال"
-
-#. TRANSLATORS: message spoken when the mouse is locked
-msgid "Mouse locked"
-msgstr "الفأرة معطَّلة"
-
-#. TRANSLATORS: message spoken when the mouse is unlocked
-msgid "Mouse unlocked"
-msgstr "تفعيلُ الفأرة"
-
-#. TRANSLATORS: gesture description for Input gestures dialog
-msgid "Toggle mouse lock"
-msgstr "تعطيلُ الفأرة"
-
-#. Add-on description
-#. TRANSLATORS: Summary for this add-on to be shown on installation and add-on informaiton.
+#. Add-on summary, usually the user visible name of the addon.
+#. Translators: Summary for this add-on
+#. to be shown on installation and add-on information found in Add-ons Manager.
 msgid "Input lock"
 msgstr "تعطيلُ الإدخال"
 
 #. Add-on description
-#. Translators: Long description to be shown for this add-on on installation and add-on information
+#. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
 msgid ""
 " With this addon, you will be able to lock and unlock your input devices "
 "with a single gesture or key press.\n"
@@ -75,3 +88,9 @@ msgstr ""
 "مع هذه الإضافة، ستغدو قادرًا على تفعيل أو تعطيل الإدخال عبر أجهزة الإدخال "
 "الخاصة بك بضغطة واحدة على مفتاح اختصار أو إيماءة.\n"
 "يمكن تغيير هذا الاختصار عبر مربّع حوار تخصيص اختصارات NVDA."
+
+#~ msgid "Input lock settings..."
+#~ msgstr "إعداداتُ Input lock "
+
+#~ msgid "Change input lock settings"
+#~ msgstr "تغيير إعدادات input lock "
