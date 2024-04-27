@@ -17,6 +17,49 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 3.2.2\n"
 
+#. TRANSLATORS: gesture description for Input gestures dialog
+msgid "Toggle input lock"
+msgstr "Перемкнути блокування введення"
+
+#. TRANSLATORS: message spoken when the input is locked
+msgid "Input locked"
+msgstr "Введення заблоковано"
+
+#. TRANSLATORS: message spoken when the input is unlocked
+msgid "Input unlocked"
+msgstr "Введення розблоковано"
+
+#. TRANSLATORS: gesture description for Input gestures dialog
+msgid "Toggle mouse lock"
+msgstr "Перемкнути блокування мишки"
+
+#. TRANSLATORS: message spoken when the mouse is locked
+msgid "Mouse locked"
+msgstr "Мишку заблоковано"
+
+#. TRANSLATORS: message spoken when the mouse is unlocked
+msgid "Mouse unlocked"
+msgstr "Мишку розблоковано"
+
+#. TRANSLATORS: gesture description for Input gestures dialog
+#, fuzzy
+msgid "Toggle touchpad lock"
+msgstr "Перемкнути блокування мишки"
+
+#. TRANSLATORS: message spoken when the touchpad lock is not supported
+msgid "not support"
+msgstr ""
+
+#. TRANSLATORS: message spoken when the touchpad is unlocked
+#, fuzzy
+msgid "Touchpad unlocked"
+msgstr "Мишку розблоковано"
+
+#. TRANSLATORS: message spoken when the touchpad is locked
+#, fuzzy
+msgid "Touchpad locked"
+msgstr "Мишку заблоковано"
+
 #. TRANSLATORS: Settings dialog and/or panel title
 msgid "Input lock settings"
 msgstr "Налаштування блокування введення"
@@ -29,49 +72,25 @@ msgstr "Блокувати мишку під час запуску NVDA"
 msgid "Block clicks when mouse is locked"
 msgstr "Блокувати клацання, коли мишку заблоковано"
 
-#. TRANSLATORS: The configuration option in NVDA Preferences menu
-msgid "Input lock settings..."
-msgstr "Налаштування блокування введення..."
-
-msgid "Change input lock settings"
-msgstr "Змінити налаштування блокування введення"
-
-#. TRANSLATORS: message spoken when the input is locked
-msgid "Input locked"
-msgstr "Введення заблоковано"
-
-#. TRANSLATORS: message spoken when the input is unlocked
-msgid "Input unlocked"
-msgstr "Введення розблоковано"
-
-#. TRANSLATORS: gesture description for Input gestures dialog
-msgid "Toggle input lock"
-msgstr "Перемкнути блокування введення"
-
-#. TRANSLATORS: message spoken when the mouse is locked
-msgid "Mouse locked"
-msgstr "Мишку заблоковано"
-
-#. TRANSLATORS: message spoken when the mouse is unlocked
-msgid "Mouse unlocked"
-msgstr "Мишку розблоковано"
-
-#. TRANSLATORS: gesture description for Input gestures dialog
-msgid "Toggle mouse lock"
-msgstr "Перемкнути блокування мишки"
-
-#. Add-on description
-#. TRANSLATORS: Summary for this add-on to be shown on installation and add-on informaiton.
+#. Add-on summary, usually the user visible name of the addon.
+#. Translators: Summary for this add-on
+#. to be shown on installation and add-on information found in Add-ons Manager.
 msgid "Input lock"
 msgstr "Блокування введення"
 
 #. Add-on description
-#. Translators: Long description to be shown for this add-on on installation and add-on information
+#. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
 msgid ""
 " With this addon, you will be able to lock and unlock your input devices "
 "with a single gesture or key press.\n"
 "This gesture can be changed from Input Gestures dialog."
 msgstr ""
-"  З цим додатком у вас з’явиться можливість блокувати й розблоковувати "
-"ваші пристрої введення одним жестом або натисканням комбінації клавіш.\n"
+"  З цим додатком у вас з’явиться можливість блокувати й розблоковувати ваші "
+"пристрої введення одним жестом або натисканням комбінації клавіш.\n"
 "Цей жест можна змінити в діалозі «Жести вводу»."
+
+#~ msgid "Input lock settings..."
+#~ msgstr "Налаштування блокування введення..."
+
+#~ msgid "Change input lock settings"
+#~ msgstr "Змінити налаштування блокування введення"
