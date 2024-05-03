@@ -1,7 +1,7 @@
 # Zaključaj unos (Input Lock) #
 
 * Autor: Jose Manuel Delicado
-* NVDA kompatibilnost: 2022.4 i novije verzije
+* NVDA compatibility: 2023.3.4 and beyond
 * Preuzmi [stabilnu verziju][1]
 
 ## Uvod
@@ -11,19 +11,26 @@ hodati po tvojoj tipkovnici? Premještaš li slučajno miša po ekranu dok
 koristiš laptop? „Zaključaj unos” rješava te probleme! Moći ćeš ostaviti
 uključeno računalo bez rizika.
 
-Nakon instaliranja je moguće zaključati tipkovnicu, dodirni ekran (ukoliko
-ga laptop ima), miša i brajični redak.
+Once installed, you will be able to lock your keyboard, touch screen (if
+your laptop has one), touchpad, mouse and Braille display.
 
 ## Primjena
 
-Ovaj dodatak dodaje dvije geste NVDA čitaču. Standardno one nisu dodijeljene
-te se moraju konfigurirati u dijaloškom okviru Ulazne geste. Korisnički
-vodič za NVDA sadrži daljnje informacije.
+This addon adds three extra gestures to NVDA. By default they are
+unassigned, so you will have to configure them from Input gestures
+dialog. Read the NVDA User Guide for more information.
 
 Kad se pritisne gesta za zaključavanje unosa, NVDA će reći „Unos
 zaključan”. Unosi će biti blokirani, sve dok se ista gesta ne pritisne
 ponovo. U tom trenutku, NVDA će reći „Unos otključan” i sve će raditi kao
 obično.
+
+Locking the touchpad can prevent us from accidentally touching it,
+especially those who are used to using the laptop keyboard directly. When
+you press the toggle touchpad lock gesture, NVDA will say "Touchpad
+locked". Your touchpad will be blocked until you press the same gesture
+again. In that moment, NVDA will say "Touchpad unlocked" and everything will
+work as usual.
 
 Ako se pritisne gesta za blokiranje miša, miš će se zaključati. Ponovnim
 pritiskom ove naredbe će se miš otključati. Dok je miš zaključan, miš se
@@ -43,10 +50,23 @@ NVDA gestu za rad s mišem.
 
 * Prečaci kontrol+alt+del i windows+l mogu se koristiti čak i kad je
   tipkovnica zaključena.
-* Na nekim prijenosnim računalima dodirna ploča i dalje prihvaća unos
-  korisnika nakon što je miš blokiran.
+* For gestures used to lock the touchpad, please try to assign a small
+  number of key combination gestures. It is recommended to use NVDA+letters
+  or numbers, Ctrl+F keys etc.
 
 ## Promjene
+
+### Version 1.13
+
+* Now, minimum supported version is 2023.3.4.
+* Updated translations. Starting from version 1.13, changelog won't be
+  modified when a new release only includes localization updates.
+* Added a gesture (unassigned by default) to lock/unlock the touchpad.
+
+### Version 1.12
+
+* Ažurirani problemi kompatibilnosti za nedavne NVDA verzije.
+* Ažurirani prijevodi.
 
 ### Verzija 1.11
 

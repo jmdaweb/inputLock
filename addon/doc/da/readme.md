@@ -1,7 +1,7 @@
 # Inputlås #
 
 * Forfatter: Jose Manuel Delicado
-* NVDA compatibility: 2022.4 and beyond
+* NVDA compatibility: 2023.3.4 and beyond
 * Download [stabil version][1]
 
 ## Introduktion
@@ -12,19 +12,25 @@ tilfældige dele på skærmen, mens du bruger din bærbare computer? Så er
 Inputlås til dig! Du vil være i stand til at forlade din computer og tændt
 uden risiko.
 
-Når denne tilføjelse er installeret, vil du kunne låse dit tastatur,
-touchskærm (hvis din bærbare computer har en), mus og punktdisplay.
+Once installed, you will be able to lock your keyboard, touch screen (if
+your laptop has one), touchpad, mouse and Braille display.
 
 ## Brug
 
-Denne tilføjelsespakke tilføjer to ekstra inputbevægelser til NVDA. Som
-standard er de ikke tildelt, så det er nødvendigt at konfigurere dem fra
-dialogen "Inputbevægelser". Læs NVDAs brugervejledning for yderligere
-information.
+This addon adds three extra gestures to NVDA. By default they are
+unassigned, so you will have to configure them from Input gestures
+dialog. Read the NVDA User Guide for more information.
 
 Når du trykker på tastekombinationen der låser input, vil NVDA sige Input
 låst". Dine inputenheder blokeres, indtil du trykker på samme taster
 igen. NVDA vil nu sige "Input låst op" og alt fungerer som normalt.
+
+Locking the touchpad can prevent us from accidentally touching it,
+especially those who are used to using the laptop keyboard directly. When
+you press the toggle touchpad lock gesture, NVDA will say "Touchpad
+locked". Your touchpad will be blocked until you press the same gesture
+again. In that moment, NVDA will say "Touchpad unlocked" and everything will
+work as usual.
 
 Hvis du trykker på tasterne til at blokere musen, vil musen blive låst. Tryk
 på denne kommando igen for at låse den op. Mens musen er låst, kan du bruge
@@ -44,10 +50,23 @@ Inputlås har følgende kendte problemer:
 
 * Genvejene Ctrl+alt+del og windows+l kan bruges, selv når tastaturet er
   låst.
-* På nogle bærbare computere accepterer touchpad'en stadig brugerinput,
-  efter at musen er blokeret.
+* For gestures used to lock the touchpad, please try to assign a small
+  number of key combination gestures. It is recommended to use NVDA+letters
+  or numbers, Ctrl+F keys etc.
 
 ## Ændringslog
+
+### Version 1.13
+
+* Now, minimum supported version is 2023.3.4.
+* Updated translations. Starting from version 1.13, changelog won't be
+  modified when a new release only includes localization updates.
+* Added a gesture (unassigned by default) to lock/unlock the touchpad.
+
+### Version 1.12
+
+* Opdaterede kompatibilitetsflag til nyere NVDA-versioner.
+* Opdaterede oversættelser.
 
 ### Version 1.11
 

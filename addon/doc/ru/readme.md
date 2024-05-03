@@ -1,7 +1,7 @@
 # Input Lock #
 
 * Автор: Jose Manuel Delicado
-* NVDA compatibility: 2022.4 and beyond
+* NVDA compatibility: 2023.3.4 and beyond
 * Скачать [стабильную версию][1]
 
 ## Введение
@@ -11,20 +11,26 @@
 мышь в случайные части экрана во время использования ноутбука? Тогда
 InputLock для вас! Вы сможете оставить свой компьютер в покое и без риска.
 
-После установки вы сможете заблокировать клавиатуру, сенсорный экран, если
-он есть на вашем ноутбуке, мышь и дисплей Брайля.
+Once installed, you will be able to lock your keyboard, touch screen (if
+your laptop has one), touchpad, mouse and Braille display.
 
 ## Использование
 
-Это дополнение добавляет в NVDA два дополнительных жеста. По умолчанию они
-не назначены, поэтому вам придется настроить их в диалоговом окне Жесты
-ввода. Прочтите руководство пользователя NVDA для получения дополнительной
-информации.
+This addon adds three extra gestures to NVDA. By default they are
+unassigned, so you will have to configure them from Input gestures
+dialog. Read the NVDA User Guide for more information.
 
 Когда вы нажмете жест блокировки ввода, NVDA скажет "Ввод заблокирован. Ваши
 устройства ввода будут заблокированы, пока вы снова не нажмете тот же
 жест. В этот момент NVDA скажет "Ввод разблокирован", и все будет работать
 как обычно.
+
+Locking the touchpad can prevent us from accidentally touching it,
+especially those who are used to using the laptop keyboard directly. When
+you press the toggle touchpad lock gesture, NVDA will say "Touchpad
+locked". Your touchpad will be blocked until you press the same gesture
+again. In that moment, NVDA will say "Touchpad unlocked" and everything will
+work as usual.
 
 Если вы нажмете жест блокировки мыши, ваша мышь будет заблокирована. Нажмите
 эту команду еще раз, чтобы разблокировать его. Пока мышь заблокирована, вы
@@ -45,10 +51,23 @@ InputLock имеет следующие известные проблемы:
 
 * Комбинации клавиш control+alt+del и windows+l можно использовать даже при
   заблокированной клавиатуре.
-* На некоторых ноутбуках сенсорная панель по-прежнему принимает
-  пользовательский ввод даже после блокировки мыши.
+* For gestures used to lock the touchpad, please try to assign a small
+  number of key combination gestures. It is recommended to use NVDA+letters
+  or numbers, Ctrl+F keys etc.
 
 ## Список изменений
+
+### Version 1.13
+
+* Now, minimum supported version is 2023.3.4.
+* Updated translations. Starting from version 1.13, changelog won't be
+  modified when a new release only includes localization updates.
+* Added a gesture (unassigned by default) to lock/unlock the touchpad.
+
+### Version 1.12
+
+* Обновлены флаги совместимости для последних версий NVDA.
+* Обновлены переводы.
 
 ### Version 1.11
 

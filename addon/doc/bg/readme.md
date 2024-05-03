@@ -1,7 +1,7 @@
 # Заключване на входа (Input Lock) #
 
 * Автор: Jose Manuel Delicado
-* Съвместимост с NVDA: от 2022.4 и по-нови версии
+* NVDA compatibility: 2023.3.4 and beyond
 * Изтегляне на [стабилна версия][1]
 
 ## Представяне
@@ -12,21 +12,26 @@
 "Input Lock" е за вас! Ще можете да оставяте компютъра си включен и без
 наблюдение, без каквито и да било рискове.
 
-След като добавката бъде инсталирана, ще можете да заключите клавиатурата,
-сензорния екран (ако вашият компютър има такъв), мишката и брайловия
-дисплей.
+Once installed, you will be able to lock your keyboard, touch screen (if
+your laptop has one), touchpad, mouse and Braille display.
 
 ## Начин на употреба
 
-Тази добавка добавя два допълнителни жеста към NVDA. По подразбиране те не
-са назначени, така че ще трябва да ги конфигурирате/назначите от диалоговия
-прозорец "Жестове на въвеждане". Прочетете ръководството за потребителя на
-NVDA за повече информация.
+This addon adds three extra gestures to NVDA. By default they are
+unassigned, so you will have to configure them from Input gestures
+dialog. Read the NVDA User Guide for more information.
 
 Когато изпълните жеста за превключване на заключването на входа, NVDA ще
 съобщи, че входът е заключен. Вашите входни устройства ще бъдат блокирани,
 докато не изпълните отново същия жест. В този момент NVDA ще съобщи, че
 входът е отключен и всичко ще работи както обикновено.
+
+Locking the touchpad can prevent us from accidentally touching it,
+especially those who are used to using the laptop keyboard directly. When
+you press the toggle touchpad lock gesture, NVDA will say "Touchpad
+locked". Your touchpad will be blocked until you press the same gesture
+again. In that moment, NVDA will say "Touchpad unlocked" and everything will
+work as usual.
 
 Ако изпълните жеста за превключване заключването на мишката, мишката ще бъде
 заключена. Изпълнете отново същия жест, за да я отключите. Докато мишката е
@@ -48,10 +53,23 @@ NVDA за повече информация.
 
 * Клавишните комбинации Control+Alt+Delete и Windows+L изпълняват
   предназначението си, дори клавиатурата да е заключена.
-* На някои лаптопи тъчпадът все още приема въвеждане от потребителя след
-  блокиране на мишката.
+* For gestures used to lock the touchpad, please try to assign a small
+  number of key combination gestures. It is recommended to use NVDA+letters
+  or numbers, Ctrl+F keys etc.
 
 ## Списък на промените
+
+### Version 1.13
+
+* Now, minimum supported version is 2023.3.4.
+* Updated translations. Starting from version 1.13, changelog won't be
+  modified when a new release only includes localization updates.
+* Added a gesture (unassigned by default) to lock/unlock the touchpad.
+
+### Version 1.12
+
+* Добавена е съвместимост с последните издания на NVDA.
+* Обновени преводи.
 
 ### Версия 1.11
 

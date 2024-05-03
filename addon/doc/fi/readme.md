@@ -1,7 +1,7 @@
 # Syöttölukko #
 
 * Tekijä: Jose Manuel Delicado
-* Yhteensopivuus: NVDA 2022.4 ja uudemmat
+* Yhteensopivuus: NVDA 2023.3.4 ja uudemmat
 * Lataa [vakaa versio][1]
 
 ## Johdanto
@@ -12,12 +12,13 @@ siirtäneeksi hiirtä näytöllä satunnaisiin paikkoihin kannettavaa
 käyttäessäsi? Ratkaisu näihin kaikkiin on Syöttölukko. Voit huoletta jättää
 tietokoneesi käyntiin vartioimattomana.
 
-Kun tämä lisäosa on asennettuna, voit lukita näppäimistön, kosketusnäytön
-(mikäli kannettavassasi sellainen on), hiiren sekä pistenäytön.
+Kun tämä lisäosa on asennettu, voit lukita näppäimistön, kosketusnäytön
+(mikäli kannettavassasi sellainen on), kosketuslevyn, hiiren sekä
+pistenäytön.
 
 ## Käyttö
 
-Tämä lisäosa lisää NVDA:han kaksi näppäinkomentoa. Niihin ei ole määritetty
+Tämä lisäosa lisää NVDA:han kolme pikanäppäintä. Niihin ei ole määritetty
 oletusarvoisesti näppäinkomentoja, joten ne on määritettävä
 Näppäinkomennot-valintaikkunasta. Katso lisätietoja NVDA:n käyttöoppaasta.
 
@@ -25,6 +26,13 @@ Kun painat syöttölukon tilanvaihtokomentoa, NVDA sanoo "Syöttö
 lukittu". Syöttölaitteiden käyttö estetään, kunnes painat uudelleen samaa
 komentoa. Silloin NVDA sanoo "Syöttölukko avattu", ja kaikki toimii kuten
 tavallisesti.
+
+Kosketuslevyn lukitseminen voi estää sen vahinkokosketukset, erityisesti
+sellaisilla käyttäjillä, jotka ovat tottuneet käyttämään kannettavan
+tietokoneen näppäimistöä. Kun painat kosketuslevyn lukituksen
+tilanvaihtokomentoa, NVDA sanoo "Kosketuslevy lukittu". Kosketuslevyn käyttö
+estetään, kunnes painat samaa komentoa uudelleen. Silloin NVDA sanoo
+"Kosketuslevyn lukitus avattu", ja kaikki toimii kuten tavallisesti.
 
 Jos painat hiiren käytön estävää tilanvaihtokomentoa, hiiri lukitaan. Paina
 samaa komentoa uudelleen avataksesi lukituksen. Kun hiiri on lukittuna, voit
@@ -45,10 +53,24 @@ Syöttölukossa on seuraavia tunnettuja ongelmia:
 
 * Ctrl+Alt+Del- ja Win+L-näppäinkomennot toimivat, vaikka näppäimistö on
   lukittu.
-* Vaikka hiiri on estetty, kosketuslevy hyväksyy silti joissakin
-  kannettavissa käyttäjän syötteen.
+* Käytä kosketuslevyn lukitsevan pikanäppäimen määrittämiseen vain
+  muutamasta näppäimestä koostuvaa näppäinkomentoa. Suositeltavaa on käyttää
+  NVDA+kirjaimia tai numeroita, Ctrl+F-näppäimiä jne.
 
 ## Muutosloki
+
+### Versio 1.13
+
+* Vanhin tuettu versio on nyt 2023.3.4.
+* Käännöksiä päivitetty. Versiosta 1.13 lähtien muutoslokia ei enää muokata,
+  jos uusi versio sisältää vain käännöspäivityksiä.
+* Lisätty pikanäppäin kosketuslevyn lukitsemiselle/lukituksen avaamiselle
+  (oletusnäppäinkomentoa ei määritetty).
+
+### Versio 1.12
+
+* Yhteensopivuusliput päivitetty uusimmille NVDA-versioille.
+* Käännöksiä päivitetty.
 
 ### Versio 1.11
 

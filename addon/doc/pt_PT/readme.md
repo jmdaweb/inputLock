@@ -1,7 +1,7 @@
 # Bloqueio de entrada #
 
 * Autor: José Manuel Delicado
-* NVDA compatibility: 2022.4 and beyond
+* NVDA compatibility: 2023.3.4 and beyond
 * Baixar [versão estável][1]
 
 ## Introdução
@@ -12,20 +12,26 @@ partes aleatórias no ecrã, enquanto usa o seu computador? Então o "Bloqueio
 de entrada" é para si! A partir de agora, poderá deixar o seu computador
 sozinho e ligado sem correr riscos.
 
-Uma vez instalado este extra, será capaz de bloquear o seu teclado, o ecrã
-táctil, se o seu computador o tiver, o rato e a linha Braille.
+Once installed, you will be able to lock your keyboard, touch screen (if
+your laptop has one), touchpad, mouse and Braille display.
 
 ## Modo de uso:
 
-Este extra adiciona dois comandos (teclas de atalho)ao NVDA. Por defeito, ,
-eles não são atribuídos, portanto, terá que configurá-los a partir da caixa
-de diálogo "entrada de comandos". Leia o Guia do utilizador do NVDA para
-mais informações.
+This addon adds three extra gestures to NVDA. By default they are
+unassigned, so you will have to configure them from Input gestures
+dialog. Read the NVDA User Guide for more information.
 
 Quando pressiona o comando de bloqueio da entrada, o NVDA dirá "Entrada
 bloqueada". Os seus dispositivos de entrada serão bloqueados até que
 pressione o mesmo comando novamente. Nesse momento, o NVDA dirá "Entrada
 desbloqueada" e tudo funcionará como de costume.
+
+Locking the touchpad can prevent us from accidentally touching it,
+especially those who are used to using the laptop keyboard directly. When
+you press the toggle touchpad lock gesture, NVDA will say "Touchpad
+locked". Your touchpad will be blocked until you press the same gesture
+again. In that moment, NVDA will say "Touchpad unlocked" and everything will
+work as usual.
 
 Se pressionar o comando de bloqueio do rato, o rato será
 bloqueado. Pressione este comando novamente para o desbloquear. Com o rato
@@ -46,10 +52,23 @@ Este extra tem os seguintes problemas conhecidos:
 
 * Os atalhos control+alt+del e windows+l podem ser usados mesmo quando o
   teclado está bloqueado.
-* Em alguns computadores portáteis, o touchpad ainda aceita a entrada do
-  utilizador depois de o rato ser bloqueado.
+* For gestures used to lock the touchpad, please try to assign a small
+  number of key combination gestures. It is recommended to use NVDA+letters
+  or numbers, Ctrl+F keys etc.
 
 ## Mudanças:
+
+### Version 1.13
+
+* Now, minimum supported version is 2023.3.4.
+* Updated translations. Starting from version 1.13, changelog won't be
+  modified when a new release only includes localization updates.
+* Added a gesture (unassigned by default) to lock/unlock the touchpad.
+
+### Version 1.12
+
+* Adicionadas etiquetas de compatibilidade com as versões recentes do NVDA
+* Actualização de traduções
 
 ### Version 1.11
 

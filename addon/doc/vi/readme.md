@@ -1,7 +1,7 @@
 # Khóa đầu vào #
 
 * Tác giả: Jose Manuel Delicado
-* NVDA compatibility: 2022.4 and beyond
+* NVDA compatibility: 2023.3.4 and beyond
 * Tải về [phiên bản chính thức][1]
 
 ## Giới thiệu
@@ -12,19 +12,26 @@ chuột đến một vị trí ngoài ý muốn trên màn hình trong lúc dùn
 nếu có thì Input Lock (tạm dịch khóa bàn phím) là dành cho bạn! Bạn sẽ rời
 khỏi máy tính của mình khi vẫn mở nó mà không xảy ra rủi ro nào.
 
-Khi đã cài đặt, bạn sẽ khóa được bàn phím, màn hình cảm ứng, chuột và màn
-hình nổi nếu có.
+Once installed, you will be able to lock your keyboard, touch screen (if
+your laptop has one), touchpad, mouse and Braille display.
 
 ## Sử dụng
 
-Addon này gán thêm hai thao tác vào NVDA. Mặc định, chúng không được gán
-phím tắt nên bạn phải cấu hình từ hộp thoại quản lý các thao tác. Đọc hướng
-dẫn sử dụng NVDA để biết thêm thông tin.
+This addon adds three extra gestures to NVDA. By default they are
+unassigned, so you will have to configure them from Input gestures
+dialog. Read the NVDA User Guide for more information.
 
 Khi bạn bấm thao tác bật / tắt khóa bàn phím, NVDA sẽ đọc "Input
 locked". Các thiệt bị đầu vào của bạn sẽ bị khóa cho đến khi bạn bấm lại
 thao tác đó. Trường hợp này, NVDA sẽ đọc "Input unlocked" và mọi thứ trở lại
 hoạt động bình thường.
+
+Locking the touchpad can prevent us from accidentally touching it,
+especially those who are used to using the laptop keyboard directly. When
+you press the toggle touchpad lock gesture, NVDA will say "Touchpad
+locked". Your touchpad will be blocked until you press the same gesture
+again. In that moment, NVDA will say "Touchpad unlocked" and everything will
+work as usual.
 
 Nếu bấm thao tác bật tắt chuột, chuột sẽ bị khóa. Bấm lại lệnh nữa để mở
 khóa. Khi chuột bị khóa, bạn có thể dùng các thao tác của NVDA để di chuyển
@@ -43,10 +50,23 @@ Input Lock has the following known problems:
 
 * The shortcuts control+alt+del and windows+l can be used even when the
   keyboard is locked.
-* On some laptops, the touchpad still accepts user input after mouse is
-  blocked.
+* For gestures used to lock the touchpad, please try to assign a small
+  number of key combination gestures. It is recommended to use NVDA+letters
+  or numbers, Ctrl+F keys etc.
 
 ## Bản ghi các thay đổi
+
+### Version 1.13
+
+* Now, minimum supported version is 2023.3.4.
+* Updated translations. Starting from version 1.13, changelog won't be
+  modified when a new release only includes localization updates.
+* Added a gesture (unassigned by default) to lock/unlock the touchpad.
+
+### Version 1.12
+
+* Thêm tương thích cho các bản phát hành gần đây của NVDA.
+* Cập nhật các bản phiên dịch.
 
 ### Version 1.11
 
