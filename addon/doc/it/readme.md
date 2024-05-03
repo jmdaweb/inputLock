@@ -1,7 +1,7 @@
 # Input Lock #
 
 * Autore: Jose Manuel Delicado
-* NVDA compatibility: 2022.4 and beyond
+* NVDA compatibility: 2023.3.4 and beyond
 * Scarica la [versione stabile][1]
 
 ## Introduzione
@@ -11,19 +11,26 @@ arrampicarsi sul vostro tavolo e passeggiare sulla tastiera? Spostate spesso
 il mouse accidentalmente quando usate il vostro portatile? Allora Input Lock
 è fatto per voi! Potrete lasciare il vostro computer acceso senza rischi.
 
-Una volta installato, si potrà bloccare la tastiera, il mouse, il display
-Braille e il touch screen se disponibile nel vostro portatile.
+Once installed, you will be able to lock your keyboard, touch screen (if
+your laptop has one), touchpad, mouse and Braille display.
 
 ## Utilizzo
 
-Questo componente aggiunge due comandi extra per NVDA. Di default i comandi
-non sono assegnati, perciò dovrete configurarli dalla finestra gesti e tasti
-di immissione. Leggete il manuale utente di NVDA per ulteriori informazioni.
+This addon adds three extra gestures to NVDA. By default they are
+unassigned, so you will have to configure them from Input gestures
+dialog. Read the NVDA User Guide for more information.
 
 Premendo il tasto che attiva Input Lock, NVDA dirà "Dispositivo di
 immissione bloccato". I dispositivi di immissione resteranno bloccati finché
 non premerete nuovamente lo stesso tasto. A questo punto NVDA dirà
 "Dispositivo di immissione sbloccato" e tutto funzionerà come sempre.
+
+Locking the touchpad can prevent us from accidentally touching it,
+especially those who are used to using the laptop keyboard directly. When
+you press the toggle touchpad lock gesture, NVDA will say "Touchpad
+locked". Your touchpad will be blocked until you press the same gesture
+again. In that moment, NVDA will say "Touchpad unlocked" and everything will
+work as usual.
 
 Se si esegue il comando Attiva/disattiva blocco mouse, il mouse verrà
 bloccato. Premere nuovamente lo stesso comando per sbloccarlo. Quando il
@@ -44,10 +51,23 @@ Input Lock has the following known problems:
 
 * The shortcuts control+alt+del and windows+l can be used even when the
   keyboard is locked.
-* On some laptops, the touchpad still accepts user input after mouse is
-  blocked.
+* For gestures used to lock the touchpad, please try to assign a small
+  number of key combination gestures. It is recommended to use NVDA+letters
+  or numbers, Ctrl+F keys etc.
 
 ## Novità
+
+### Version 1.13
+
+* Now, minimum supported version is 2023.3.4.
+* Updated translations. Starting from version 1.13, changelog won't be
+  modified when a new release only includes localization updates.
+* Added a gesture (unassigned by default) to lock/unlock the touchpad.
+
+### Version 1.12
+
+* Aggiunti i flag di compatibilità per le versioni nuove di NVDA.
+* Traduzioni aggiornate.
 
 ### Version 1.11
 

@@ -1,7 +1,7 @@
 # Eingabesperre #
 
 * Autor: Jose Manuel Delicado
-* NVDA-Kompatibilität: 2022.4 oder neuer
+* NVDA compatibility: 2023.3.4 and beyond
 * [Stabile Version herunterladen][1]
 
 ## Einführung
@@ -13,21 +13,27 @@ Ihren Laptop benutzen? Dann ist die Eingabesperre für Sie optimal! Sie
 können Ihren Computer ohne Risiko eingeschaltet lassen, sodass Sie diesen
 nicht beaufsichtigen müssen.
 
-Nach der Installation werden Sie in der Lage sein, Ihre Tastatur, den
-Touchscreen, Maus und auch die Braillezeile zu sperren.
+Once installed, you will be able to lock your keyboard, touch screen (if
+your laptop has one), touchpad, mouse and Braille display.
 
 ## Verwendung
 
-Diese Erweiterung fügt zwei zusätzliche Gesten für NVDA hinzu. Standardmäßig
-sind Sie nicht zugeordnet, so dass Sie diese im Dialog
-Eingaben... konfigurieren müssen. Für weitere Informationen lesen Sie das
-NVDA-Benutzerhandbuch.
+This addon adds three extra gestures to NVDA. By default they are
+unassigned, so you will have to configure them from Input gestures
+dialog. Read the NVDA User Guide for more information.
 
 Wenn Sie die Tastenkombination zum Ein- / Ausschalten der Eingabesperre
 drücken, sagt NVDA "Eingaben gesperrt". Es werden alle Eingabegeräte
 gesperrt, bis Sie die gleiche Tastenkombination erneut drücken. In diesem
 Moment sagt NVDA "Eingaben entsperrt" und alles wird wie gewohnt
 funktionieren.
+
+Locking the touchpad can prevent us from accidentally touching it,
+especially those who are used to using the laptop keyboard directly. When
+you press the toggle touchpad lock gesture, NVDA will say "Touchpad
+locked". Your touchpad will be blocked until you press the same gesture
+again. In that moment, NVDA will say "Touchpad unlocked" and everything will
+work as usual.
 
 Wenn Sie den Befehl "Maus blockieren" ausführen, wird Ihre Maus
 gesperrt. Führen Sie diesen Befehl erneut aus, um die Maus zu
@@ -50,10 +56,23 @@ Folgende und bekannte Probleme:
 
 * Die Tastenkombinationen Strg+Alt+Entf und Fenster+l können auch bei
   gesperrter Tastatur verwendet werden.
-* Bei einigen Laptops akzeptiert das Touchpad immer noch Benutzereingaben,
-  nachdem die Maus blockiert wurde.
+* For gestures used to lock the touchpad, please try to assign a small
+  number of key combination gestures. It is recommended to use NVDA+letters
+  or numbers, Ctrl+F keys etc.
 
 ## Änderungen
+
+### Version 1.13
+
+* Now, minimum supported version is 2023.3.4.
+* Updated translations. Starting from version 1.13, changelog won't be
+  modified when a new release only includes localization updates.
+* Added a gesture (unassigned by default) to lock/unlock the touchpad.
+
+### Version 1.12
+
+* Es wurde die Kompatibilität mit den neuesten NVDA-Versionen aktualisiert.
+* Aktualisierte Übersetzungen.
 
 ### Version 1.11
 

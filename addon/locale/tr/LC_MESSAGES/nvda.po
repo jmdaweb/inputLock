@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: girdiKilidi\n"
 "Report-Msgid-Bugs-To: nvda-translations@groups.io\n"
 "POT-Creation-Date: 2018-11-30 05:43+1000\n"
-"PO-Revision-Date: 2024-04-24 18:57+0300\n"
+"PO-Revision-Date: 2024-04-26 14:16+0300\n"
 "Last-Translator: Umut KORKMAZ <umutkork@gmail.com>\n"
 "Language-Team: cagrid@hotmail.com\n"
 "Language: tr_TR\n"
@@ -46,23 +46,20 @@ msgid "Mouse unlocked"
 msgstr "Fare açık"
 
 #. TRANSLATORS: gesture description for Input gestures dialog
-#, fuzzy
 msgid "Toggle touchpad lock"
-msgstr "Fare kilidini açıp kapatır"
+msgstr "Dokunmatik yüzey kilidini açar/kapatır"
 
 #. TRANSLATORS: message spoken when the touchpad lock is not supported
 msgid "not support"
-msgstr ""
+msgstr "desteklenmiyor"
 
 #. TRANSLATORS: message spoken when the touchpad is unlocked
-#, fuzzy
 msgid "Touchpad unlocked"
-msgstr "Fare açık"
+msgstr "Dokunmatik yüzey açık"
 
 #. TRANSLATORS: message spoken when the touchpad is locked
-#, fuzzy
 msgid "Touchpad locked"
-msgstr "Fare kilitli"
+msgstr "Dokunmatik yüzey kilitli"
 
 #. TRANSLATORS: Settings dialog and/or panel title
 msgid "Input lock settings"

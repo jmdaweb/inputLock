@@ -1,7 +1,7 @@
 # Input Lock #
 
 * Autor: José Manuel Delicado
-* Compatibilidad con NVDA: de 2022.4 en adelante
+* Compatibilidad con NVDA: de 2023.3.4 en adelante
 * Descargar [versión estable][1]
 
 ## Introducción
@@ -12,12 +12,12 @@ zonas aleatorias de la pantalla mientras usas el portátil? Entonces ¡Input
 Lock es lo que necesitas! Podrás dejar el ordenador solo y encendido sin
 riesgo.
 
-Una vez instalado, podrás bloquear el teclado, la pantalla táctil, si tu
-portátil tiene una, el ratón y la pantalla Braille.
+Una vez instalado, podrás bloquear el teclado, la pantalla táctil (si tu
+portátil tiene una), el panel táctil, el ratón y la pantalla Braille.
 
 ## Instrucciones de uso
 
-Este complemento añade dos órdenes extra a NVDA. Por defecto vienen sin
+Este complemento añade tres órdenes extra a NVDA. Por defecto vienen sin
 asignar, así que tendrás que configurarlas desde el diálogo Gestos de
 entrada. Lee la guía de usuario de NVDA para más información.
 
@@ -25,6 +25,13 @@ Cuando pulses la orden de alternar bloqueo de entrada, NVDA dirá "Entrada
 bloqueada". Tus dispositivos de entrada se bloquearán hasta que pulses la
 orden otra vez. En ese momento NVDA dirá "Entrada desbloqueada" y todo
 volverá a funcionar como siempre.
+
+Bloquear el panel táctil puede evitarnos tocarlo accidentalmente,
+especialmente en aquellos casos donde se usa directamente el teclado del
+portátil. Cuando pulses la orden de alternar bloqueo de panel táctil, NVDA
+dirá "Panel táctil bloqueado". El panel táctil se bloqueará hasta que pulses
+la orden otra vez. En ese momento NVDA dirá "Panel táctil desbloqueado" y
+todo volverá a funcionar como siempre.
 
 Si pulsas la orden para alternar el bloqueo del ratón, se bloqueará tu
 ratón. Pulsa otra vez esta orden para desbloquearlo. Mientras el ratón está
@@ -45,10 +52,26 @@ Bloqueo de entrada tiene los siguientes problemas conocidos:
 
 * Los atajos ctrl+alt+supr y windows+l se pueden usar incluso con el teclado
   bloqueado.
-* En algunos portátiles, el touchpad todavía acepta entrada del usuario
-  después de bloquear el ratón.
+* En los gestos usados para bloquear el panel táctil, procura asignar gestos
+  cuyas combinaciones tengan pocas teclas. Se recomienda usar NVDA+letras o
+  números, control+teclas de función, etc.
 
 ## Registro de cambios
+
+### Versión 1.13
+
+* Ahora, la versión mínima soportada es la 2023.3.4.
+* Traducciones actualizadas. A partir de la versión 1.13, no se modificará
+  el registro de cambios cuando una nueva versión sólo incluya traducciones
+  actualizadas.
+* Se ha añadido un gesto (sin asignar por defecto) para bloquear o
+  desbloquear el panel táctil.
+
+### Versión 1.12
+
+* Se han actualizado los indicadores de compatibilidad con versiones
+  recientes de NVDA.
+* Traducciones actualizadas.
 
 ### Versión 1.11
 

@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: inputLock 1.4\n"
 "Report-Msgid-Bugs-To: nvda-translations@groups.io\n"
 "POT-Creation-Date: 2018-11-30 05:43+1000\n"
-"PO-Revision-Date: 2018-11-29 21:41+0100\n"
-"Last-Translator: José Manuel Delicado <jmdaweb@hotmail.com>\n"
+"PO-Revision-Date: 2024-04-26 14:32+0200\n"
+"Last-Translator: José Manuel Delicado <jm.delicado@nvda.es>\n"
 "Language-Team: \n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.2\n"
+"X-Generator: Poedit 3.4.2\n"
 
 #. TRANSLATORS: gesture description for Input gestures dialog
 msgid "Toggle input lock"
@@ -42,23 +42,20 @@ msgid "Mouse unlocked"
 msgstr "Ratón desbloqueado"
 
 #. TRANSLATORS: gesture description for Input gestures dialog
-#, fuzzy
 msgid "Toggle touchpad lock"
-msgstr "Alternar bloqueo de ratón"
+msgstr "Alternar bloqueo de panel táctil"
 
 #. TRANSLATORS: message spoken when the touchpad lock is not supported
 msgid "not support"
-msgstr ""
+msgstr "sin soporte"
 
 #. TRANSLATORS: message spoken when the touchpad is unlocked
-#, fuzzy
 msgid "Touchpad unlocked"
-msgstr "Ratón desbloqueado"
+msgstr "Panel táctil desbloqueado"
 
 #. TRANSLATORS: message spoken when the touchpad is locked
-#, fuzzy
 msgid "Touchpad locked"
-msgstr "Ratón bloqueado"
+msgstr "Panel táctil bloqueado"
 
 #. TRANSLATORS: Settings dialog and/or panel title
 msgid "Input lock settings"
@@ -88,9 +85,3 @@ msgstr ""
 " Con este complemento, podrás bloquear y desbloquear tus dispositivos de "
 "entrada con un único gesto o combinación de teclado.\n"
 "Este gesto se puede modificar desde el diálogo gestos de entrada."
-
-#~ msgid "Input lock settings..."
-#~ msgstr "Ajustes de bloqueo de entrada..."
-
-#~ msgid "Change input lock settings"
-#~ msgstr "Cambiar ajustes del bloqueo de entrada"

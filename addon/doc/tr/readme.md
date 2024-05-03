@@ -1,7 +1,7 @@
 # Girdi Kilidi #
 
 * Yazar: Jose Manuel Delicado
-* NVDA uyumluluğu: 2022.4 ve sonrası
+* NVDA uyumluluğu: 2023.3.4 ve sonrası
 * [kararlı sürüm][1]ü indir
 
 ## Giriş
@@ -13,19 +13,29 @@ götürüyorsunuz? O zaman Girdi kilidi tam size göre! Artık Bilgisayarınız�
 rahatça kendi haline bırakıp geldiğinizde en son bıraktığınız gibi
 bulabileceksiniz.
 
-Kurulduktan sonra, dizüstü bilgisayarınızda klavyenizi, dokunmatik
-ekranınızı ve varsa braille ekran ve farenizi kilitleyebilirsiniz.
+Kurulduktan sonra klavyenizi, dokunmatik ekranınızı (dizüstü
+bilgisayarınızda varsa), dokunmatik yüzeyinizi, farenizi ve Braille
+ekranınızı kilitleyebileceksiniz.
 
 ## Kullanım
 
-Bu eklenti, NVDA'ya Varsayılan olarak atanmamış iki ilave hareket ekler. Bu
-yüzden Girdi hareketleri iletişim kutusundan bu hareketleri yapılandırmanız
-gerekir. Daha fazla bilgi için NVDA Kullanım Kılavuzunu okuyun.
+Bu eklenti NVDA'ya üç ekstra hareket ekler. Varsayılan olarak
+atanmamışlardır, dolayısıyla bunları Girdi hareketleri iletişim kutusundan
+yapılandırmanız gerekecektir. Daha fazla bilgi için NVDA Kullanım Kılavuzunu
+okuyun.
 
 Girdi kilidi aç/kapa hareketine bastığınızda, NVDA "Girdi kiliti etkin"
 diyecektir. Aynı harekete tekrar basana kadar girdi cihazlarınız devre dışı
 kalacaktır. Girdi kilitliyken aynı harekete bastığınızda NVDA "Girdi kilidi
 devre dışı" diyecek ve cihazlarınız çalışmaya devame decektir.
+
+Dokunmatik yüzeyi kilitlemek, özellikle dizüstü bilgisayar klavyesini
+doğrudan kullanmaya alışkın olanların yanlışlıkla ona dokunmasını
+engelleyebilir. Dokunmatik yüzey kilitleme hareketini değiştirmeye
+bastığınızda, NVDA "Dokunmatik yüzey kilitli" diyecektir. Siz aynı harekete
+tekrar basana kadar dokunmatik yüzeyiniz bloke edilecektir. O anda NVDA
+"Dokunmatik yüzeyin kilidi açıldı" diyecek ve her şey her zamanki gibi
+çalışacak.
 
 Fare aç/kapa hareketine basarsanız, fareniz kilitlenir. Kilidi açmak için bu
 harekete tekrar basmanız gerekir. Fare kilitliyken NVDA hareketlerini
@@ -46,10 +56,25 @@ Girdi Kilidi aşağıdaki bilinen sorunlara sahiptir:
 
 * Ctrl+alt+del ve windows+l kısayolları, klavye kilitliyken bile
   kullanılabilir.
-* Bazı dizüstü bilgisayarlarda, fare kilitli olmasına rağmen dokunmatik
-  yüzey yine de kullanıcı girişini kabul eder.
+* Dokunmatik yüzeyi kilitlemek için kullanılan hareketler için lütfen az
+  sayıda tuş kombinasyonu hareketi atamayı deneyin. NVDA+harf veya rakam,
+  Ctrl+F tuşları vb. kullanılması tavsiye edilir.
 
 ## Değişiklik Listesi
+
+### Sürüm 1.13
+
+* Şimdi, desteklenen minimum sürüm 2023.3.4.
+* Çeviriler güncellendi. 1.13 sürümünden itibaren, yeni bir sürüm yalnızca
+  yerelleştirme güncellemelerini içerdiğinde değişiklik günlüğü
+  değiştirilmeyecektir.
+* Dokunmatik yüzeyi kilitlemek/kilidini açmak için bir hareket eklendi
+  (varsayılan olarak atanmamıştır).
+
+### Sürüm 1.12
+
+* En son NVDA sürümleri için uyumluluk güncellemesi.
+* Çeviriler güncellendi.
 
 ### Sürüm 1.11
 

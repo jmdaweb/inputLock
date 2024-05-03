@@ -1,7 +1,7 @@
 # Input Lock #
 
 * Auteur : Jose Manuel Delicado
-* Compatibilité NVDA : 2022.4 et au-delà
+* Compatibilité NVDA : 2023.3.4 et au-delà
 * Télécharger [version stable][1]
 
 ## Introduction
@@ -14,12 +14,12 @@ oui, Input Lock est pour vous ! Vous pourrez laisser votre ordinateur seul
 et allumé sans risque.
 
 Une fois installée, vous pourrez verrouiller votre clavier, votre écran
-tactile, si votre ordinateur portable en a un, votre  souris et votre
-afficheur braille.
+tactile, si votre ordinateur portable en a un, votre clavier tactile, votre
+souris et votre afficheur braille.
 
 ## Utilisation
 
-Cette extension ajoute deux gestes supplémentaires à NVDA. Par défaut, ils
+Cette extension ajoute trois gestes supplémentaires à NVDA. Par défaut, ils
 ne sont pas assignés, vous devrez donc les configurer à partir du dialogue
 Gestes de commandes. Lisez le Guide de l'utilisateur de NVDA pour plus
 d'informations.
@@ -27,7 +27,15 @@ d'informations.
 Lorsque vous appuyez sur le geste Basculer le verrouillage d'entrée, NVDA
 dira "Entrée verrouillée". Vos périphériques d'entrée seront bloqués jusqu'à
 ce que vous appuyiez à nouveau sur le même geste. À ce moment, NVDA dira
-"Entrée  déverrouillée" et tout fonctionnera comme d'habitude.
+"Entrée déverrouillée" et tout fonctionnera comme d'habitude.
+
+Le verrouillage du clavier tactile peut nous empêcher de le toucher
+accidentellement, en particulier ceux qui sont habitués à utiliser
+directement le clavier de l'ordinateur portable. Lorsque vous appuyez sur le
+geste Basculer le verrouillage du clavier tactile, NVDA dira "Clavier
+tactile verrouillée". Votre clavier tactile sera bloqué jusqu'à ce que vous
+appuyiez à nouveau sur le même geste. À ce moment, NVDA dira "Clavier
+tactile déverrouillée" et tout fonctionnera comme d'habitude.
 
 Si vous appuyez sur le geste Basculer le verrouillage de la souris, votre
 souris sera verrouillée. Appuyez à nouveau sur cette commande pour la
@@ -50,10 +58,26 @@ Input Lock présente les problèmes suivants :
 
 * Les raccourcis clavier contrôle+alt+effacement et Windows+l peuvent être
   utilisés même lorsque le clavier est verrouillé.
-* Sur certains portables, le pavé tactile accepte encore des actions de
-  l'utilisateur après verrouillage de la souris.
+* Pour les gestes utilisés pour verrouiller le clavier tactile, essayez
+  d'attribuer un petit nombre de gestes de combinaison de touches. Il est
+  recommandé d'utiliser NVDA+lettres ou chiffres, touches Ctrl+F, etc.
 
 ## Journal des Changements
+
+### Version 1.13
+
+* Désormais, la version prise en charge minimale est la 2023.3.4.
+* Traductions mises à jour. À partir de la version 1.13, le journal des
+  changements ne sera pas modifié lorsqu'une nouvelle version inclut
+  uniquement des mises à jour de localisation.
+* Ajout d'un geste (non assigné par défaut) pour verrouiller/déverrouiller
+  le clavier tactile.
+
+### Version 1.12
+
+* Les indicateurs de compatibilité ont été mis à jour avec les versions
+  récentes de NVDA.
+* Traductions mises à jour.
 
 ### Version 1.11
 
