@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: inputLock 1.4\n"
 "Report-Msgid-Bugs-To: nvda-translations@groups.io\n"
 "POT-Creation-Date: 2018-11-30 05:43+1000\n"
-"PO-Revision-Date: 2021-06-02 10:04+0800\n"
+"PO-Revision-Date: 2024-05-04 07:13+0800\n"
 "Last-Translator: 完美很难 <1872265132@qq.com>\n"
 "Language-Team: NVDASimplified Chinese team All volunteers <Copyright (C) "
 "2010-2019>\n"
@@ -16,7 +16,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.4.3\n"
+"X-Generator: Poedit 3.4.2\n"
 
 #. TRANSLATORS: gesture description for Input gestures dialog
 msgid "Toggle input lock"
@@ -24,11 +24,11 @@ msgstr "切换输入锁"
 
 #. TRANSLATORS: message spoken when the input is locked
 msgid "Input locked"
-msgstr "输入锁定"
+msgstr "输入已锁定"
 
 #. TRANSLATORS: message spoken when the input is unlocked
 msgid "Input unlocked"
-msgstr "输入解锁"
+msgstr "输入已解锁"
 
 #. TRANSLATORS: gesture description for Input gestures dialog
 msgid "Toggle mouse lock"
@@ -36,30 +36,27 @@ msgstr "切换鼠标锁"
 
 #. TRANSLATORS: message spoken when the mouse is locked
 msgid "Mouse locked"
-msgstr "鼠标锁定"
+msgstr "鼠标已锁定"
 
 #. TRANSLATORS: message spoken when the mouse is unlocked
 msgid "Mouse unlocked"
-msgstr "鼠标解锁"
+msgstr "鼠标已解锁"
 
 #. TRANSLATORS: gesture description for Input gestures dialog
-#, fuzzy
 msgid "Toggle touchpad lock"
-msgstr "切换鼠标锁"
+msgstr "切换触摸板锁"
 
 #. TRANSLATORS: message spoken when the touchpad lock is not supported
 msgid "not support"
-msgstr ""
+msgstr "不支持"
 
 #. TRANSLATORS: message spoken when the touchpad is unlocked
-#, fuzzy
 msgid "Touchpad unlocked"
-msgstr "鼠标解锁"
+msgstr "触摸板已解锁"
 
 #. TRANSLATORS: message spoken when the touchpad is locked
-#, fuzzy
 msgid "Touchpad locked"
-msgstr "鼠标锁定"
+msgstr "触摸板已锁定"
 
 #. TRANSLATORS: Settings dialog and/or panel title
 msgid "Input lock settings"
@@ -86,8 +83,8 @@ msgid ""
 "with a single gesture or key press.\n"
 "This gesture can be changed from Input Gestures dialog."
 msgstr ""
-"使用此插件，您只需一个手势或按键即可锁定或解锁输入设备。可从“按键与手势”对话"
-"框更改此手势。"
+"使用此插件，您只需一个手势或按键即可锁定或解锁输入设备。可从“按键与手"
+"势”对话框更改此手势。"
 
 #~ msgid "Input lock settings..."
 #~ msgstr "输入锁设置......"
