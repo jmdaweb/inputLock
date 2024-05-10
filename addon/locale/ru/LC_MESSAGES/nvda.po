@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: 'inputLock' '1.10'\n"
 "Report-Msgid-Bugs-To: 'nvda-translations@groups.io'\n"
 "POT-Creation-Date: 2022-05-15 16:13+0400\n"
-"PO-Revision-Date: 2022-07-22 19:18+0400\n"
+"PO-Revision-Date: 2024-05-07 17:52+0300\n"
 "Last-Translator: Dragan Ratkovich\n"
 "Language-Team: \n"
 "Language: ru\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
-"X-Generator: Poedit 3.1.1\n"
+"X-Generator: Poedit 3.4.2\n"
 
 #. TRANSLATORS: gesture description for Input gestures dialog
 msgid "Toggle input lock"
@@ -44,23 +44,20 @@ msgid "Mouse unlocked"
 msgstr "Мышь разблокирована"
 
 #. TRANSLATORS: gesture description for Input gestures dialog
-#, fuzzy
 msgid "Toggle touchpad lock"
-msgstr "Переключить блокировку мыши"
+msgstr "Переключить блокировку сенсорной панели"
 
 #. TRANSLATORS: message spoken when the touchpad lock is not supported
 msgid "not support"
-msgstr ""
+msgstr "блокировка сенсорной панели не поддерживается"
 
 #. TRANSLATORS: message spoken when the touchpad is unlocked
-#, fuzzy
 msgid "Touchpad unlocked"
-msgstr "Мышь разблокирована"
+msgstr "Сенсорная панель разблокирована"
 
 #. TRANSLATORS: message spoken when the touchpad is locked
-#, fuzzy
 msgid "Touchpad locked"
-msgstr "Мышь заблокирована"
+msgstr "Сенсорная панель заблокирована"
 
 #. TRANSLATORS: Settings dialog and/or panel title
 msgid "Input lock settings"

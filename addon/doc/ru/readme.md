@@ -1,7 +1,7 @@
 # Input Lock #
 
 * Автор: Jose Manuel Delicado
-* NVDA compatibility: 2023.3.4 and beyond
+* Совместимость с NVDA: 2023.3.4 и выше
 * Скачать [стабильную версию][1]
 
 ## Введение
@@ -11,26 +11,25 @@
 мышь в случайные части экрана во время использования ноутбука? Тогда
 InputLock для вас! Вы сможете оставить свой компьютер в покое и без риска.
 
-Once installed, you will be able to lock your keyboard, touch screen (if
-your laptop has one), touchpad, mouse and Braille display.
+После установки вы сможете заблокировать клавиатуру, сенсорный экран, если
+он есть на вашем ноутбуке, мышь и дисплей Брайля.
 
 ## Использование
 
-This addon adds three extra gestures to NVDA. By default they are
-unassigned, so you will have to configure them from Input gestures
-dialog. Read the NVDA User Guide for more information.
+Это дополнение добавляет в NVDA три дополнительных жеста. По умолчанию они
+не назначены, поэтому вам придется настроить их в диалоговом окне ввода
+жестов. Для получения дополнительной информации ознакомьтесь с Руководством
+пользователя NVDA.
 
 Когда вы нажмете жест блокировки ввода, NVDA скажет "Ввод заблокирован. Ваши
 устройства ввода будут заблокированы, пока вы снова не нажмете тот же
 жест. В этот момент NVDA скажет "Ввод разблокирован", и все будет работать
 как обычно.
 
-Locking the touchpad can prevent us from accidentally touching it,
-especially those who are used to using the laptop keyboard directly. When
-you press the toggle touchpad lock gesture, NVDA will say "Touchpad
-locked". Your touchpad will be blocked until you press the same gesture
-again. In that moment, NVDA will say "Touchpad unlocked" and everything will
-work as usual.
+Когда вы нажмете жест блокировки ввода, NVDA скажет "Ввод заблокирован. Ваши
+устройства ввода будут заблокированы, пока вы снова не нажмете тот же
+жест. В этот момент NVDA скажет "Ввод разблокирован", и всё будет работать
+как обычно.
 
 Если вы нажмете жест блокировки мыши, ваша мышь будет заблокирована. Нажмите
 эту команду еще раз, чтобы разблокировать его. Пока мышь заблокирована, вы
@@ -57,23 +56,24 @@ InputLock имеет следующие известные проблемы:
 
 ## Список изменений
 
-### Version 1.13
+### Версия 1.13
 
-* Now, minimum supported version is 2023.3.4.
+* Теперь минимальная поддерживаемая версия — 2023.3.4.
 * Updated translations. Starting from version 1.13, changelog won't be
   modified when a new release only includes localization updates.
-* Added a gesture (unassigned by default) to lock/unlock the touchpad.
+* Добавлен жест (по умолчанию не назначенный) для блокировки/разблокировки
+  сенсорной панели.
 
-### Version 1.12
-
-* Обновлены флаги совместимости для последних версий NVDA.
-* Обновлены переводы.
-
-### Version 1.11
+### Версия 1.12
 
 * Обновлены флаги совместимости для последних версий NVDA.
 * Обновлены переводы.
-* Now, minimum supported version is 2022.4.
+
+### Версия 1.11
+
+* Обновлены флаги совместимости для последних версий NVDA.
+* Обновлены переводы.
+* Теперь минимальная поддерживаемая версия — 2022.4.
 
 ### Версия 1.10
 

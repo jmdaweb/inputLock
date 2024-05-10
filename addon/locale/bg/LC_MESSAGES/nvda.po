@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: inputLock 1.5\n"
 "Report-Msgid-Bugs-To: nvda-translations@groups.io\n"
 "POT-Creation-Date: 2018-12-14 09:10+1000\n"
-"PO-Revision-Date: 2024-04-26 15:12+0300\n"
+"PO-Revision-Date: 2024-05-03 16:59+0300\n"
 "Last-Translator: Kostadin Kolev <k.kolev1985@gmail.com>\n"
 "Language-Team: \n"
 "Language: bg\n"
@@ -73,7 +73,7 @@ msgstr "Блокирай щракванията, когато мишката е 
 #. Translators: Summary for this add-on
 #. to be shown on installation and add-on information found in Add-ons Manager.
 msgid "Input lock"
-msgstr "Заключване на входа"
+msgstr "Заключване на входа (Input lock)"
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
