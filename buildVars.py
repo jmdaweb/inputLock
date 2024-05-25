@@ -27,7 +27,7 @@ addon_info = {
 	"addon_description" : _(""" With this addon, you will be able to lock and unlock your input devices with a single gesture or key press.
 This gesture can be changed from Input Gestures dialog."""),
 	# version
-	"addon_version" : "1.15",
+	"addon_version" : "1.16",
 	# Author(s)
 	"addon_author" : "Jose Manuel Delicado <jm.delicado@nvda.es>",
 	# URL for the add-on documentation support
