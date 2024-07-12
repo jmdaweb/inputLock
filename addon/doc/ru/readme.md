@@ -1,8 +1,8 @@
-# Input Lock #
+# Блокировка Ввода #
 
 * Автор: Jose Manuel Delicado
 * Совместимость с NVDA: 2023.3.4 и выше
-* Скачать [стабильную версию][1]
+* Загрузить [стабильную версию][1]
 
 ## Введение
 
@@ -50,17 +50,17 @@ InputLock имеет следующие известные проблемы:
 
 * Комбинации клавиш control+alt+del и windows+l можно использовать даже при
   заблокированной клавиатуре.
-* For gestures used to lock the touchpad, please try to assign a small
-  number of key combination gestures. It is recommended to use NVDA+letters
-  or numbers, Ctrl+F keys etc.
+* Для жестов, используемых для блокировки сенсорной панели, попробуйте
+  назначить небольшое количество комбинаций клавиш. Рекомендуется
+  использовать NVDA+буквы или цифры, Ctrl+F и т.д.
 
 ## Список изменений
 
 ### Версия 1.13
 
 * Теперь минимальная поддерживаемая версия — 2023.3.4.
-* Updated translations. Starting from version 1.13, changelog won't be
-  modified when a new release only includes localization updates.
+* Обновлены переводы. Начиная с версии 1.13, список изменений не будет
+  изменён, если в новый выпуск будут включены только обновления локализации.
 * Добавлен жест (по умолчанию не назначенный) для блокировки/разблокировки
   сенсорной панели.
 
