@@ -15,12 +15,12 @@ import config
 from gui import guiHelper
 from keyboardHandler import KeyboardInputGesture
 import wx
-import versionInfo
+import buildVersion
 from gui import NVDASettingsDialog
 from gui.settingsDialogs import SettingsPanel
 from scriptHandler import script
 addonHandler.initTranslation()
-speakOnDemand = {"speakOnDemand": True} if versionInfo.version_year >= 2024 else {}
+speakOnDemand = {"speakOnDemand": True} if buildVersion.version_year >= 2024 else {}
 
 confspec = {
 	"blockMouseAtStartup": "boolean(default=false)",
