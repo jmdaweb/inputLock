@@ -19,20 +19,22 @@ import buildVersion
 from gui import NVDASettingsDialog
 from gui.settingsDialogs import SettingsPanel
 from scriptHandler import script
+
 addonHandler.initTranslation()
 speakOnDemand = {"speakOnDemand": True} if buildVersion.version_year >= 2024 else {}
 
 confspec = {
 	"blockMouseAtStartup": "boolean(default=false)",
-	"blockClicks": "boolean(default=false)"
+	"blockClicks": "boolean(default=false)",
 }
-config.conf.spec['inputlock'] = confspec
+config.conf.spec["inputlock"] = confspec
 
 allowedMouseActions = [
 	mouseHandler.WM_LBUTTONDOWN,
 	mouseHandler.WM_LBUTTONUP,
 	mouseHandler.WM_RBUTTONDOWN,
-	mouseHandler.WM_RBUTTONUP]
+	mouseHandler.WM_RBUTTONUP,
+]
 mouseCallbackFunc = None
 
 
@@ -53,7 +55,6 @@ def getTouchpadStatus():
 
 
 class GlobalPlugin(globalPluginHandler.GlobalPlugin):
-
 	def __init__(self):
 		super(GlobalPlugin, self).__init__()
 		self.locked = False
@@ -61,7 +62,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		self.cursorPos = None
 		self.gesture = None
 		self.mouseLocked = False
-		if config.conf['inputlock']['blockMouseAtStartup']:
+		if config.conf["inputlock"]["blockMouseAtStartup"]:
 			self.script_mouseLock(None)
 		NVDASettingsDialog.categoryClasses.append(inputLockPanel)
 
@@ -76,8 +77,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 			pass
 
 	def mouseCapture(self, msg, x, y, injected):
-		if msg in allowedMouseActions and not self.locked and\
-		not config.conf['inputlock']['blockClicks']:
+		if msg in allowedMouseActions and not self.locked and not config.conf["inputlock"]["blockClicks"]:
 			return mouseCallbackFunc(msg, x, y, injected)
 		else:
 			if self.mouseLocked and not self.locked:
@@ -107,7 +107,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 			window = obj.appModule.productName
 		except Exception:
 			window = ""
-		if self.locked and window != 'Microsoft.LockApp':
+		if self.locked and window != "Microsoft.LockApp":
 			self.prevCaptureFunc = inputCore.manager._captureFunc
 			inputCore.manager._captureFunc = self.capture
 		next()
@@ -116,7 +116,8 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		# TRANSLATORS: gesture description for Input gestures dialog
 		description=_("Toggle input lock"),
 		category=globalCommands.SCRCAT_INPUT,
-		**speakOnDemand)
+		**speakOnDemand,
+	)
 	def script_inputLock(self, gesture):
 		self.locked = not self.locked
 		self.gesture = gesture
@@ -140,7 +141,8 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		# TRANSLATORS: gesture description for Input gestures dialog
 		description=_("Toggle mouse lock"),
 		category=globalCommands.SCRCAT_INPUT,
-		**speakOnDemand)
+		**speakOnDemand,
+	)
 	def script_mouseLock(self, gesture):
 		self.mouseLocked = not self.mouseLocked
 		if self.mouseLocked:
@@ -156,7 +158,8 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		# TRANSLATORS: gesture description for Input gestures dialog
 		description=_("Toggle touchpad lock"),
 		category=globalCommands.SCRCAT_INPUT,
-		**speakOnDemand)
+		**speakOnDemand,
+	)
 	def script_SwitchTouchpad(self, gesture):
 		if getTouchpadStatus() is None:
 			# TRANSLATORS: message spoken when the touchpad lock is not supported
@@ -177,17 +180,27 @@ class inputLockPanel(SettingsPanel):
 
 	def makeSettings(self, sizer):
 		helper = guiHelper.BoxSizerHelper(self, sizer=sizer)
-		self.blockmouseenabled = helper.addItem(wx.CheckBox(
-			# TRANSLATORS: block mouse at startup checkbox
-			self, wx.ID_ANY, label=_("Block mouse when NVDA is started")))
+		self.blockmouseenabled = helper.addItem(
+			wx.CheckBox(
+				# TRANSLATORS: block mouse at startup checkbox
+				self,
+				wx.ID_ANY,
+				label=_("Block mouse when NVDA is started"),
+			),
+		)
 		self.blockmouseenabled.SetValue(
-			config.conf['inputlock']['blockMouseAtStartup'])
-		self.blockclicksenabled = helper.addItem(wx.CheckBox(
-			# TRANSLATORS: block also mouse clicks checkbox
-			self, wx.ID_ANY, label=_("Block clicks when mouse is locked")))
-		self.blockclicksenabled.SetValue(config.conf['inputlock']['blockClicks'])
+			config.conf["inputlock"]["blockMouseAtStartup"],
+		)
+		self.blockclicksenabled = helper.addItem(
+			wx.CheckBox(
+				# TRANSLATORS: block also mouse clicks checkbox
+				self,
+				wx.ID_ANY,
+				label=_("Block clicks when mouse is locked"),
+			),
+		)
+		self.blockclicksenabled.SetValue(config.conf["inputlock"]["blockClicks"])
 
 	def onSave(self):
-		config.conf['inputlock']['blockMouseAtStartup'] = \
-		self.blockmouseenabled.GetValue()
-		config.conf['inputlock']['blockClicks'] = self.blockclicksenabled.GetValue()
+		config.conf["inputlock"]["blockMouseAtStartup"] = self.blockmouseenabled.GetValue()
+		config.conf["inputlock"]["blockClicks"] = self.blockclicksenabled.GetValue()
