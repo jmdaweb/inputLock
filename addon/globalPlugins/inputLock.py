@@ -2,22 +2,22 @@
 # This file is covered by the GNU General Public License.
 # See the file COPYING.txt for more details.
 # Copyright (C) 2022 Jose Manuel Delicado <jm.delicado@nvda.es>
-import globalPluginHandler
-import globalCommands
+import winreg
+
 import addonHandler
-import ui
+import buildVersion
+import config
+import globalCommands
+import globalPluginHandler
 import inputCore
 import mouseHandler
+import ui
 import winInputHook
 import winUser
-import winreg
-import config
-from gui import guiHelper
-from keyboardHandler import KeyboardInputGesture
 import wx
-import buildVersion
-from gui import NVDASettingsDialog
+from gui import NVDASettingsDialog, guiHelper
 from gui.settingsDialogs import SettingsPanel
+from keyboardHandler import KeyboardInputGesture
 from scriptHandler import script
 
 addonHandler.initTranslation()
@@ -56,7 +56,7 @@ def getTouchpadStatus():
 
 class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 	def __init__(self):
-		super(GlobalPlugin, self).__init__()
+		super().__init__()
 		self.locked = False
 		self.prevCaptureFunc = None
 		self.cursorPos = None
